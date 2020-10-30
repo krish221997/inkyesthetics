@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 
 const Landing = () => {
     return (
-        <Box width={"100%"} direction={"column"} pad={{horizontal: "large", vertical: "large"}}>
+        <Box width={"100%"} direction={"column"} pad={{horizontal: "xlarge", vertical: "large"}}>
             <Box>
                 <Header/>
             </Box>
