@@ -27,7 +27,7 @@ const HeadingWithImage = () => {
                 </Box>
             </Box>
             <Box width={"60%"} align={"end"}>
-                <Image src={"/images/tanvi-07.svg"}/>
+                <Image src={"/images/tanvi.svg"}/>
             </Box>
 
         </Box>

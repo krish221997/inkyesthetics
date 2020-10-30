@@ -10,6 +10,7 @@ import {createBrowserHistory} from "history";
 import Landing from "./pages/Landing";
 import "./fonts/Sunshine.ttf";
 import {BrowserRouter as Router, Route} from 'react-router-dom'
+import ProjectOne from "./pages/ProjectOne";
 
 
 const history = createBrowserHistory();
@@ -32,6 +33,7 @@ ReactDOM.render(
     <Provider store={store}>
         <Router>
             <Route path="/" component={Landing} exact={true}/>
+            <Route path="/creative-collaborations" component={ProjectOne} exact={true}/>
         </Router>
     </Provider>,
 document.getElementById('root')
