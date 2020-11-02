@@ -1,6 +1,6 @@
 import {Box, Image, Text} from "grommet";
 import React from "react";
-import BlockImageWithHeaderAndSubHeader from "../Blocks/Block-image-with-header-and-subheader";
+import BlockImageWithHeaderAndSubHeader from "../../shared/Blocks/Block-image-with-header-and-subheader";
 
 const properties = {
     images: {
