@@ -7,7 +7,7 @@ const MoodBoardSection = () => {
         <BlockTextWithImage properties={{
             images: {
                 a: {
-                    url: "url(/images/moodboard.svg)"
+                    url: ""
                 }
             },
             text:{

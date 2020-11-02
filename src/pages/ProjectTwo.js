@@ -54,9 +54,9 @@ const ProjectOne = () => {
             <Box pad={{horizontal: "xlarge"}} margin={{top: "200px"}}>
                 <SitemapSection/>
             </Box>
-            <Box margin={{top: "200px"}}>
-                <MoodBoardSection/>
-            </Box>
+            {/*<Box margin={{top: "200px"}}>*/}
+            {/*    <MoodBoardSection/>*/}
+            {/*</Box>*/}
             <Box margin={{top: "200px"}}>
                 <PrototypeSection/>
             </Box>

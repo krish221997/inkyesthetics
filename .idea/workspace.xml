@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/RoleSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/BriefSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/FunctionsSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/GoalSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/InspirationSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/MoodboardSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/PersonaSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/Prototype.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/RoleSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/SitemapSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/TargetAudienceSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/UserFlowSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/Blocks/Block-image-with-heading-and-text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/ImageSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ProjectTwo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/genericImageRenderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Blocks/Block-heading-with-text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Blocks/Block-heading-with-text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Blocks/Block-image-with-header-and-paragraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Blocks/Block-image-with-header-and-paragraph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Blocks/Block-image-with-header-and-subheader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Blocks/Block-image-with-header-and-subheader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Blocks/Block-image-with-text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Blocks/Block-image-with-text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Blocks/Block-text-with-image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Blocks/Block-text-with-image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/AffinitySection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/AffinitySection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/BriefSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/BriefSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/EmpathySection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/EmpathySection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/HeadingWithTextSection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/IdeationSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/IdeationSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ImageSection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ImageWithTextSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ImageWithTextSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ObservationsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ObservationsSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/TargetAudienceSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/TargetAudienceSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/UserJourneySection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/UserJourneySection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProjectOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectOne.js" afterDir="false" />
-    </list>
+    <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,9 +85,9 @@
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
     <state x="616" y="331" width="759" height="634" key="find.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604042102578" />
-    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup" timestamp="1604274491525">
+    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup" timestamp="1604277457822">
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
-    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604274491525" />
+    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604277457822" />
   </component>
 </project>
