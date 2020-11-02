@@ -11,6 +11,7 @@ import Landing from "./pages/Landing";
 import "./fonts/Sunshine.ttf";
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import ProjectOne from "./pages/ProjectOne";
+import ProjectTwo from "./pages/ProjectTwo";
 
 
 const history = createBrowserHistory();
@@ -34,6 +35,7 @@ ReactDOM.render(
         <Router>
             <Route path="/" component={Landing} exact={true}/>
             <Route path="/creative-collaborations" component={ProjectOne} exact={true}/>
+            <Route path="/ampmateur" component={ProjectTwo} exact={true}/>
         </Router>
     </Provider>,
 document.getElementById('root')

@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1741.023" height="2684.492" viewBox="0 0 1741.023 2684.492">
+  <g id="Group_288" data-name="Group 288" transform="translate(-88.499 -5919.384)">
+    <rect id="Rectangle_85" data-name="Rectangle 85" width="259.969" height="34.812" transform="translate(851.318 7256.361)"/>
+    <rect id="Rectangle_86" data-name="Rectangle 86" width="259.969" height="34.812" transform="translate(852.441 7309.838)"/>
+    <rect id="Rectangle_87" data-name="Rectangle 87" width="259.969" height="34.812" transform="translate(852.441 7358.406)"/>
+    <rect id="Rectangle_88" data-name="Rectangle 88" width="381.813" height="366.652" transform="translate(1360.5 7104.592)" fill="#aeffc9" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="3"/>
+    <rect id="Rectangle_89" data-name="Rectangle 89" width="381.813" height="366.652" transform="translate(1360.5 7649.518)" fill="#aeffc9" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="3"/>
+    <rect id="Rectangle_91" data-name="Rectangle 91" width="381.813" height="366.652" transform="translate(787.462 7146.312)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="3"/>
+    <text id="tuning" transform="translate(786.004 7263.192)" fill="#99fffc" font-size="16" font-family="Gotham-Medium, Gotham" font-weight="500"><tspan x="166.541" y="13">tuning</tspan></text>
+    <text id="sharing" transform="translate(786.004 7366.068)" fill="#ffed97" font-size="16" font-family="Gotham-Medium, Gotham" font-weight="500"><tspan x="162.781" y="13">sharing</tspan></text>
+    <text id="WHAT_ARE_YOU_HERE_FOR_" data-name="WHAT ARE YOU HERE FOR?" transform="translate(787.182 7105.999)" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="67.255" y="21">WHAT ARE YOU HERE FOR?</tspan></text>
+    <text transform="translate(978.368 7056.476)" font-size="10" font-family="ArialMT, Arial"/>    <rect id="Rectangle_92" data-name="Rectangle 92" width="381.813" height="366.652" transform="translate(589.173 6539.631)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="3"/>
+    <rect id="Rectangle_93" data-name="Rectangle 93" width="382.936" height="33.689" transform="translate(587.699 6709.23)"/>
+    <rect id="Rectangle_94" data-name="Rectangle 94" width="382.936" height="33.689" transform="translate(588.261 6652.946)"/>
+    <text id="email_address" data-name="email address" transform="translate(586.842 6674.197)" fill="#fff" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="138.413" y="0">email address</tspan></text>
+    <text id="password" transform="translate(586.842 6730.189)" fill="#fff" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="154.653" y="0">password</tspan></text>
+    <text id="forgot_password" data-name="forgot password" transform="translate(779.206 6787.948)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300" text-decoration="underline"><tspan x="-64.648" y="0">forgot password</tspan></text>
+    <text id="continue_button_" data-name="continue (button)" transform="translate(779.206 6878.4)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-69.912" y="0">continue (button)</tspan></text>
+    <text id="SIGN_IN" data-name="SIGN IN" transform="translate(692.454 6499.912)" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="52.173" y="21">SIGN IN</tspan></text>
+    <rect id="Rectangle_95" data-name="Rectangle 95" width="381.813" height="366.652" transform="translate(985.747 6540.805)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="3"/>
+    <text id="SIGN_UP" data-name="SIGN UP" transform="translate(1090.216 6501.035)" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="49.073" y="21">SIGN UP</tspan></text>
+    <rect id="Rectangle_96" data-name="Rectangle 96" width="382.936" height="33.689" transform="translate(985.166 6632.439)"/>
+    <rect id="Rectangle_97" data-name="Rectangle 97" width="382.936" height="33.689" transform="translate(985.166 6686.515)"/>
+    <rect id="Rectangle_98" data-name="Rectangle 98" width="382.936" height="33.689" transform="translate(985.166 6737.59)"/>
+    <text id="email_address-2" data-name="email address" transform="translate(985.166 6653.104)" fill="#fff" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="138.413" y="0">email address</tspan></text>
+    <text id="password-2" data-name="password" transform="translate(985.166 6706.449)" fill="#fff" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="154.653" y="0">password</tspan></text>
+    <text id="confirm_password" data-name="confirm password" transform="translate(985.166 6758.243)" fill="#fff" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="122.085" y="0">confirm password</tspan></text>
+    <text id="login_using_Facebook" data-name="login using Facebook" transform="translate(1176.969 6813.271)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300" text-decoration="underline"><tspan x="-83.904" y="0">login using Facebook</tspan></text>
+    <text id="continue_button_2" data-name="continue (button)" transform="translate(1176.825 6878.4)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-69.912" y="0">continue (button)</tspan></text>
+    <line id="Line_38" data-name="Line 38" x1="19.652" y2="43.235" transform="translate(968.262 6489.377)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
+    <rect id="Rectangle_100" data-name="Rectangle 100" width="381.813" height="366.652" transform="translate(787.5 7643.622)" fill="#ffed97" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="3"/>
+    <text id="back_to_what_instrument_" data-name="back to what instrument?" transform="translate(978.368 7682.921)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-100.616" y="0">back to what instrument?</tspan></text>
+    <text id="DISCOVERING" transform="translate(972.753 7617.954)" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300" text-decoration="underline"><tspan x="-65.12" y="0">DISCOVERING</tspan></text>
+    <line id="Line_40" data-name="Line 40" x2="381.251" transform="translate(787.743 7709.597)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="Recording_Visual" data-name="Recording Visual" transform="translate(978.368 7839.275)" font-size="15" font-family="Gotham-Medium, Gotham" font-weight="500"><tspan x="-63.645" y="0">Recording Visual</tspan></text>
+    <text id="learn_chord" data-name="learn chord" transform="translate(978.368 7995.512)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-44.632" y="0">learn chord</tspan></text>
+    <line id="Line_41" data-name="Line 41" x2="381.251" transform="translate(787.743 7966.038)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="song_and_artist_names" data-name="song and artist names" transform="translate(979.368 7917.748)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-87.088" y="0">song and artist names</tspan></text>
+    <line id="Line_42" data-name="Line 42" x2="381.251" transform="translate(787.743 7893.044)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="my_recorded_" data-name="my recorded?" transform="translate(978.368 7743.965)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-54.336" y="0">my recorded?</tspan></text>
+    <line id="Line_43" data-name="Line 43" x2="381.251" transform="translate(787.743 7770.64)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <line id="Line_44" data-name="Line 44" x1="0.868" y2="125.387" transform="translate(977.5 6948.113)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_1035" data-name="Path 1035" d="M1554.633,2646.338l-63.118.275.553,114.359h160.586l.609,88.435v61.817" transform="translate(-680.51 4678.404)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_1101" data-name="Path 1101" d="M204.232.677-.474.331" transform="translate(649.5 7273.5)" fill="none" stroke="#000" stroke-width="1"/>
+    <rect id="Rectangle_101" data-name="Rectangle 101" width="381.813" height="366.652" transform="translate(211.5 7108.045)" fill="#99fffc" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="3"/>
+    <text id="back_to_what_are_you_here_for_" data-name="back to what are you here for?" transform="translate(402.382 7145.344)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-120.472" y="0">back to what are you here for?</tspan></text>
+    <text id="what_instrument_" data-name="what instrument?" transform="translate(212.038 7196.965)" font-size="16" font-family="Gotham-Medium, Gotham" font-weight="500"><tspan x="120.417" y="13">what instrument?</tspan></text>
+    <text transform="translate(402.383 7059.438)" font-size="10" font-family="ArialMT, Arial"/>    <circle id="Ellipse_29" data-name="Ellipse 29" cx="28.139" cy="28.139" r="28.139" transform="translate(289.624 7248.578)"/>
+    <circle id="Ellipse_30" data-name="Ellipse 30" cx="28.139" cy="28.139" r="28.139" transform="translate(289.624 7356.77)"/>
+    <text id="Lorem_ipsum_dolor_sit_amet_" data-name="Lorem ipsum 
+dolor sit amet, " transform="translate(317.764 7326.305)" font-size="6.93" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.316" y="0">Lorem ipsum </tspan><tspan x="-25.551" y="10.32">dolor sit amet, </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_2" data-name="Lorem ipsum 
+dolor sit amet, " transform="translate(317.764 7436.938)" font-size="6.93" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.316" y="0">Lorem ipsum </tspan><tspan x="-25.551" y="10.32">dolor sit amet, </tspan></text>
+    <circle id="Ellipse_31" data-name="Ellipse 31" cx="28.139" cy="28.139" r="28.139" transform="translate(375.649 7248.578)"/>
+    <circle id="Ellipse_32" data-name="Ellipse 32" cx="28.139" cy="28.139" r="28.139" transform="translate(375.649 7356.77)"/>
+    <text id="Lorem_ipsum_dolor_sit_amet_3" data-name="Lorem ipsum 
+dolor sit amet, " transform="translate(403.789 7326.305)" font-size="6.93" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.316" y="0">Lorem ipsum </tspan><tspan x="-25.551" y="10.32">dolor sit amet, </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_4" data-name="Lorem ipsum 
+dolor sit amet, " transform="translate(403.789 7436.938)" font-size="6.93" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.316" y="0">Lorem ipsum </tspan><tspan x="-25.551" y="10.32">dolor sit amet, </tspan></text>
+    <circle id="Ellipse_33" data-name="Ellipse 33" cx="28.139" cy="28.139" r="28.139" transform="translate(458.863 7248.578)"/>
+    <circle id="Ellipse_34" data-name="Ellipse 34" cx="28.139" cy="28.139" r="28.139" transform="translate(458.863 7356.77)"/>
+    <text id="Lorem_ipsum_dolor_sit_amet_5" data-name="Lorem ipsum 
+dolor sit amet, " transform="translate(487.003 7326.305)" font-size="6.93" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.316" y="0">Lorem ipsum </tspan><tspan x="-25.551" y="10.32">dolor sit amet, </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_6" data-name="Lorem ipsum 
+dolor sit amet, " transform="translate(487.003 7436.938)" font-size="6.93" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.316" y="0">Lorem ipsum </tspan><tspan x="-25.551" y="10.32">dolor sit amet, </tspan></text>
+    <line id="Line_46" data-name="Line 46" x2="381.251" transform="translate(211.757 7174.02)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <rect id="Rectangle_102" data-name="Rectangle 102" width="381.813" height="366.652" transform="translate(211.823 7643.622)" fill="#99fffc" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="3"/>
+    <text id="back_to_what_instrument_2" data-name="back to what instrument?" transform="translate(210.17 7684.921)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="91.749" y="0">back to what instrument?</tspan></text>
+    <text id="TUNING-2" data-name="TUNING" transform="translate(212.189 7603.31)" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="154.705" y="21">TUNING</tspan></text>
+    <line id="Line_47" data-name="Line 47" x2="381.251" transform="translate(210.794 7709.597)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="Visualize_Tuning" data-name="Visualize Tuning" transform="translate(210.364 7822.431)" font-size="15" font-family="Gotham-Medium, Gotham" font-weight="500"><tspan x="131.277" y="12">Visualize Tuning</tspan></text>
+    <text id="different_string_options" data-name="different string options" transform="translate(211.148 7986.282)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="102.069" y="0">different string options</tspan></text>
+    <line id="Line_48" data-name="Line 48" x2="381.251" transform="translate(211.772 7943.578)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="setting_profile_search_options" data-name="setting, profile, search options" transform="translate(1551.157 7127.662)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-118.28" y="0">setting, profile, search options</tspan></text>
+    <text id="SHARING-2" data-name="SHARING" transform="translate(1360.813 7057.923)" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300" text-decoration="underline"><tspan x="148.475" y="21">SHARING</tspan></text>
+    <line id="Line_52" data-name="Line 52" y1="0.029" x2="381.251" transform="translate(1360.532 7148.078)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="posts_by_different_people" data-name="posts by different people" transform="translate(1551.157 7174.167)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-98.904" y="0">posts by different people</tspan></text>
+    <line id="Line_53" data-name="Line 53" y1="0.029" x2="381.251" transform="translate(1360.532 7194.812)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="like_and_comment_button" data-name="like and comment button" transform="translate(1551.157 7221.672)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-98.96" y="0">like and comment button</tspan></text>
+    <line id="Line_54" data-name="Line 54" y1="0.029" x2="381.251" transform="translate(1360.532 7241.545)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="button_to_share" data-name="button to share" transform="translate(1551.157 7268.176)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-60.632" y="0">button to </tspan><tspan y="0" text-decoration="underline">share</tspan></text>
+    <line id="Line_55" data-name="Line 55" y1="0.029" x2="381.251" transform="translate(1360.532 7288.277)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="button_to_learn" data-name="button to learn" transform="translate(1551.157 7315.681)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-58.848" y="0">button to </tspan><tspan y="0" text-decoration="underline">learn</tspan></text>
+    <line id="Line_56" data-name="Line 56" y1="0.029" x2="381.251" transform="translate(1360.532 7335.01)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="playist" transform="translate(1551.157 7362.185)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-25.496" y="0">playist</tspan></text>
+    <line id="Line_57" data-name="Line 57" y1="0.029" x2="381.251" transform="translate(1360.532 7381.743)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="play_their_music" data-name="play their music" transform="translate(1551.157 7408.689)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-62.224" y="0">play their music</tspan></text>
+    <line id="Line_58" data-name="Line 58" y1="0.029" x2="381.251" transform="translate(1360.532 7428.476)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="pause_music" data-name="pause music" transform="translate(1551.157 7454.194)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-48.872" y="0">pause music</tspan></text>
+    <text id="change_profile_photo" data-name="change profile photo" transform="translate(1551.453 7674.588)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-82.176" y="0">change profile photo</tspan></text>
+    <text id="MY_PROFILE" data-name="MY PROFILE" transform="translate(1361.108 7609.205)" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="137.695" y="21">MY PROFILE</tspan></text>
+    <line id="Line_59" data-name="Line 59" x2="381.251" transform="translate(1360.828 7693.033)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="following" transform="translate(1457.202 7756.213)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-35.904" y="0">following</tspan></text>
+    <line id="Line_60" data-name="Line 60" x2="381.251" transform="translate(1360.828 7733.281)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="like_" data-name="like " transform="translate(1451.202 7716.15)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-15.336" y="0">like </tspan></text>
+    <line id="Line_61" data-name="Line 61" x2="381.251" transform="translate(1360.828 7773.529)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <line id="Line_62" data-name="Line 62" x2="381.251" transform="translate(1360.828 7813.777)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <line id="Line_63" data-name="Line 63" x2="381.251" transform="translate(1360.828 7854.025)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="playist-2" data-name="playist" transform="translate(1640.09 7716.15)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-25.496" y="0">playist</tspan></text>
+    <line id="Line_64" data-name="Line 64" x2="381.251" transform="translate(1360.828 7894.272)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <line id="Line_65" data-name="Line 65" x2="381.251" transform="translate(1360.828 7934.521)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <line id="Line_66" data-name="Line 66" x2="381.251" transform="translate(1360.828 7974.769)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="groups" transform="translate(1640.09 7756.213)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-27.56" y="0">groups</tspan></text>
+    <text id="tracks" transform="translate(1457.202 7835.693)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.816" y="0">tracks</tspan></text>
+    <text id="followers_" data-name="followers " transform="translate(1457.202 7793.631)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-37.776" y="0">followers </tspan></text>
+    <text id="profile_insights" data-name="profile insights" transform="translate(1646.09 7795.631)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-57.576" y="0">profile insights</tspan></text>
+    <text id="subscriptions" transform="translate(1646.09 7835.693)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-52.368" y="0">subscriptions</tspan></text>
+    <text id="upload_new" data-name="upload new" transform="translate(1457.202 7875.867)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-45.832" y="0">upload new</tspan></text>
+    <text id="messages" transform="translate(1646.09 7877.867)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-38.672" y="0">messages</tspan></text>
+    <text id="past_activity_" data-name="past activity " transform="translate(1555.121 8001.264)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-50.672" y="0">past activity </tspan></text>
+    <text id="my_learning_history" data-name="my learning history" transform="translate(1557.142 7918.409)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-75.424" y="0">my learning history</tspan></text>
+    <text id="students_learners" data-name="students learners" transform="translate(1557.197 7959.472)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-67.64" y="0">students learners</tspan></text>
+    <line id="Line_67" data-name="Line 67" y2="201.013" transform="translate(1541.9 7692.648)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <path id="Path_1036" data-name="Path 1036" d="M3113,2424.334l86.515.666.446,1006.812-170.466-.532" transform="translate(-1370.938 4745.463)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_1037" data-name="Path 1037" d="M1376.011,3767.125h-105.56V2762.433l-70.748.067" transform="translate(-552.547 4615.313)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_69" data-name="Line 69" x2="66.817" transform="translate(1234.475 8357.876)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectangle_90" data-name="Rectangle 90" width="381.813" height="366.652" transform="translate(1359.874 8201.846)" fill="#aeffc9" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="3"/>
+    <text id="SOMEONE_S_PROFILE" data-name="SOMEONE’S PROFILE" transform="translate(1360.813 8161.533)" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="97.245" y="21">SOMEONE’S PROFILE</tspan></text>
+    <text id="change_profile_photo-2" data-name="change profile photo" transform="translate(1358.203 8229.53)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="110.189" y="0">change profile photo</tspan></text>
+    <line id="Line_70" data-name="Line 70" x2="381.251" y2="0.48" transform="translate(1359.942 8252.421)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <line id="Line_71" data-name="Line 71" x2="381.251" y2="0.48" transform="translate(1359.942 8468.825)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <line id="Line_72" data-name="Line 72" x2="381.251" y2="0.48" transform="translate(1359.942 8522.926)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="subscriptions-2" data-name="subscriptions" transform="translate(1455.859 8496.951)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="42.34" y="0">subscriptions</tspan></text>
+    <text id="activity_" data-name="activity " transform="translate(1356.971 8550.824)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="69.801" y="0">activity </tspan></text>
+    <text id="following-2" data-name="following" transform="translate(1359.412 8334.529)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="61.397" y="0">following</tspan></text>
+    <line id="Line_73" data-name="Line 73" x2="381.251" y2="0.48" transform="translate(1360.169 8306.521)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="like_2" data-name="like " transform="translate(1358.009 8279.709)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="85.769" y="0">like </tspan></text>
+    <line id="Line_74" data-name="Line 74" x2="381.251" y2="0.48" transform="translate(1360.169 8360.623)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <line id="Line_75" data-name="Line 75" x2="381.251" y2="0.48" transform="translate(1360.169 8414.724)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="playist-3" data-name="playist" transform="translate(1548.65 8279.709)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="71.679" y="0">playist</tspan></text>
+    <text id="groups-2" data-name="groups" transform="translate(1551.117 8334.529)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="67.148" y="0">groups</tspan></text>
+    <text id="tracks-2" data-name="tracks" transform="translate(1359.412 8444.171)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="73.485" y="0">tracks</tspan></text>
+    <text id="followers_2" data-name="followers " transform="translate(1358.009 8389.35)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="63.329" y="0">followers </tspan></text>
+    <text id="upload_new-2" data-name="upload new" transform="translate(1548.523 8444.171)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="51.469" y="0">upload new</tspan></text>
+    <text id="message" transform="translate(1551.117 8389.35)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="60.012" y="0">message</tspan></text>
+    <line id="Line_76" data-name="Line 76" x1="0.004" y2="214.489" transform="translate(1550.778 8252.975)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="learn" transform="translate(1547.935 8550.824)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="79.345" y="0">learn</tspan></text>
+    <line id="Line_77" data-name="Line 77" x1="0.004" y2="45.761" transform="translate(1550.949 8523.047)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <path id="Path_1038" data-name="Path 1038" d="M1764.869,3741.141l-1,35.736H213.034L207.419,2248.93l246.453-.43" transform="translate(-118.419 4826.499)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectangle_103" data-name="Rectangle 103" width="381.813" height="366.652" transform="translate(789.445 5980.904)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="3"/>
+    <text id="SPLASH_SCREEN" data-name="SPLASH SCREEN" transform="translate(789.57 5940.592)" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="116.785" y="21">SPLASH SCREEN</tspan></text>
+    <text transform="translate(979.884 5919.384)" font-size="10" font-family="ArialMT, Arial"/>    <text id="Welcome_to" data-name="Welcome to" transform="translate(927.304 6200.562)" font-size="18" font-family="Montserrat-Regular, Montserrat" style="isolation: isolate"><tspan x="0" y="0">Welcome to</tspan></text>
+    <text id="AMPMATUER" transform="translate(919.044 6228.754)" font-size="18" font-family="Montserrat-Regular, Montserrat" style="isolation: isolate"><tspan x="0" y="0">AMPMATUER</tspan></text>
+    <circle id="Ellipse_35" data-name="Ellipse 35" cx="44.719" cy="44.719" r="44.719" transform="translate(935.196 6054.697)"/>
+    <circle id="Ellipse_36" data-name="Ellipse 36" cx="44.233" cy="44.233" r="44.233" transform="translate(935.683 6055.184)"/>
+    <text id="SIGN_IN-2" data-name="SIGN IN" transform="translate(681.272 6587.084)" font-size="17" font-family="Gotham-Bold, Gotham" font-weight="700" text-decoration="underline"><tspan x="-33.796" y="0">SIGN IN</tspan></text>
+    <text id="SIGN_UP-2" data-name="SIGN UP" transform="translate(867.837 6587.084)" font-size="17" font-family="Gotham-Bold, Gotham" font-weight="700" opacity="0.15"><tspan x="-36.329" y="0">SIGN UP</tspan></text>
+    <text id="SIGN_IN-3" data-name="SIGN IN" transform="translate(1079.214 6587.084)" font-size="17" font-family="Gotham-Bold, Gotham" font-weight="700" opacity="0.15"><tspan x="-33.796" y="0">SIGN IN</tspan></text>
+    <text id="SIGN_UP-3" data-name="SIGN UP" transform="translate(1265.778 6587.084)" font-size="17" font-family="Gotham-Bold, Gotham" font-weight="700" text-decoration="underline"><tspan x="-36.329" y="0">SIGN UP</tspan></text>
+    <text id="TUNING-3" data-name="TUNING" transform="translate(212.038 7059.894)" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300" text-decoration="underline"><tspan x="154.705" y="21">TUNING</tspan></text>
+    <text id="discover" transform="translate(786.004 7317.501)" fill="#aeffc9" font-size="16" font-family="Gotham-Medium, Gotham" font-weight="500"><tspan x="158.581" y="13">discover</tspan></text>
+    <path id="Path_1039" data-name="Path 1039" d="M1840.312,2435.383l-141.254-.707-.472-235.139-749.368-.282" transform="translate(-481.52 4874.455)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_1040" data-name="Path 1040" d="M1344.316,3320.836h-33.941v-664.8l-105.993.107" transform="translate(-557.226 4670.603)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <rect id="Rectangle_99" data-name="Rectangle 99" width="381.813" height="366.652" transform="translate(786.5 8205.393)" fill="#ffed97" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="3"/>
+    <text id="back_to_discovering" data-name="back to discovering" transform="translate(978.368 8242.692)" font-size="16" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-76.96" y="0">back to discovering</tspan></text>
+    <text id="MY_DISCOVERED" data-name="MY DISCOVERED" transform="translate(788.023 8165.079)" font-size="20" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="113.305" y="21">MY DISCOVERED</tspan></text>
+    <text transform="translate(978.368 8156.785)" font-size="10" font-family="ArialMT, Arial"/>    <circle id="Ellipse_23" data-name="Ellipse 23" cx="35.374" cy="35.374" r="35.374" transform="translate(836.619 8295.511)"/>
+    <circle id="Ellipse_24" data-name="Ellipse 24" cx="35.374" cy="35.374" r="35.374" transform="translate(836.619 8431.518)"/>
+    <circle id="Ellipse_25" data-name="Ellipse 25" cx="35.374" cy="35.374" r="35.374" transform="translate(944.762 8295)"/>
+    <circle id="Ellipse_26" data-name="Ellipse 26" cx="35.374" cy="35.374" r="35.374" transform="translate(944.762 8431.518)"/>
+    <circle id="Ellipse_27" data-name="Ellipse 27" cx="35.374" cy="35.374" r="35.374" transform="translate(1049.022 8295)"/>
+    <circle id="Ellipse_28" data-name="Ellipse 28" cx="35.374" cy="35.374" r="35.374" transform="translate(1049.022 8431.518)"/>
+    <text id="Lorem_ipsum_dolor_sit_amet_7" data-name="Lorem ipsum 
+dolor sit amet, " transform="translate(1083.73 8383.428)" font-size="7" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.551" y="0">Lorem ipsum </tspan><tspan x="-25.809" y="10">dolor sit amet, </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_8" data-name="Lorem ipsum 
+dolor sit amet, " transform="translate(1083.73 8522.506)" font-size="7" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.551" y="0">Lorem ipsum </tspan><tspan x="-25.809" y="10">dolor sit amet, </tspan></text>
+    <line id="Line_39" data-name="Line 39" x2="381.251" transform="translate(787.743 8271.367)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3"/>
+    <text id="Lorem_ipsum_dolor_sit_amet_9" data-name="Lorem ipsum 
+dolor sit amet, " transform="translate(979.73 8385.428)" font-size="7" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.551" y="0">Lorem ipsum </tspan><tspan x="-25.809" y="10">dolor sit amet, </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_10" data-name="Lorem ipsum 
+dolor sit amet, " transform="translate(982.73 8524.506)" font-size="7" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.551" y="0">Lorem ipsum </tspan><tspan x="-25.809" y="10">dolor sit amet, </tspan></text>
+    <circle id="Ellipse_37" data-name="Ellipse 37" cx="35.374" cy="35.374" r="35.374" transform="translate(834.762 8295)"/>
+    <circle id="Ellipse_38" data-name="Ellipse 38" cx="35.374" cy="35.374" r="35.374" transform="translate(834.762 8431.007)"/>
+    <text id="Lorem_ipsum_dolor_sit_amet_11" data-name="Lorem ipsum 
+dolor sit amet, " transform="translate(869.73 8384.917)" font-size="7" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.551" y="0">Lorem ipsum </tspan><tspan x="-25.809" y="10">dolor sit amet, </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_12" data-name="Lorem ipsum 
+dolor sit amet, " transform="translate(872.73 8523.995)" font-size="7" font-family="Gotham-Light, Gotham" font-weight="300"><tspan x="-23.551" y="0">Lorem ipsum </tspan><tspan x="-25.809" y="10">dolor sit amet, </tspan></text>
+    <line id="Line_78" data-name="Line 78" y2="66.817" transform="translate(979.884 6373.634)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M9.973,14.27l2.862-2.864a.539.539,0,0,1,.764,0,.545.545,0,0,1,0,.766l-3.243,3.245a.54.54,0,0,1-.746.016L6.345,12.174a.541.541,0,0,1,.764-.766Z" transform="translate(969.813 6425.754)"/>
+    <line id="Line_78-2" data-name="Line 78" y2="66.817" transform="translate(978.884 8066)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Icon_ionic-ios-arrow-down-2" data-name="Icon ionic-ios-arrow-down" d="M9.973,14.27l2.862-2.864a.539.539,0,0,1,.764,0,.545.545,0,0,1,0,.766l-3.243,3.245a.54.54,0,0,1-.746.016L6.345,12.174a.541.541,0,0,1,.764-.766Z" transform="translate(968.813 8118.12)"/>
+    <line id="Line_78-3" data-name="Line 78" y2="66.817" transform="translate(1551.884 8066)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Icon_ionic-ios-arrow-down-3" data-name="Icon ionic-ios-arrow-down" d="M9.973,14.27l2.862-2.864a.539.539,0,0,1,.764,0,.545.545,0,0,1,0,.766l-3.243,3.245a.54.54,0,0,1-.746.016L6.345,12.174a.541.541,0,0,1,.764-.766Z" transform="translate(1541.813 8118.12)"/>
+    <line id="Line_78-4" data-name="Line 78" y2="66.817" transform="translate(1550.884 7527)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Icon_ionic-ios-arrow-down-4" data-name="Icon ionic-ios-arrow-down" d="M9.973,14.27l2.862-2.864a.539.539,0,0,1,.764,0,.545.545,0,0,1,0,.766l-3.243,3.245a.54.54,0,0,1-.746.016L6.345,12.174a.541.541,0,0,1,.764-.766Z" transform="translate(1540.813 7579.12)"/>
+    <path id="Icon_ionic-ios-arrow-down-5" data-name="Icon ionic-ios-arrow-down" d="M9.973,14.27l2.862-2.864a.539.539,0,0,1,.764,0,.545.545,0,0,1,0,.766l-3.243,3.245a.54.54,0,0,1-.746.016L6.345,12.174a.541.541,0,0,1,.764-.766Z" transform="translate(962.813 7574.754)"/>
+    <line id="Line_78-5" data-name="Line 78" y2="66.817" transform="translate(402.884 7527)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Icon_ionic-ios-arrow-down-6" data-name="Icon ionic-ios-arrow-down" d="M9.973,14.27l2.862-2.864a.539.539,0,0,1,.764,0,.545.545,0,0,1,0,.766l-3.243,3.245a.54.54,0,0,1-.746.016L6.345,12.174a.541.541,0,0,1,.764-.766Z" transform="translate(392.813 7579.12)"/>
+    <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" d="M12.269,9.148l2.236-2.235a.422.422,0,0,0-.6-.6L11.374,8.849a.422.422,0,0,0-.012.582l2.544,2.55a.422.422,0,0,0,.6-.6Z" transform="translate(636.873 7264.807)"/>
+    <path id="Icon_ionic-ios-arrow-back-2" data-name="Icon ionic-ios-arrow-back" d="M12.269,9.148l2.236-2.235a.422.422,0,0,0-.6-.6L11.374,8.849a.422.422,0,0,0-.012.582l2.544,2.55a.422.422,0,0,0,.6-.6Z" transform="translate(634.873 7317.807)"/>
+    <path id="Icon_ionic-ios-arrow-back-3" data-name="Icon ionic-ios-arrow-back" d="M12.269,9.148l2.236-2.235a.422.422,0,0,0-.6-.6L11.374,8.849a.422.422,0,0,0-.012.582l2.544,2.55a.422.422,0,0,0,.6-.6Z" transform="translate(634.873 7368.807)"/>
+    <path id="Icon_ionic-ios-arrow-forward" data-name="Icon ionic-ios-arrow-forward" d="M13.288,8.751,11.354,6.818a.364.364,0,0,1,0-.516.368.368,0,0,1,.517,0l2.191,2.189a.365.365,0,0,1,.011.5l-2.2,2.2a.365.365,0,1,1-.517-.516Z" transform="translate(321.754 7066.31)"/>
+    <path id="Icon_ionic-ios-arrow-back-4" data-name="Icon ionic-ios-arrow-back" d="M12.269,9.148l2.236-2.235a.422.422,0,0,0-.6-.6L11.374,8.849a.422.422,0,0,0-.012.582l2.544,2.55a.422.422,0,0,0,.6-.6Z" transform="translate(455.873 7064.807)"/>
+    <path id="Icon_ionic-ios-arrow-back-5" data-name="Icon ionic-ios-arrow-back" d="M12.269,9.148l2.236-2.235a.422.422,0,0,0-.6-.6L11.374,8.849a.422.422,0,0,0-.012.582l2.544,2.55a.422.422,0,0,0,.6-.6Z" transform="translate(1646.873 8167.807)"/>
+    <path id="Icon_ionic-ios-arrow-forward-2" data-name="Icon ionic-ios-arrow-forward" d="M13.288,8.751,11.354,6.818a.364.364,0,0,1,0-.516.368.368,0,0,1,.517,0l2.191,2.189a.365.365,0,0,1,.011.5l-2.2,2.2a.365.365,0,1,1-.517-.516Z" transform="translate(1287.754 8349.31)"/>
+    <path id="Path_1102" data-name="Path 1102" d="M190.422.677-.474.331" transform="translate(1111.5 7374.17)" fill="none" stroke="#000" stroke-width="1"/>
+    <path id="Icon_ionic-ios-arrow-back-6" data-name="Icon ionic-ios-arrow-back" d="M12.269,9.148l2.236-2.235a.422.422,0,0,0-.6-.6L11.374,8.849a.422.422,0,0,0-.012.582l2.544,2.55a.422.422,0,0,0,.6-.6Z" transform="translate(1313.754 7384.104) rotate(-180)"/>
+  </g>
+</svg>

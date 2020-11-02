@@ -1,6 +1,6 @@
 import {Box, Image, Text} from "grommet";
 import React from "react";
-import BlockTextWithImage from "../Blocks/Block-text-with-image";
+import BlockTextWithImage from "../../shared/Blocks/Block-text-with-image";
 
 const UserJourneySection = () => {
     return (

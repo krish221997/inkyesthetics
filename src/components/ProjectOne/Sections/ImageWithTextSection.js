@@ -1,56 +1,52 @@
 import React from "react";
 import {Box, Text} from "grommet";
-import BlockHeadingWithText from "../Blocks/Block-heading-with-text";
-import BlockImageWithText from "../Blocks/Block-image-with-text";
+import BlockHeadingWithText from "../../shared/Blocks/Block-heading-with-text";
+import BlockImageWithText from "../../shared/Blocks/Block-image-with-text";
 
 const data = [
     {
         image: "/images/communication.svg",
         text: <Text textAlign={"center"} style={{fontSize: "16px", fontFamily: "Poppins-Light"}}>Communication
-            barrier.</Text>
+            barrier</Text>
     },
     {
         image: "/images/write.svg",
         text: <Text textAlign={"center"} style={{fontSize: "16px", fontFamily: "Poppins-Light"}}>Can't read and
-            write.</Text>
+            write</Text>
     },
     {
         image: "/images/travel.svg",
         text: <Text textAlign={"center"} style={{fontSize: "16px", fontFamily: "Poppins-Light"}}>Can't travel at the
-            moment.</Text>
+            moment</Text>
     },
     {
         image: "/images/market.svg",
         text:
             <Box>
                 <Text textAlign={"center"} style={{fontSize: "16px", fontFamily: "Poppins-Light"}}>Lack of awareness
-                    about</Text>
-                <Text textAlign={"center"} style={{fontSize: "16px", fontFamily: "Poppins-Light"}}>her in the
-                    market.</Text>
+                    about her in the market</Text>
             </Box>
     },
     {
         image: "/images/technology.svg",
         text:
             <Box>
-                <Text textAlign={"center"} style={{fontSize: "16px", fontFamily: "Poppins-Light"}}>Lack of awareness about</Text>
-                <Text textAlign={"center"} style={{fontSize: "16px", fontFamily: "Poppins-Light"}}>about technology.</Text>
+                <Text textAlign={"center"} style={{fontSize: "16px", fontFamily: "Poppins-Light"}}>Lack of awareness about about technology</Text>
             </Box>
     },
     {
         image: "/images/preferences.svg",
         text:
             <Box>
-                <Text textAlign={"center"} style={{fontSize: "16px", fontFamily: "Poppins-Light"}}>Can't understand customers</Text>
-                <Text textAlign={"center"} style={{fontSize: "16px", fontFamily: "Poppins-Light"}}>design preferences.</Text>
+                <Text textAlign={"center"} style={{fontSize: "16px", fontFamily: "Poppins-Light"}}>Can't understand customers design preferences</Text>
             </Box>
     },
 ];
 
 const boxStyle = {
     display: "grid",
-    "grid-template-columns": "repeat(auto-fit, minmax(500px, 1fr))",
-    "grid-template-rows": "repeat(auto-fit, 1fr)",
+    "grid-template-columns": "repeat(3, minmax(200px, 1fr))",
+    "grid-template-rows": "repeat(2, 1fr)",
     "grid-gap": "24px"
 };
 

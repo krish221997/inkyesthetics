@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Staatliches, Sunshine, Poppins-Medium, Poppins-Light, Poppins-SemiBold, Poppins, "cursive", "sans-serif";
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Staatliches, Sunshine, Poppins-Medium, Poppins-Regular, Poppins-Light, Poppins-SemiBold, Poppins, "cursive", "sans-serif";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,4 +39,9 @@ code {
 @font-face {
     font-family: 'Poppins-Medium';
     src: local('Poppins-Medium'), url(./fonts/Poppins-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: local('Poppins-Regular'), url(./fonts/Poppins-Regular.ttf) format('truetype');
 }
