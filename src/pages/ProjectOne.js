@@ -23,7 +23,7 @@ const ProjectOne = () => {
                 <Header/>
             </Box>
             <Box width={"100%"}>
-                <ImageSection image={"url(/images/cover1.svg)"} type={"cover"}/>
+                <ImageSection image={"url(/images/project-one-cover.svg)"} type={"cover"}/>
             </Box>
             </Box>
             <Box pad={{horizontal: "xlarge"}} margin={{top: "140px"}}>

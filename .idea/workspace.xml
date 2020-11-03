@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="" />
+    <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectOne.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +73,7 @@
       <workItem from="1603979751051" duration="31994000" />
       <workItem from="1604152851654" duration="1341000" />
       <workItem from="1604274485172" duration="2359000" />
+      <workItem from="1604409145634" duration="632000" />
     </task>
     <servers />
   </component>
@@ -81,6 +85,10 @@
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
     <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604071472590" />
+    <state x="491" y="321" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1604277855231">
+      <screen x="72" y="122" width="1848" height="1053" />
+    </state>
+    <state x="491" y="321" width="1000" height="661" key="Vcs.Push.Dialog.v2/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604277855231" />
     <state x="616" y="331" width="759" height="634" key="find.popup" timestamp="1604042102578">
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
