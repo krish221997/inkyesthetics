@@ -65,7 +65,7 @@ const ProjectOne = () => {
                     textTransform: "uppercase"
                 }}>Empathy map</Heading>
                 <div style={{margin: "0 auto"}}>
-                    <ImageSection height={910} width={1920} image={"url(/images/empathy.svg)"} type={"contain"}/>
+                    <ImageSection height={978} width={1921} image={"url(/images/empathy.svg)"} type={"contain"}/>
                 </div>
             </div>
             <Box width={"100%"} direction={"column"}
