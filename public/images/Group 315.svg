@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1554.799" height="595.795" viewBox="0 0 1554.799 595.795">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 22px;
+        font-family: Gotham-Medium, Gotham;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        font-size: 18px;
+        font-family: Gotham-Book, Gotham;
+      }
+
+      .cls-3 {
+        font-size: 14px;
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-10, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: none;
+        stroke-dasharray: 3;
+      }
+
+      .cls-4 {
+        stroke: #36a3a0;
+      }
+
+      .cls-10, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-10, .cls-4, .cls-5, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-10, .cls-4, .cls-5 {
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        stroke: #72b789;
+      }
+
+      .cls-6, .cls-8 {
+        stroke: #969696;
+      }
+
+      .cls-7 {
+        stroke: #000;
+      }
+
+      .cls-9 {
+        font-size: 10px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-10 {
+        stroke: #ceb43a;
+      }
+    </style>
+  </defs>
+  <g id="Group_315" data-name="Group 315" transform="translate(15200 -9485.933)">
+    <text id="HOME" class="cls-1" transform="translate(-14419 9505.637)"><tspan x="-34.628" y="0">HOME</tspan></text>
+    <text id="SHARING" class="cls-2" transform="translate(-14006.686 9590.844)"><tspan x="-43.002" y="0">SHARING</tspan></text>
+    <text id="DISCOVERING" class="cls-2" transform="translate(-14753.332 9589.844)"><tspan x="-65.232" y="0">DISCOVERING</tspan></text>
+    <text id="TUNING" class="cls-2" transform="translate(-15101.29 9590.844)"><tspan x="-36.558" y="0">TUNING</tspan></text>
+    <text id="CHOOSE_YOUR_INSTRUMENT" data-name="CHOOSE YOUR INSTRUMENT" class="cls-3" transform="translate(-15106 9695.836)"><tspan x="-93.1" y="0">CHOOSE YOUR INSTRUMENT</tspan></text>
+    <text id="TUNNING_SETTINGS" data-name="TUNNING SETTINGS" class="cls-3" transform="translate(-15105.049 9764.602)"><tspan x="-63.784" y="0">TUNNING SETTINGS</tspan></text>
+    <path id="Path_1026" data-name="Path 1026" class="cls-4" d="M534.877-1238.332l.561-77.668,592.64.647" transform="translate(-15634.698 10802.933)"/>
+    <path id="Path_1027" data-name="Path 1027" class="cls-5" d="M2095.778-1230.3l-.338-67.379-308.088.562" transform="translate(-16112.353 10794.896)"/>
+    <line id="Line_18" data-name="Line 18" class="cls-6" x2="0.305" y2="70.467" transform="translate(-15100.408 9605.968)"/>
+    <line id="Line_19" data-name="Line 19" class="cls-7" y2="39.866" transform="translate(-15100.408 9707.598)"/>
+    <text id="MY_PROFILE" data-name="MY PROFILE" class="cls-3" transform="translate(-14137.338 9687.413)"><tspan x="-37.66" y="0">MY PROFILE</tspan></text>
+    <text id="EDIT_MY_PROFILE" data-name="EDIT MY PROFILE" class="cls-3" transform="translate(-14138.061 9763.592)"><tspan x="-53.578" y="0">EDIT MY PROFILE</tspan></text>
+    <path id="Path_1028" data-name="Path 1028" class="cls-8" d="M2183.877-1051.816l.065-82.423h59.534" transform="translate(-16317.803 10723.229)"/>
+    <line id="Line_20" data-name="Line 20" class="cls-6" y2="39.866" transform="translate(-14134.719 9702.542)"/>
+    <text id="SCOCIAL_MEDIA_WALL" data-name="SCOCIAL MEDIA WALL" class="cls-3" transform="translate(-14318.074 9687.413)"><tspan x="-72.226" y="0">SCOCIAL MEDIA WALL</tspan></text>
+    <text id="CHOOSE_YOUR_INSTRUMENT-2" data-name="CHOOSE YOUR INSTRUMENT" class="cls-3" transform="translate(-14318.604 9763.592)"><tspan x="-93.1" y="0">CHOOSE YOUR INSTRUMENT</tspan></text>
+    <text id="TUNNING_SETTINGS-2" data-name="TUNNING SETTINGS" class="cls-3" transform="translate(-14317.652 9839.77)"><tspan x="-63.784" y="0">TUNNING SETTINGS</tspan></text>
+    <text id="CHORD" class="cls-3" transform="translate(-14314.471 9915.948)"><tspan x="-24.948" y="0">CHORD</tspan></text>
+    <line id="Line_21" data-name="Line 21" class="cls-6" y2="39.866" transform="translate(-14313.011 9854.898)"/>
+    <line id="Line_22" data-name="Line 22" class="cls-6" y2="39.866" transform="translate(-14313.011 9778.721)"/>
+    <line id="Line_23" data-name="Line 23" class="cls-6" y2="39.866" transform="translate(-14313.011 9702.542)"/>
+    <path id="Path_1029" data-name="Path 1029" class="cls-8" d="M1863.877-1057.168l.263-89.277h240.054" transform="translate(-16177.479 10728.58)"/>
+    <text id="SOMEONES_ELSE_S_PROFILE" data-name="SOMEONES  ELSE’S PROFILE" class="cls-3" transform="translate(-13881.985 9687.413)"><tspan x="-88.592" y="0" xml:space="preserve">SOMEONES  ELSE’S PROFILE</tspan></text>
+    <text id="CHOOSE_YOUR_INSTRUMENT-3" data-name="CHOOSE YOUR INSTRUMENT" class="cls-3" transform="translate(-13881.985 9763.592)"><tspan x="-93.1" y="0">CHOOSE YOUR INSTRUMENT</tspan></text>
+    <text id="TUNNING_SETTINGS-3" data-name="TUNNING SETTINGS" class="cls-3" transform="translate(-13881.034 9839.77)"><tspan x="-63.784" y="0">TUNNING SETTINGS</tspan></text>
+    <text id="CHORD-2" data-name="CHORD" class="cls-3" transform="translate(-13877.853 9915.948)"><tspan x="-24.948" y="0">CHORD</tspan></text>
+    <line id="Line_24" data-name="Line 24" class="cls-6" y2="39.866" transform="translate(-13876.393 9854.899)"/>
+    <line id="Line_25" data-name="Line 25" class="cls-6" y2="39.866" transform="translate(-13876.393 9778.721)"/>
+    <line id="Line_26" data-name="Line 26" class="cls-6" y2="39.866" transform="translate(-13876.393 9702.542)"/>
+    <path id="Path_1030" data-name="Path 1030" class="cls-8" d="M2595.331-1051.816l-.065-82.423h-59.534" transform="translate(-16472.096 10723.229)"/>
+    <text id="EDIT_MY_PROFILE-2" data-name="EDIT MY PROFILE" class="cls-3" transform="translate(-13699.201 9763.592)"><tspan x="-53.578" y="0">EDIT MY PROFILE</tspan></text>
+    <text id="SETTINGS" class="cls-3" transform="translate(-13698.181 9687.413)"><tspan x="-31.472" y="0">SETTINGS</tspan></text>
+    <line id="Line_27" data-name="Line 27" class="cls-6" y2="39.866" transform="translate(-13695.86 9702.542)"/>
+    <path id="Path_1031" data-name="Path 1031" class="cls-8" d="M2775.51-1057.168l-.261-89.277H2536.877" transform="translate(-16472.598 10728.58)"/>
+    <text id="CHOOSE_YOUR_INSTRUMENT-4" data-name="CHOOSE YOUR INSTRUMENT" class="cls-3" transform="translate(-14880.595 9924.371)"><tspan x="-93.1" y="0">CHOOSE YOUR INSTRUMENT</tspan></text>
+    <text id="TUNNING_SETTINGS-4" data-name="TUNNING SETTINGS" class="cls-3" transform="translate(-14879.644 10000.549)"><tspan x="-63.784" y="0">TUNNING SETTINGS</tspan></text>
+    <text id="RECORD_SONG" data-name="RECORD SONG" class="cls-3" transform="translate(-14878.045 9695.836)"><tspan x="-49.805" y="0">RECORD SONG</tspan></text>
+    <text id="CHORD-3" data-name="CHORD" class="cls-3" transform="translate(-14876.462 10076.727)"><tspan x="-24.948" y="0">CHORD</tspan></text>
+    <text class="cls-9" transform="translate(-14875.804 9686.358)"/>    <text id="FIND_SONG" data-name="FIND SONG" class="cls-3" transform="translate(-14877.114 9772.014)"><tspan x="-36.967" y="0">FIND SONG</tspan></text>
+    <text id="LEARN_CHORDS" data-name="LEARN CHORDS" class="cls-3" transform="translate(-14878.414 9848.192)"><tspan x="-51.436" y="0">LEARN CHORDS</tspan></text>
+    <line id="Line_28" data-name="Line 28" class="cls-6" y2="39.866" transform="translate(-14875.002 10015.678)"/>
+    <line id="Line_29" data-name="Line 29" class="cls-6" y2="39.866" transform="translate(-14875.002 9939.5)"/>
+    <line id="Line_30" data-name="Line 30" class="cls-6" y2="39.866" transform="translate(-14875.002 9863.321)"/>
+    <line id="Line_31" data-name="Line 31" class="cls-6" y2="39.866" transform="translate(-14875.002 9787.143)"/>
+    <line id="Line_32" data-name="Line 32" class="cls-6" y2="39.866" transform="translate(-14875.002 9710.965)"/>
+    <path id="Path_1032" data-name="Path 1032" class="cls-8" d="M934.767-1044.6l.065-92.4h59.534" transform="translate(-15810.055 10724.439)"/>
+    <text id="MY_DISCOVERED" data-name="MY DISCOVERED" class="cls-3" transform="translate(-14627.372 9695.836)"><tspan x="-54.789" y="0">MY DISCOVERED</tspan></text>
+    <text id="ABOUT_THE_ARTIST_SONG" data-name="ABOUT THE ARTIST/ SONG" class="cls-3" transform="translate(-14628.693 9772.015)"><tspan x="-86.534" y="0">ABOUT THE ARTIST/ SONG</tspan></text>
+    <text id="CHOOSE_YOUR_INSTRUMENT-5" data-name="CHOOSE YOUR INSTRUMENT" class="cls-3" transform="translate(-14629.308 9924.371)"><tspan x="-93.1" y="0">CHOOSE YOUR INSTRUMENT</tspan></text>
+    <text id="TUNNING_SETTINGS-5" data-name="TUNNING SETTINGS" class="cls-3" transform="translate(-14628.356 10000.549)"><tspan x="-63.784" y="0">TUNNING SETTINGS</tspan></text>
+    <text id="CHORD-4" data-name="CHORD" class="cls-3" transform="translate(-14625.175 10076.728)"><tspan x="-24.948" y="0">CHORD</tspan></text>
+    <text id="LEARN_CHORDS-2" data-name="LEARN CHORDS" class="cls-3" transform="translate(-14627.126 9848.192)"><tspan x="-51.436" y="0">LEARN CHORDS</tspan></text>
+    <line id="Line_33" data-name="Line 33" class="cls-6" y2="39.866" transform="translate(-14623.716 10015.678)"/>
+    <line id="Line_34" data-name="Line 34" class="cls-6" y2="39.866" transform="translate(-14623.716 9939.5)"/>
+    <line id="Line_35" data-name="Line 35" class="cls-6" y2="39.866" transform="translate(-14623.716 9863.321)"/>
+    <line id="Line_36" data-name="Line 36" class="cls-6" y2="39.866" transform="translate(-14623.716 9787.144)"/>
+    <line id="Line_37" data-name="Line 37" class="cls-6" y2="39.866" transform="translate(-14623.716 9710.965)"/>
+    <path id="Path_1033" data-name="Path 1033" class="cls-8" d="M1346.221-1044.6l-.065-92.4h-59.534" transform="translate(-15964.347 10724.439)"/>
+    <path id="Path_1034" data-name="Path 1034" class="cls-10" d="M1147.877-1230.3l.189-67.379,248.82.562" transform="translate(-15903.506 10794.896)"/>
+  </g>
+</svg>

@@ -14,8 +14,10 @@
     "history": "^5.0.0",
     "netlify-cli": "^2.65.6",
     "react": "^17.0.0",
+    "react-3d-viewer": "^1.0.12",
     "react-dom": "^17.0.0",
     "react-redux": "^7.2.1",
+    "react-responsive": "^8.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.4",
     "styled-components": "^5.2.0"

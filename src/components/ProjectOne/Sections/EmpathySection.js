@@ -1,4 +1,3 @@
-import {Box, Image, Text} from "grommet";
 import React from "react";
 import BlockTextWithImage from "../../shared/Blocks/Block-text-with-image";
 

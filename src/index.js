@@ -35,7 +35,7 @@ ReactDOM.render(
         <Router>
             <Route path="/" component={Landing} exact={true}/>
             <Route path="/creative-collaborations" component={ProjectOne} exact={true}/>
-            <Route path="/ampmateur" component={ProjectTwo} exact={true}/>
+            {/*<Route path="/ampmateur" component={ProjectTwo} exact={true}/>*/}
         </Router>
     </Provider>,
 document.getElementById('root')

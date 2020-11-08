@@ -2,10 +2,14 @@ import React from "react";
 import {Box} from "grommet";
 
 
-const ImageSection = ({image = "", height = "100vh", type = "cover"}) => {
+const ImageSection = ({image = "", height = "100vh", width = "1920px", type = "cover"}) => {
+    const num = height/width;
+    const padPercent = (num / 100) * 10000;
+    let wholePercent = Math.ceil(padPercent);
+
     return (
-        <Box background={{image: image, size: type, position: "center center"}}  height={height} width={"100%"}>
-        </Box>
+        <div style={{background: `${image} no-repeat center`, paddingTop: `${wholePercent}%`, backgroundSize: type}}>
+        </div>
     )
 };
 

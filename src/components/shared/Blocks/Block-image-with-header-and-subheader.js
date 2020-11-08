@@ -1,12 +1,14 @@
 import {Box, Image} from "grommet";
 import React from "react";
 import genericTextRenderer from "../../../utils/genericTextRenderer";
+import genericImageRenderer from "../../../utils/genericImageRenderer";
 
-const BlockImageWithHeaderAndSubHeader = ({properties = {text: {a: {render: () => {}}, b: {render: () => {}}}, images: {a: {url: ""}}}}) => {
+const BlockImageWithHeaderAndSubHeader = ({properties = {text: {a: {render: () => {}}, b: {render: () => {}}}, images: {a: {render: () => {}}}}}) => {
+
     return (
         <Box width={"100%"} align={"center"} justify={"center"}>
-            <Image src={properties.images.a.url}/>
-            <Box margin={{top: "small"}}>
+            {genericImageRenderer(properties.images.a)}
+            <Box margin={{top: "medium"}}>
                 {genericTextRenderer(properties.text.a)}
             </Box>
             <Box margin={{top: "medium"}}>

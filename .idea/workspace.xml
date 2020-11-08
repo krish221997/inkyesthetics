@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/Test3DRender.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/affinity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/catalog.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/catalog.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/AffinitySection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/AffinitySection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/BriefSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/BriefSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/EmpathySection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/EmpathySection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/HowMightWeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/HowMightWeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/IdeationSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/IdeationSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ImageWithTextSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ImageWithTextSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ObservationsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ObservationsSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/RoleSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/RoleSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/TargetAudienceSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/TargetAudienceSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/UserJourneySection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/UserJourneySection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/Blocks/Block-image-with-header-and-paragraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Blocks/Block-image-with-header-and-paragraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/Blocks/Block-image-with-header-and-subheader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Blocks/Block-image-with-header-and-subheader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/ImageSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/ImageSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/OFL.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ProjectOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectOne.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +68,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -74,6 +94,9 @@
       <workItem from="1604152851654" duration="1341000" />
       <workItem from="1604274485172" duration="2359000" />
       <workItem from="1604409145634" duration="632000" />
+      <workItem from="1604503064878" duration="10000" />
+      <workItem from="1604642898772" duration="31601000" />
+      <workItem from="1604846769836" duration="627000" />
     </task>
     <servers />
   </component>
@@ -81,21 +104,36 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl" timestamp="1604071472590">
+    <state x="172" y="222" width="1648" height="853" key="DiffContextDialog" timestamp="1604748018804">
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
-    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604071472590" />
+    <state x="172" y="222" width="1648" height="853" key="DiffContextDialog/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604748018804" />
+    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl" timestamp="1604719812969">
+      <screen x="72" y="122" width="1848" height="1053" />
+    </state>
+    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604719812969" />
     <state x="491" y="321" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1604277855231">
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
     <state x="491" y="321" width="1000" height="661" key="Vcs.Push.Dialog.v2/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604277855231" />
-    <state x="616" y="331" width="759" height="634" key="find.popup" timestamp="1604042102578">
+    <state x="616" y="331" width="759" height="634" key="find.popup" timestamp="1604739415514">
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
-    <state x="616" y="331" width="759" height="634" key="find.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604042102578" />
-    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup" timestamp="1604277457822">
+    <state x="616" y="331" width="759" height="634" key="find.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604739415514" />
+    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup" timestamp="1604742669533">
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
-    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604277457822" />
+    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604742669533" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Header.js</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
