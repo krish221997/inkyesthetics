@@ -1,7 +1,7 @@
 import {Box, Text} from "grommet";
 import React from "react";
 import BlockHeadingWithText from "../../shared/Blocks/Block-heading-with-text";
-
+import {useMediaQuery} from "react-responsive";
 
 const boxStyle = {
     display: "grid",
@@ -10,31 +10,42 @@ const boxStyle = {
     "grid-gap": "24px"
 };
 
-const data = [
+
+const smallBoxStyle = {
+    display: "grid",
+    "grid-template-columns": "repeat(1, 1fr)",
+    "grid-template-rows": "minmax(auto, 1fr)",
+    "grid-gap": "24px"
+};
+
+const RoleSection = ({}) => {
+    const isTabletOrMobileDevice = useMediaQuery({
+        query: '(max-device-width: 900px)'
+    })
+
+    const sectionData = [
     {
         heading: "Role",
         subHeading:
-              <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>
+                <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: isTabletOrMobileDevice ? "11px" : "16px"}}>
                 Primary & Secondary Research, Field Experiments Interviews, Insight Generation, Early Ideation Testing & Prototyping</Text>
     },
     {
         heading: "Tools",
         subHeading:
-            <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>
+            <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: isTabletOrMobileDevice ? "11px" : "16px"}}>
                 Adobe Illustrator, Photoshop, Indesign</Text>
     },
     {
         heading: "Duration",
         subHeading:
-                <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>
+                <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: isTabletOrMobileDevice ? "11px" : "16px"}}>
                 June 2020 at California Institute of the Art</Text>
     },
 ];
 
-const RoleSection = ({sectionData = data}) => {
-    return (
-        <Box width={"100%"} align={"center"}>
-            <Box wrap style={boxStyle} direction={"row"} as={"div"} width={"100%"}>
+    const smallScreenView = (
+        <Box wrap width={"100%"} direction={"row"} as={"div"} style={smallBoxStyle}>
                 {sectionData.map((item, index) => {
                     return (
                         <Box key={index}>
@@ -52,6 +63,32 @@ const RoleSection = ({sectionData = data}) => {
                     )
                 })}
             </Box>
+    );
+
+    const largeScreenView = (
+        <Box wrap style={boxStyle} direction={"row"} as={"div"} width={"100%"}>
+                {sectionData.map((item, index) => {
+                    return (
+                        <Box key={index}>
+                            <BlockHeadingWithText properties={{
+                                text: {
+                                    a: {
+                                        value: item.heading
+                                    },
+                                    b: {
+                                        render: () => item.subHeading
+                                    }
+                                }
+                            }}/>
+                        </Box>
+                    )
+                })}
+            </Box>
+    )
+
+    return (
+        <Box width={"100%"} align={"center"}>
+            {isTabletOrMobileDevice ? smallScreenView : largeScreenView}
         </Box>
     )
 };

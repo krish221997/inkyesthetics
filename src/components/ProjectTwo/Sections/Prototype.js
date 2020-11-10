@@ -1,22 +1,19 @@
-import {Box, Image, Text} from "grommet";
 import React from "react";
-import BlockTextWithImage from "../../shared/Blocks/Block-text-with-image";
+import ImageSection from "../../shared/ImageSection";
+import {useMediaQuery} from "react-responsive";
 
 const PrototypeSection = () => {
+
+    const isTabletOrMobileDevice = useMediaQuery({
+        query: '(max-device-width: 900px)'
+    })
+
     return (
-        <BlockTextWithImage height={"200vh"} properties={{
-            hideText: true,
-            images: {
-                a: {
-                    url: "url(/images/prototype.svg)"
-                }
-            },
-            text:{
-                a: {
-                    value: "User Flow"
-                }
-            }
-        }}/>
+        <div align={"center"}>
+                    <div style={{margin: "0 auto"}}>
+                        {<ImageSection height={2819} width={2907} image={"url(/images/phones.svg)"} type={"contain"}/>}
+                    </div>
+                </div>
     )
 };
 

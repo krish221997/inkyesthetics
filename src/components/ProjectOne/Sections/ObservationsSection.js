@@ -9,7 +9,7 @@ const smallScreenProperties = {
   images: {
       a: {
           render: () => (
-              <Image src={"/images/observations.svg"} height={"150px"}/>
+              <Image src={"/images/observations.svg"} height={"100px"}/>
           )
       }
   },
@@ -21,7 +21,7 @@ const smallScreenProperties = {
       },
       b: {
             render: () => (
-                    <Box gap={"medium"} pad={{top: "medium"}}>
+                    <Box gap={"small"} pad={{top: "medium"}}>
                         <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>She understands alphabets and numbers and icons</Text>
                         <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>She is extremely motivated to work but only from home</Text>
                         <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>She has restrictions on knowing tailoring of products</Text>

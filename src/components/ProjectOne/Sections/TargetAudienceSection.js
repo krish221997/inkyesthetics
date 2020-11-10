@@ -9,7 +9,7 @@ const smallScreenProperties = {
   images: {
       a: {
           render: () => (
-              <Image src={"/images/target.svg"} height={"150px"}/>
+              <Image src={"/images/target.svg"} height={"100px"}/>
           )
       }
   },

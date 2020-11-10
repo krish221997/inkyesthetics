@@ -21,7 +21,7 @@ const IdeationSection = () => {
     images: {
         a: {
             render: () => (
-                <Image src={"/images/ideation.svg"} height={"150px"}/>
+                <Image src={"/images/ideation.svg"} height={"100px"}/>
             )
         }
     },

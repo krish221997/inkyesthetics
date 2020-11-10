@@ -1,4 +1,4 @@
-import {Box, Heading, Text} from "grommet";
+import {Box, Heading} from "grommet";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import React from "react";
@@ -10,11 +10,11 @@ import HowMightWeSection from "../components/ProjectOne/Sections/HowMightWeSecti
 import UserJourneySection from "../components/ProjectOne/Sections/UserJourneySection";
 import TargetAudienceSection from "../components/ProjectOne/Sections/TargetAudienceSection";
 import IdeationSection from "../components/ProjectOne/Sections/IdeationSection";
-import EmpathySection from "../components/ProjectOne/Sections/EmpathySection";
 import BriefSection from "../components/ProjectOne/Sections/BriefSection";
 import RoleSection from "../components/ProjectOne/Sections/RoleSection";
-import Test3DRender from "../components/ProjectOne/Sections/Test3DRender";
 import {useMediaQuery} from "react-responsive";
+import AffinitySectionSmall from "../components/ProjectOne/Sections/AffinitySectionSmall";
+import UserJourneySectionSmall from "../components/ProjectOne/Sections/UserJourneySectionSmall";
 
 const ProjectOne = () => {
 
@@ -44,13 +44,13 @@ const ProjectOne = () => {
                 <ObservationsSection/>
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
-                <AffinitySection/>
+                {isTabletOrMobileDevice ? <AffinitySectionSmall/> : <AffinitySection/>}
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
                 <HowMightWeSection/>
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
-                <UserJourneySection/>
+                {isTabletOrMobileDevice ? <UserJourneySectionSmall/> : <UserJourneySection/>}
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
                 <TargetAudienceSection/>
@@ -65,7 +65,7 @@ const ProjectOne = () => {
                     textTransform: "uppercase"
                 }}>Empathy map</Heading>
                 <div style={{margin: "0 auto"}}>
-                    <ImageSection height={978} width={1921} image={"url(/images/empathy.svg)"} type={"contain"}/>
+                    <ImageSection height={930} width={1945} image={"url(/images/empathy-fix.svg)"} type={"contain"}/>
                 </div>
             </div>
             <Box width={"100%"} direction={"column"}

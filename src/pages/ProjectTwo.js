@@ -10,60 +10,61 @@ import PersonaSection from "../components/ProjectTwo/Sections/PersonaSection";
 import GoalSection from "../components/ProjectTwo/Sections/GoalSection";
 import UserFlowSection from "../components/ProjectTwo/Sections/UserFlowSection";
 import SitemapSection from "../components/ProjectTwo/Sections/SitemapSection";
-import MoodBoardSection from "../components/ProjectTwo/Sections/MoodboardSection";
 import PrototypeSection from "../components/ProjectTwo/Sections/Prototype";
 import BriefSection from "../components/ProjectTwo/Sections/BriefSection";
 import RoleSection from "../components/ProjectTwo/Sections/RoleSection";
+import {useMediaQuery} from "react-responsive";
 
 const ProjectOne = () => {
 
+    const isTabletOrMobileDevice = useMediaQuery({
+        query: '(max-device-width: 900px)'
+    })
+
     return (
-        <Box width={"100%"}>
-            <Box height={"100vh"}>
-                <Box pad={{horizontal: "xlarge", vertical: "large"}}>
+
+        <>
+            <Box pad={{horizontal: "xlarge", vertical: "large"}}>
                 <Header/>
             </Box>
-            <Box width={"100%"}>
-                <ImageSection image={"url(/images/cover1.svg)"} type={"cover"}/>
-            </Box>
-            </Box>
-            <Box pad={{horizontal: "xlarge"}} margin={{top: "140px"}}>
+            <div style={{margin: "0 auto"}}>
+                <ImageSection height={910} width={1920} image={"url(/images/ac.svg)"} type={"contain"}/>
+            </div>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
                 <BriefSection/>
             </Box>
-             <Box pad={{horizontal: "xlarge"}} margin={{top: "140px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
                 <RoleSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge"}} margin={{top: "140px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
                 <FunctionsSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge"}} margin={{top: "140px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
                 <InspirationSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge"}} margin={{top: "200px"}}>
+             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
                 <TargetAudienceSection/>
             </Box>
-             <Box pad={{horizontal: "xlarge"}} margin={{top: "200px"}}>
+             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
                 <PersonaSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge"}} margin={{top: "200px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
                 <GoalSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge"}} margin={{top: "200px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
                 <UserFlowSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge"}} margin={{top: "200px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
                 <SitemapSection/>
             </Box>
-            {/*<Box margin={{top: "200px"}}>*/}
-            {/*    <MoodBoardSection/>*/}
-            {/*</Box>*/}
-            <Box margin={{top: "200px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
                 <PrototypeSection/>
             </Box>
-            <Box width={"100%"} direction={"column"} pad={{horizontal: "large", top: "xlarge", bottom: "large"}}>
+            <Box width={"100%"} direction={"column"}
+                 pad={{horizontal: "large", top: "xlarge", bottom: "large"}}>
                 <Footer/>
             </Box>
-        </Box>
+        </>
     )
 
 };

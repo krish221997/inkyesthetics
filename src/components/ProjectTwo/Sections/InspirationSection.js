@@ -1,6 +1,7 @@
-import {Box, Image, Text} from "grommet";
+import {Box, Heading, Image, Text} from "grommet";
 import React from "react";
 import BlockImageWithHeadingAndText from "../../shared/Blocks/Block-image-with-heading-and-text";
+import {useMediaQuery} from "react-responsive";
 
 const data = [
     {
@@ -22,19 +23,36 @@ const data = [
 
 const boxStyle = {
     display: "grid",
-    "grid-template-columns": "repeat(auto-fit, minmax(200px, 1fr))",
+    "grid-template-columns": "repeat(3, 1fr)",
     "grid-template-rows": "repeat(1, 1fr)",
     "grid-row-gap": "24px",
     "grid-column-gap": "24px"
 };
 
+
+const smallBoxStyle = {
+    display: "grid",
+    "grid-template-columns": "repeat(1, 1fr)",
+    "grid-template-rows": "repeat(3, 1fr)",
+    "grid-row-gap": "48px",
+    "grid-column-gap": "48px"
+};
+
 const InspirationSection = () => {
+
+    const isTabletOrMobileDevice = useMediaQuery({
+        query: '(max-device-width: 1100px)'
+    });
+
     return (
         <Box align={"center"} justify={"center"} width={"100%"} gap={"large"}>
-            <Text
-                style={{fontFamily: "Poppins-Medium", fontSize: "30px", textTransform: "uppercase"}}>Inspiration
-            </Text>
-            <Box as="div" style={boxStyle} direction="row" wrap width={"70%"} align={"center"} justify={"center"}>
+            <Heading level={2} margin={"0px"} style={{
+                textTransform: "uppercase",
+                fontFamily: "Poppins-Light",
+                fontSize: isTabletOrMobileDevice ? "20px" : "30px"
+            }}>Inspiration</Heading>
+            <Box as="div" style={isTabletOrMobileDevice ? smallBoxStyle : boxStyle} direction="row" wrap
+                 width={isTabletOrMobileDevice ? "100%" : "85%"} align={"center"} justify={"center"}>
                 {
                     data.map((item, key) => (
                         <div key={key}>
@@ -43,7 +61,7 @@ const InspirationSection = () => {
                                     a: {
                                         render: () => (
                                             <Box>
-                                                <Image src={item.image}/>
+                                                <Image height={isTabletOrMobileDevice ? "150px" : ""} src={item.image}/>
                                             </Box>
                                         )
                                     }
@@ -51,12 +69,18 @@ const InspirationSection = () => {
                                 text: {
                                     a: {
                                         render: () => (
-                                            <Text textAlign={"center"} margin={{top: "medium"}} style={{fontSize: "14px", fontFamily: "Poppins-Regular"}}>{item.heading}</Text>
+                                            <Text textAlign={"center"} margin={{top: "medium"}} style={{
+                                                fontSize: isTabletOrMobileDevice ? "10px" : "14px",
+                                                fontFamily: "Poppins-Regular"
+                                            }}>{item.heading}</Text>
                                         )
                                     },
                                     b: {
                                         render: () => (
-                                            <Text textAlign={"center"} style={{fontSize: "14px", fontFamily: "Poppins-Light"}}>{item.subHeading}</Text>
+                                            <Text textAlign={"center"} style={{
+                                                fontSize: isTabletOrMobileDevice ? "10px" : "14px",
+                                                fontFamily: "Poppins-Light"
+                                            }}>{item.subHeading}</Text>
                                         )
                                     }
                                 }

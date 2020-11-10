@@ -1,6 +1,5 @@
-import {Box, Heading, Image, Text} from "grommet";
+import {Heading} from "grommet";
 import React from "react";
-import BlockTextWithImage from "../../shared/Blocks/Block-text-with-image";
 import ImageSection from "../../shared/ImageSection";
 import {useMediaQuery} from "react-responsive";
 
@@ -18,9 +17,8 @@ const UserJourneySection = () => {
                         textTransform: "uppercase"
                     }}>User journey</Heading>
                     <div style={{margin: "0 auto"}}>
-                        {isTabletOrMobileDevice ? <ImageSection height={649} width={345} image={"url(/images/user-journey-small.svg)"}
-                                       type={"contain"}/> : <ImageSection height={910} width={1780} image={"url(/images/user-journey.svg)"}
-                                       type={"contain"}/>}
+                        <ImageSection height={910} width={1780} image={"url(/images/userJourney-fix.svg)"}
+                                       type={"contain"}/>
                     </div>
                 </div>
     )
