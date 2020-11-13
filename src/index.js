@@ -7,11 +7,11 @@ import {Provider} from "react-redux";
 import * as serviceWorker from './serviceWorker';
 import {connectRouter, routerMiddleware} from "connected-react-router";
 import {createBrowserHistory} from "history";
-import Landing from "./pages/Landing";
 import "./fonts/Sunshine.ttf";
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import ProjectOne from "./pages/ProjectOne";
 import ProjectTwo from "./pages/ProjectTwo";
+import LandingFinal from "./pages/LandingFinal";
 
 
 const history = createBrowserHistory();
@@ -33,7 +33,7 @@ export const store = init({
 ReactDOM.render(
     <Provider store={store}>
         <Router>
-            <Route path="/" component={Landing} exact={true}/>
+            <Route path="/" component={LandingFinal} exact={true}/>
             <Route path="/creative-collaborations" component={ProjectOne} exact={true}/>
             <Route path="/ampmateur" component={ProjectTwo} exact={true}/>
         </Router>

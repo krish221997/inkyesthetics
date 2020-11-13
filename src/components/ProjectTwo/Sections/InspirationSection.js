@@ -61,7 +61,7 @@ const InspirationSection = () => {
                                     a: {
                                         render: () => (
                                             <Box>
-                                                <Image height={isTabletOrMobileDevice ? "150px" : ""} src={item.image}/>
+                                                <Image height={isTabletOrMobileDevice ? "130px" : ""} src={item.image}/>
                                             </Box>
                                         )
                                     }
@@ -69,7 +69,7 @@ const InspirationSection = () => {
                                 text: {
                                     a: {
                                         render: () => (
-                                            <Text textAlign={"center"} margin={{top: "medium"}} style={{
+                                            <Text textAlign={"center"} margin={{top: isTabletOrMobileDevice ? "small" : "medium"}} style={{
                                                 fontSize: isTabletOrMobileDevice ? "10px" : "14px",
                                                 fontFamily: "Poppins-Regular"
                                             }}>{item.heading}</Text>
@@ -77,7 +77,7 @@ const InspirationSection = () => {
                                     },
                                     b: {
                                         render: () => (
-                                            <Text textAlign={"center"} style={{
+                                            <Text  textAlign={"center"} margin={{top: isTabletOrMobileDevice ? "-5px" : ""}} style={{
                                                 fontSize: isTabletOrMobileDevice ? "10px" : "14px",
                                                 fontFamily: "Poppins-Light"
                                             }}>{item.subHeading}</Text>

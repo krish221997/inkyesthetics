@@ -5,7 +5,7 @@ import {Box} from "grommet";
 const Test3DRender = () => {
     return (
         <Box align={"center"} justify={"center"}>
-            <OBJModel width={700} height={500} position={{x: -100, y: -100, z: -150}} src={"/images/3d-render.obj"}/>
+            <OBJModel width={1500} height={500} position={{x: -0, y: -100, z: -0}} src={"/images/3d-render-2.obj"}/>
 
         </Box>
     )

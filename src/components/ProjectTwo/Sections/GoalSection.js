@@ -9,7 +9,7 @@ const smallScreenProperties = {
   images: {
       a: {
           render: () => (
-              <Image src={"/images/target.svg"} height={"100px"}/>
+              <Image src={"/images/goal.svg"} height={"100px"}/>
           )
       }
   },
@@ -35,7 +35,7 @@ const smallScreenProperties = {
 const properties = {
     images: {
       a: {
-          url: "/images/target.svg"
+          url: "/images/goal.svg"
       }
     },
     text: {

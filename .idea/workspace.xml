@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/LandingFinal/LargeScreenSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/LandingFinal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/IdeationSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/IdeationSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ObservationsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ObservationsSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/TargetAudienceSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/TargetAudienceSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/UserJourneySection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/UserJourneySection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProjectOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/goal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/goal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/Test3DRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/Test3DRender.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/GoalSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/GoalSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/InspirationSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/InspirationSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectTwo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/my-ssr-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jobs-frontend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -82,6 +85,11 @@
       <workItem from="1604642898772" duration="31601000" />
       <workItem from="1604846769836" duration="627000" />
       <workItem from="1604930644204" duration="1825000" />
+      <workItem from="1604996054874" duration="10363000" />
+      <workItem from="1605016558187" duration="735000" />
+      <workItem from="1605103550485" duration="664000" />
+      <workItem from="1605117276679" duration="759000" />
+      <workItem from="1605178124522" duration="10227000" />
     </task>
     <servers />
   </component>
@@ -89,14 +97,18 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="172" y="222" width="1648" height="853" key="DiffContextDialog" timestamp="1604748018804">
+    <state x="443" y="144" width="1096" height="1015" key="CommitChangelistDialog2" timestamp="1604996101075">
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
-    <state x="172" y="222" width="1648" height="853" key="DiffContextDialog/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604748018804" />
-    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl" timestamp="1604930664771">
+    <state x="443" y="144" width="1096" height="1015" key="CommitChangelistDialog2/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604996101075" />
+    <state x="172" y="222" width="1648" height="853" key="DiffContextDialog" timestamp="1604996100225">
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
-    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604930664771" />
+    <state x="172" y="222" width="1648" height="853" key="DiffContextDialog/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604996100225" />
+    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl" timestamp="1605190636850">
+      <screen x="72" y="122" width="1848" height="1053" />
+    </state>
+    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1605190636850" />
     <state x="491" y="321" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1604277855231">
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
@@ -105,10 +117,11 @@
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
     <state x="616" y="331" width="759" height="634" key="find.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604739415514" />
-    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup" timestamp="1604742669533">
+    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup" timestamp="1605184094332">
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
-    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604742669533" />
+    <state x="523" y="113" width="873" height="1061" key="search.everywhere.popup/0.95.1920.1080/1920.0.1920.1080@0.95.1920.1080" timestamp="1605008425665" />
+    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1605184094332" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
