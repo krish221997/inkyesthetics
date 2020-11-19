@@ -13,6 +13,7 @@ import ProjectOne from "./pages/ProjectOne";
 import ProjectTwo from "./pages/ProjectTwo";
 import LandingFinal from "./pages/LandingFinal";
 import ProjectThree from "./pages/ProjectThree";
+import ProjectFour from "./pages/ProjectFour";
 
 
 const history = createBrowserHistory();
@@ -38,6 +39,7 @@ ReactDOM.render(
             <Route path="/creative-collaborations" component={ProjectOne} exact={true}/>
             <Route path="/ampmateur" component={ProjectTwo} exact={true}/>
             <Route path="/chatea" component={ProjectThree} exact={true}/>
+            <Route path="/devata-hastas" component={ProjectFour} exact={true}/>
         </Router>
     </Provider>,
 document.getElementById('root')
