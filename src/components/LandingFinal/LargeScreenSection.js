@@ -3,6 +3,7 @@ import React from "react";
 import ImageSection from "../shared/ImageSection";
 import {useMediaQuery} from "react-responsive";
 import {makeStyles} from "@material-ui/core/styles";
+import TYPES from "../../config/types";
 
 const useStyles = makeStyles(() => ({
     text: {
@@ -47,8 +48,8 @@ const LargeScreenSection = () => {
                                 fontSize: isSmallTabletDevice ? "24px" : isTabletDevice ? "30px" : isSmallLaptopDevice ? "36px" : "48px",
                                 fontFamily: "Staatliches",
                                 cursor: "pointer",
-                                textDecorationLine: 'line-through'
-                            }}>Unpacking my work!</Text>
+                                // textDecorationLine: 'line-through'
+                            }}><a className={classes.text} href={`/${TYPES.ROUTES.PROJECT_LIST}`} style={{textDecoration: "none"}}>Unpacking my work!</a></Text>
                         <Text
                             className={classes.text}
                             margin={{top: isSmallTabletDevice ? "24px" : isTabletDevice ? "30px" : isSmallLaptopDevice ? "36px" : "56px"}}

@@ -39,7 +39,7 @@ const IdeationSection = () => {
             render: () => (
                 <Box width={"100%"} align={"center"} justify={"center"}>
                     <Box gap={"medium"} pad={{top: "xsmall"}} align={"center"} width={"80%"}>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: isTabletOrMobileDevice ? "16px" : "24px"}}>Create a
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: isTabletOrMobileDevice ? "16px" : "24px", lineHeight: "35px"}}>Create a
                         customisable catalog, which would let the customer tell her their design preferences and she can
                         design around it, using her design style.</Text>
                 </Box>

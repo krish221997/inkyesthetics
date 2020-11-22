@@ -26,7 +26,7 @@ const ProductSection = () => {
                 </Box>
                 <Box width={"55%"} wrap justify={"between"} height={"100%"} margin={{left: "large"}}>
                     <Text textAlign={"start"}
-                          style={{fontFamily: "Poppins-Light", lineHeight: "40px", fontSize: "20px", marginTop: "-10px"}}>
+                          style={{fontFamily: "Poppins-Light", lineHeight: "35px", fontSize: "18px", marginTop: "-10px"}}>
                         While I picked this beverage because I enjoy drinking it, tea is also the perfect metaphor for
                         my
                         personality and characteristics. Just as tea is a social drink in many Asian cultures, I too
