@@ -15,18 +15,22 @@ import RoleSection from "../components/ProjectOne/Sections/RoleSection";
 import {useMediaQuery} from "react-responsive";
 import AffinitySectionSmall from "../components/ProjectOne/Sections/AffinitySectionSmall";
 import UserJourneySectionSmall from "../components/ProjectOne/Sections/UserJourneySectionSmall";
+import HeaderSmall from "../components/HeaderSmall";
 
 const ProjectOne = () => {
 
     const isTabletOrMobileDevice = useMediaQuery({
         query: '(max-device-width: 900px)'
-    })
+    });
+
     return (
 
         <>
-            <Box pad={{horizontal: "xlarge", vertical: "large"}}>
+            {isTabletOrMobileDevice ? <Box pad={{horizontal: "large", vertical: "large"}}>
+                <HeaderSmall/>
+            </Box> : <Box pad={{horizontal: "xlarge", vertical: "large"}}>
                 <Header/>
-            </Box>
+            </Box>}
 
             <div style={{margin: "0 auto"}}>
                 <ImageSection height={910} width={1920} image={"url(/images/cc_cover.svg)"} type={"contain"}/>

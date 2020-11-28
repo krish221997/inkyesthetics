@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="" />
+    <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingFinal/SmallScreenSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingFinal/SmallScreenSection.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +85,11 @@
       <workItem from="1605117276679" duration="759000" />
       <workItem from="1605178124522" duration="10227000" />
       <workItem from="1605777075959" duration="14226000" />
+      <workItem from="1606134135847" duration="636000" />
+      <workItem from="1606167304637" duration="1327000" />
+      <workItem from="1606218442897" duration="85000" />
+      <workItem from="1606315953255" duration="11000" />
+      <workItem from="1606587043937" duration="692000" />
     </task>
     <servers />
   </component>
@@ -97,17 +105,18 @@
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
     <state x="172" y="222" width="1648" height="853" key="DiffContextDialog/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604996100225" />
-    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl" timestamp="1605190636850">
+    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl" timestamp="1606218522730">
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
-    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1605190636850" />
+    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1606218522730" />
     <state x="491" y="321" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1604277855231">
       <screen x="72" y="122" width="1848" height="1053" />
     </state>
     <state x="491" y="321" width="1000" height="661" key="Vcs.Push.Dialog.v2/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604277855231" />
-    <state x="616" y="331" width="759" height="634" key="find.popup" timestamp="1605780364895">
-      <screen x="72" y="122" width="1848" height="1053" />
+    <state x="2485" y="214" width="789" height="651" key="find.popup" timestamp="1606167312585">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2485" y="214" width="789" height="651" key="find.popup/72.122.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606167312584" />
     <state x="616" y="331" width="759" height="634" key="find.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1605780364895" />
     <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup" timestamp="1605781578339">
       <screen x="72" y="122" width="1848" height="1053" />

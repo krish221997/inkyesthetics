@@ -5,6 +5,7 @@ import {useMediaQuery} from "react-responsive";
 import LargeScreenSection from "../components/LandingFinal/LargeScreenSection";
 import Footer from "../components/Footer";
 import SmallScreenSection from "../components/LandingFinal/SmallScreenSection";
+import HeaderSmall from "../components/HeaderSmall";
 
 const LandingFinal = () => {
 
@@ -17,7 +18,10 @@ const LandingFinal = () => {
             // <Box pad={{top: "large"}} background={"red"} fill={"vertical"}>
             //     <SmallScreenSection/>
             // </Box>
-            <Box margin={{top: "large"}}>
+            <Box>
+                <Box margin={{vertical: "large", horizontal: "large"}}>
+                    <HeaderSmall/>
+                </Box>
                 <div>
                     <SmallScreenSection/>
                 </div>

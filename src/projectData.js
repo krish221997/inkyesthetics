@@ -2,6 +2,7 @@ import TYPES from "./config/types";
 
 export const projectData = {
     0: {
+        image: "/images/list-page-cc.svg",
         heading: "Creative Collaborations",
         brief: "The local content to explore is working with traditional artisans in Kutch who are well established in " +
             "their artisanal practice. Their challenge is to draw from the best that their heritage has to offer, while " +
@@ -11,6 +12,7 @@ export const projectData = {
         url: `/${TYPES.ROUTES.CREATIVE_COLLABORATIONS}`
     },
     1: {
+        image: "/images/list-page-ampmateur.svg",
         heading: "Ampmateur, Tune to produce!",
         brief: "This application allows young and upcoming musicians to ﬁrst choose their instrument from a list of " +
             "options and then to understand notes of their own music as well as that of other artists and shape their " +
@@ -21,6 +23,7 @@ export const projectData = {
         url: `/${TYPES.ROUTES.AMPMATEUR}`
     },
     2: {
+        image: "/images/list-page-chatea.svg",
         heading: "Chatea : Package Yourself",
         brief: "You are just like a product, if you get your packaging wrong even in the most subtle of ways, it could " +
             "mean disaster to your work life, and even social death. Think about how you have packaged yourself and " +
@@ -28,6 +31,7 @@ export const projectData = {
         url: `/${TYPES.ROUTES.CHATEA}`
     },
     3: {
+        image: "/images/list-page-brahma.svg",
         heading: "Devata Hastas",
         brief: "Deconstruction, as this project treats it, is largely associated with the concept of unfolding, " +
             "peeling back layers to examine how something has been created, has been constructed. It aims to answer these " +

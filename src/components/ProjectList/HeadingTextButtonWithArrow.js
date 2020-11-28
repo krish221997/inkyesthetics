@@ -49,7 +49,6 @@ const HeadingTextButtonWithArrow = ({projectData}) => {
 };
 
 const mapStateToProps = (state) => ({
-    projectData:  state.select[TYPES.SELECT.PROJECT_DATA]
 });
 
 const mapDispatcherToProps = (dispatch) => ({

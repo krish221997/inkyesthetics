@@ -13,6 +13,7 @@ import ColorPalleteSection from "../components/ProjectThree/Sections/ColorPalett
 import LabelDesignSection from "../components/ProjectThree/Sections/LabelDesignSection";
 import ProductSection from "../components/ProjectThree/Sections/ProductSection";
 import Footer from "../components/Footer";
+import HeaderSmall from "../components/HeaderSmall";
 
 const ProjectThree = () => {
 
@@ -22,9 +23,11 @@ const ProjectThree = () => {
 
     return (
         <>
-            <Box pad={{horizontal: "xlarge", vertical: "large"}}>
+            {isTabletOrMobileDevice ? <Box pad={{horizontal: "large", vertical: "large"}}>
+                <HeaderSmall/>
+            </Box> : <Box pad={{horizontal: "xlarge", vertical: "large"}}>
                 <Header/>
-            </Box>
+            </Box>}
             <div style={{margin: "0 auto"}}>
                 <ImageSection height={842} width={1920} image={"url(/images/chatea.svg)"} type={"contain"}/>
             </div>

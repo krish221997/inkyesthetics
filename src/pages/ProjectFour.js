@@ -14,6 +14,7 @@ import SketchesSection from "../components/ProjectFour/Sections/SketchesSection"
 import CompositionSection from "../components/ProjectFour/Sections/CompositionSection";
 import FinalOutputSection from "../components/ProjectFour/Sections/FinalOutputSection";
 import Footer from "../components/Footer";
+import HeaderSmall from "../components/HeaderSmall";
 
 const ProjectFour = () => {
 
@@ -23,9 +24,11 @@ const ProjectFour = () => {
 
     return (
         <>
-            <Box pad={{horizontal: "xlarge", vertical: "large"}}>
+           {isTabletOrMobileDevice ? <Box pad={{horizontal: "large", vertical: "large"}}>
+                <HeaderSmall/>
+            </Box> : <Box pad={{horizontal: "xlarge", vertical: "large"}}>
                 <Header/>
-            </Box>
+            </Box>}
             <div style={{margin: "0 auto"}}>
                 <ImageSection height={854} width={1451} image={"url(/images/p4-cover-1.svg)"} type={"contain"}/>
             </div>

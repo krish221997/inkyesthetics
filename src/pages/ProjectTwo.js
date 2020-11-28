@@ -15,6 +15,7 @@ import BriefSection from "../components/ProjectTwo/Sections/BriefSection";
 import RoleSection from "../components/ProjectTwo/Sections/RoleSection";
 import {useMediaQuery} from "react-responsive";
 import Test3DRender from "../components/ProjectOne/Sections/Test3DRender";
+import HeaderSmall from "../components/HeaderSmall";
 
 const ProjectOne = () => {
 
@@ -25,9 +26,11 @@ const ProjectOne = () => {
     return (
 
         <>
-            <Box pad={{horizontal: "xlarge", vertical: "large"}}>
+            {isTabletOrMobileDevice ? <Box pad={{horizontal: "large", vertical: "large"}}>
+                <HeaderSmall/>
+            </Box> : <Box pad={{horizontal: "xlarge", vertical: "large"}}>
                 <Header/>
-            </Box>
+            </Box>}
             <div style={{margin: "0 auto"}}>
                 <ImageSection height={953} width={1920} image={"url(/images/cover_cc.svg)"} type={"contain"}/>
             </div>
