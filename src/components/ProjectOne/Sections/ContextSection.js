@@ -127,7 +127,7 @@ const componentTwoPropertiesSmall = {
 
 const LargeScreenSection = () => (
     <Box width={"100%"} align={"center"} justify={"center"}>
-        <Heading margin={{bottom: "150px", horizontal: "0px", top: "0px"}} level={2}
+        <Heading margin={{bottom: "30px", horizontal: "0px", top: "0px"}} level={2}
                  style={{fontFamily: "Poppins-Light", fontSize: "30px", textTransform: "uppercase"}}>Setting the
             Context</Heading>
         <Box direction={"row"} width={"100%"}>
@@ -147,7 +147,7 @@ const LargeScreenSection = () => (
 
 const SmallScreenSection = () => (
     <Box width={"100%"} align={"center"} justify={"center"}>
-        <Heading margin={{bottom: "80px", horizontal: "0px", top: "0px"}} level={2}
+        <Heading margin={{bottom: "20px", horizontal: "0px", top: "0px"}} level={2}
                  style={{fontFamily: "Poppins-Light", fontSize: "20px", textTransform: "uppercase"}}>Setting the
             Context
         </Heading>
