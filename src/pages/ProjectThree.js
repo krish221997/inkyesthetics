@@ -1,5 +1,5 @@
 import {useMediaQuery} from "react-responsive";
-import React from "react";
+import React, {useEffect} from "react";
 import Header from "../components/Header";
 import {Box, Heading, Image} from "grommet";
 import ImageSection from "../components/shared/ImageSection";
@@ -14,12 +14,22 @@ import LabelDesignSection from "../components/ProjectThree/Sections/LabelDesignS
 import ProductSection from "../components/ProjectThree/Sections/ProductSection";
 import Footer from "../components/Footer";
 import HeaderSmall from "../components/HeaderSmall";
+import {connect} from "react-redux";
+import ProjectSection from "../components/shared/ProjectSection";
 
-const ProjectThree = () => {
+const ProjectThree = ({setNextAndPreviousProjectFlow}) => {
+
+    useEffect(() => {
+        setNextAndPreviousProjectFlow({currentProject: 2});
+    }, []);
 
     const isTabletOrMobileDevice = useMediaQuery({
         query: '(max-device-width: 900px)'
-    })
+    });
+
+    const isSmallScreenCoverImage = useMediaQuery({
+        query: '(max-device-width: 375px)'
+    });
 
     return (
         <>
@@ -28,9 +38,11 @@ const ProjectThree = () => {
             </Box> : <Box pad={{horizontal: "xlarge", vertical: "large"}}>
                 <Header/>
             </Box>}
-            <div style={{margin: "0 auto"}}>
+            {isSmallScreenCoverImage ?<div style={{margin: "0 auto"}}>
+                <ImageSection height={315} width={378} image={"url(/images/chatea-cover-small.svg)"} type={"contain"}/>
+            </div> : <div style={{margin: "0 auto"}}>
                 <ImageSection height={842} width={1920} image={"url(/images/chatea.svg)"} type={"contain"}/>
-            </div>
+            </div>}
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
                 <BriefSection/>
             </Box>
@@ -68,12 +80,22 @@ const ProjectThree = () => {
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
                 <ProductSection/>
             </Box>
+             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
+                <ProjectSection/>
+            </Box>
             <Box width={"100%"} direction={"column"}
-                 pad={{horizontal: "large", top: "xlarge", bottom: "large"}}>
+                 pad={{horizontal: "large", top: isTabletOrMobileDevice ? "120px" : "150px", bottom: "large"}}>
                 <Footer/>
             </Box>
         </>
     )
 };
 
-export default ProjectThree;
+const mapStateToProps = (state) => ({
+});
+
+const mapDispatcherToProps = (dispatch) => ({
+    setNextAndPreviousProjectFlow: dispatch.flow.setNextAndPreviousProject
+});
+
+export default connect(mapStateToProps, mapDispatcherToProps)(ProjectThree);

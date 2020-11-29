@@ -12,7 +12,9 @@ const TYPES = {
 
     },
     SELECT: {
-        PROJECT_DATA: "project-data"
+        PROJECT_DATA: "project-data",
+        NEXT_PROJECT_DATA: "next-project-data",
+        PREVIOUS_PROJECT_DATA: "previous-project-data",
     },
     PROJECT: {
       HEADING: "heading",
