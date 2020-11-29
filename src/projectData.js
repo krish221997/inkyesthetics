@@ -10,7 +10,7 @@ export const projectData = {
         url: `/${TYPES.ROUTES.CREATIVE_COLLABORATIONS}`
     },
     1: {
-        image: "/images/list-page-ampmateur.png",
+        image: "/images/list-page-amp.png",
         heading: "Ampmateur, Tune to produce!",
         brief: "This application is aimed at young and upcoming musicians to empower them to\n" +
             "                    discover and create music. They begin their journey AMPMATEUR by picking their instrument of choice\n" +
