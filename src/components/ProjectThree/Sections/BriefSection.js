@@ -23,10 +23,8 @@ const bigScreenBriefSectionProperties = {
                         textTransform: "uppercase",
                         fontFamily: "Poppins-SemiBold",
                         fontSize: "18px"
-                    }}>Brief: </Text>You are just like a product, if you get your packaging wrong even in the most
-                    subtle of ways, it could mean disaster to your work life, and even social death. Think about how you
-                    have packaged yourself and whether it really represents who you are and what you aspire to
-                    be.</Text>
+                    }}>Brief: </Text>You are just like a product. If you get your packaging wrong even in the most
+                    subtle of ways, it could mean disaster to your work life, and even social death.</Text>
             )
         }
     }
@@ -50,10 +48,8 @@ const smallScreenBriefSectionProperties = {
                         textTransform: "uppercase",
                         fontFamily: "Poppins-SemiBold",
                         fontSize: "12px"
-                    }}>Brief: </Text>You are just like a product, if you get your packaging wrong even in the most
-                    subtle of ways, it could mean disaster to your work life, and even social death. Think about how you
-                    have packaged yourself and whether it really represents who you are and what you aspire to
-                    be.</Text>
+                    }}>Brief: </Text>How would you package yourself? Does it really represent who you are and what you
+                    aspire to be? </Text>
             )
         }
     }

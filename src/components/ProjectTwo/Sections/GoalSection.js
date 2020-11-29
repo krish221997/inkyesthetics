@@ -6,37 +6,48 @@ import BlockImageWithHeaderAndSubHeader from "../../shared/Blocks/Block-image-wi
 
 
 const smallScreenProperties = {
-  images: {
-      a: {
-          render: () => (
-              <Image src={"/images/goal.svg"} height={"100px"}/>
-          )
-      }
-  },
-    text: {
-      a: {
-        render: () => (
-            <Heading level={2} margin={"0px"} style={{textTransform: "uppercase", fontFamily: "Poppins-Light", fontSize: "20px"}}>Goal</Heading>
-        )
-      },
-      b: {
+    images: {
+        a: {
             render: () => (
-                    <Box gap={"small"} pad={{top: "medium"}}>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Better learning experience for amateur musicians</Text>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Build a community</Text>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Interact with other peoples craft</Text>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Provide an engaging app</Text>
-                    </Box>
-                )
+                <Image src={"/images/goal.svg"} height={"100px"}/>
+            )
+        }
+    },
+    text: {
+        a: {
+            render: () => (
+                <Heading level={2} margin={"0px"} style={{
+                    textTransform: "uppercase",
+                    fontFamily: "Poppins-Light",
+                    fontSize: "20px"
+                }}>Goal</Heading>
+            )
+        },
+        b: {
+            render: () => (
+                <Box gap={"small"} pad={{top: "medium"}}>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Provide a
+                        holistic learning experience for amateur musicians, from developing basic skills to exposure to
+                        new music and other artists </Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Build a community
+                        of artist for cross-communication of knowledge and discovery
+                    </Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Enable exposure
+                        through visibility and interaction with other artists’ craft
+                    </Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Deliver an
+                        engaging app</Text>
+                </Box>
+            )
         }
     }
 };
 
 const properties = {
     images: {
-      a: {
-          url: "/images/goal.svg"
-      }
+        a: {
+            url: "/images/goal.svg"
+        }
     },
     text: {
         a: {
@@ -44,13 +55,17 @@ const properties = {
         },
         b: {
             render: () => (
-                    <Box gap={"medium"}>
-                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Better learning experience for amateur musicians</Text>
-                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Build a community</Text>
-                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Interact with other peoples craft</Text>
-                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Provide an engaging app</Text>
-                    </Box>
-                )
+                <Box gap={"medium"}>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Better learning
+                        experience for amateur musicians</Text>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Build a
+                        community</Text>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Interact with
+                        other peoples craft</Text>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Provide an
+                        engaging app</Text>
+                </Box>
+            )
         }
     }
 }
@@ -64,14 +79,14 @@ const GoalSection = () => {
     return (
         <Box width={"100%"}>
             {
-                isTabletOrMobileDevice ? <BlockImageWithHeaderAndSubHeader properties={smallScreenProperties}/> : <BlockImageWithHeaderAndParagraph properties={properties}/>
+                isTabletOrMobileDevice ? <BlockImageWithHeaderAndSubHeader properties={smallScreenProperties}/> :
+                    <BlockImageWithHeaderAndParagraph properties={properties}/>
             }
         </Box>
     )
 };
 
 export default GoalSection;
-
 
 
 // import BlockImageWithHeaderAndParagraph from "../../shared/Blocks/Block-image-with-header-and-paragraph";

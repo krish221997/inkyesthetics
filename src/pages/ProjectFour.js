@@ -17,6 +17,7 @@ import Footer from "../components/Footer";
 import HeaderSmall from "../components/HeaderSmall";
 import {connect} from "react-redux";
 import ProjectSection from "../components/shared/ProjectSection";
+import IllustrationsSection from "../components/ProjectFour/Sections/IllustrationsSection";
 
 const ProjectFour = ({setNextAndPreviousProjectFlow}) => {
 
@@ -70,6 +71,9 @@ const ProjectFour = ({setNextAndPreviousProjectFlow}) => {
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
                 <SketchesSection/>
+            </Box>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
+                <IllustrationsSection/>
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
                 <CompositionSection/>

@@ -18,7 +18,7 @@ import ImageSection from "../../shared/ImageSection";
 
 const images = [
     {
-        image: "/images/p3-font.svg"
+        image: "/images/cardo.svg"
     },
     {
         image: "/images/p3-font.svg"
@@ -51,14 +51,6 @@ const FontSection = () => {
                 fontSize: isTabletOrMobileDevice ? "20px" : "30px",
                 textTransform: "uppercase"
             }}>Fonts</Heading>
-            {/*<Box as="div" style={isTabletOrMobileDevice ? smallBoxStyle : boxStyle} direction="row" wrap width={"100%"}>*/}
-            {/*    <Box>*/}
-            {/*        <Image height={isTabletOrMobileDevice ? "150px" : ""} src={"/images/p3-font.svg"}/>*/}
-            {/*    </Box>*/}
-            {/*    <Box>*/}
-            {/*        <Image height={isTabletOrMobileDevice ? "150px" : ""} src={"/images/p3-font.svg"}/>*/}
-            {/*    </Box>*/}
-            {/*</Box>*/}
             <Box direction={"row"} style={boxStyle(isTabletOrMobileDevice)} as={"div"}>
                 {images.map((img, index) => (
                     <div>

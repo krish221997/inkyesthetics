@@ -7,6 +7,10 @@ const FinalOutputSection = () => {
 
     const isTabletOrMobileDevice = useMediaQuery({
         query: '(max-device-width: 900px)'
+    });
+
+     const isMobileFinalOutput = useMediaQuery({
+        query: '(max-device-width: 400px)'
     })
 
     return (
@@ -18,13 +22,15 @@ const FinalOutputSection = () => {
                 textTransform: "uppercase"
             }}>Final Output</Heading>
             <div style={{margin: "0 auto"}}>
-                <ImageSection height={854} width={1451} image={"url(/images/final-1.svg)"}
-                              type={"contain"}/>
+                {isMobileFinalOutput ? <ImageSection height={181} width={307} image={"url(/images/final-output-1.svg)"}
+                              type={"contain"}/> : <ImageSection height={854} width={1451} image={"url(/images/final-1.svg)"}
+                              type={"contain"}/>}
             </div>
            <div style={{marginTop: isTabletOrMobileDevice ? "30px" : "50px"}}>
                 <div style={{margin: "0 auto"}}>
-                <ImageSection height={854} width={1451} image={"url(/images/final-2.svg)"}
-                              type={"contain"}/>
+                    {isMobileFinalOutput ? <ImageSection height={181} width={307} image={"url(/images/final-output-2.svg)"}
+                              type={"contain"}/> : <ImageSection height={854} width={1451} image={"url(/images/final-2.svg)"}
+                                   type={"contain"}/>}
             </div>
            </div>
         </div>

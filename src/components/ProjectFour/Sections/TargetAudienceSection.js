@@ -24,14 +24,13 @@ const smallScreenProperties = {
         b: {
             render: () => (
                 <Box gap={"small"} pad={{top: "medium"}}>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>People you simply
-                        come for the tuning purpose</Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Learning
-                        Experience - Amateur musicians</Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Explorations of
-                        others music</Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Interaction with
-                        other artist</Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Students of
+                        Bharatnatyam</Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Proficient
+                        dancers and practitioners of classical dances </Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>People who would
+                        enjoy having or reading an artistic coffee-table book related to Indian mythology.
+                    </Text>
                 </Box>
             )
         }
@@ -51,12 +50,12 @@ const properties = {
         b: {
             render: () => (
                 <Box gap={"medium"}>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Students who are
-                        currently learning Bharatnatyam</Text>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>People who have
-                        learnt and now practice the classical dance</Text>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>People who like
-                        having coffee table artistic book related to the Indian mythology.</Text>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Students of
+                        Bharatnatyam</Text>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Proficient dancers
+                        and practitioners of classical dances </Text>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>People who would
+                        enjoy having or reading an artistic coffee-table book related to Indian mythology.</Text>
                 </Box>
             )
         }

@@ -22,10 +22,10 @@ const smallScreenProperties = {
       b: {
             render: () => (
                     <Box gap={"small"} pad={{top: "medium"}}>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>People you simply come for the tuning purpose</Text>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Learning Experience - Amateur musicians</Text>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Explorations of others music</Text>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Interaction with other artist</Text>
+                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Instrumentalists, here for tuning purposes </Text>
+                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Amatuer musicians, here for the learning experience</Text>
+                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Music enthusiasts, here for explorations and new music</Text>
+                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Community artists, here for interactions and engagement</Text>
                     </Box>
                 )
         }
@@ -45,10 +45,10 @@ const properties = {
         b: {
             render: () => (
                     <Box gap={"medium"}>
-                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>People you simply come for the tuning purpose</Text>
-                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Learning Experience - Amateur musicians</Text>
-                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Explorations of others music</Text>
-                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Interaction with other artist</Text>
+                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Instrumentalists, here for tuning purposes </Text>
+                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Amatuer musicians, here for the learning experience</Text>
+                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Music enthusiasts, here for explorations and new music</Text>
+                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Community artists, here for interactions and engagement</Text>
                     </Box>
                 )
         }

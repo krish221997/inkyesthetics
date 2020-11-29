@@ -26,15 +26,17 @@ const smallScreenProperties = {
         b: {
             render: () => (
                 <Box gap={"medium"} pad={{top: "medium"}}>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Tuning Setting -
-                         for string instruments.</Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Discover and Learn
-                         music by artist- If you are in a space and you record a song by some artist, you will
-                         immediately know what song it is, you can then choose your instrument, tune it and learn the
-                         chords (the app detects chords of songs that have been shared on it, hence you can learn music
-                         that is produced by other amateur musicians)</Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Share - A platform
-                         you can share your craft with the rest of the community</Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Tuning guide for
+                        string instruments</Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Discover new
+                        music by the app’s record and recognise feature</Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Learn music from
+                        other professional and amateur artists by picking a song and choosing your instrument for the
+                        corresponding chords
+                    </Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Share craft and
+                        queries with the rest of the musical community
+                    </Text>
                 </Box>
             )
         }
@@ -54,15 +56,17 @@ const properties = {
         b: {
             render: () => (
                 <Box gap={"medium"}>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Tuning Setting -
-                         for string instruments.</Text>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Discover and Learn
-                         music by artist- If you are in a space and you record a song by some artist, you will
-                         immediately know what song it is, you can then choose your instrument, tune it and learn the
-                         chords (the app detects chords of songs that have been shared on it, hence you can learn music
-                         that is produced by other amateur musicians)</Text>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Share - A platform
-                         you can share your craft with the rest of the community</Text>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Tuning guide for
+                        string instruments</Text>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Discover new music
+                        by the app’s record and recognise feature</Text>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Learn music from
+                        other professional and amateur artists by picking a song and choosing your instrument for the
+                        corresponding chords
+                    </Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Share craft and
+                        queries with the rest of the musical community
+                    </Text>
                 </Box>
             )
         }

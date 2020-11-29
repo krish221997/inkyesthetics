@@ -23,18 +23,15 @@ const bigScreenBriefSectionProperties = {
                         textTransform: "uppercase",
                         fontFamily: "Poppins-SemiBold",
                         fontSize: "18px"
-                    }}>Brief: </Text>This application allows young and upcoming musicians to ﬁrst choose their
-                    instrument from a list
-                    of
-                    options and then to understand notes of their own music as well as that of other artists and
-                    shape
-                    their tunes with precision to perfection. It is also a forum to share their craft, queries, and
-                    learnings. Also, this would be an application where the artist can record a music piece if it is
-                    an
-                    original, then they can access the information about the song,
-                    the genre, tuning settings, as well as the chords that need to be played. he aim of the application
-                    is not only
-                    to tune but also to help produce.</Text>
+                    }}>Brief: </Text>This application is aimed at young and upcoming musicians to empower them to
+                    discover and create music. They begin their journey AMPMATEUR by picking their instrument of choice
+                    from the given list and move on to understand notes of their own music as well as that of other
+                    artists and shape their tunes with precision to perfection. The app doubles as a community forum
+                    where budding artists share their craft, queries, and learnings. With the universalised
+                    accessibility to recorded songs, artists can avail information on any song, its genre, tuning
+                    setting, as well as chords. Since the application aims to not only tune but also help produce, it
+                    enables users to also record original music compositions.
+                </Text>
             )
         }
     }
@@ -58,18 +55,15 @@ const smallScreenBriefSectionProperties = {
                         textTransform: "uppercase",
                         fontFamily: "Poppins-SemiBold",
                         fontSize: "12px"
-                    }}>Brief: </Text>This application allows young and upcoming musicians to ﬁrst choose their
-                    instrument from a list
-                    of
-                    options and then to understand notes of their own music as well as that of other artists and
-                    shape
-                    their tunes with precision to perfection. It is also a forum to share their craft, queries, and
-                    learnings. Also, this would be an application where the artist can record a music piece if it is
-                    an
-                    original, then they can access the information about the song,
-                    the genre, tuning settings, as well as the chords that need to be played. he aim of the application
-                    is not only
-                    to tune but also to help produce.</Text>
+                    }}>Brief: </Text>This application is aimed at young and upcoming musicians to empower them to
+                    discover and create music. They begin their journey AMPMATEUR by picking their instrument of choice
+                    from the given list and move on to understand notes of their own music as well as that of other
+                    artists and shape their tunes with precision to perfection. The app doubles as a community forum
+                    where budding artists share their craft, queries, and learnings. With the universalised
+                    accessibility to recorded songs, artists can avail information on any song, its genre, tuning
+                    setting, as well as chords. Since the application aims to not only tune but also help produce, it
+                    enables users to also record original music compositions.
+                </Text>
             )
         }
     }

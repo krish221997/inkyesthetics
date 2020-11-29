@@ -20,6 +20,7 @@ import ProjectSection from "../components/shared/ProjectSection";
 import TYPES from "../config/types";
 import {connect} from "react-redux";
 import ContextSection from "../components/ProjectOne/Sections/ContextSection";
+import ContextTextSection from "../components/ProjectOne/Sections/ContextTextSection";
 
 const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
 
@@ -57,6 +58,9 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "200px" : "270px"}}>
                 <ContextSection/>
+            </Box>
+             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "200px" : "270px"}}>
+                <ContextTextSection/>
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "200px" : "270px"}}>
                 <ImageWithTextSection/>
@@ -108,7 +112,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                     </Text>
                 </Box>
                 <div style={{margin: "0 auto"}}>
-                    <ImageSection height={930} width={1945} image={"url(/images/empathy-fix.svg)"} type={"contain"}/>
+                    <ImageSection height={500} width={1588} image={"url(/images/testingContext.svg)"} type={"contain"}/>
                 </div>
             </div>
             <div style={{marginTop: isTabletOrMobileDevice ? "150px" : "200px"}} align={"center"}>

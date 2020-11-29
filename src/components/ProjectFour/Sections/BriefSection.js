@@ -3,14 +3,9 @@ import React from "react";
 import genericTextRenderer from "../../../utils/genericTextRenderer";
 import {useMediaQuery} from "react-responsive";
 
-const brief = "Deconstruction, as this project treats it, is largely associated with the concept of unfolding, " +
-    "peeling back layers to examine how something has been created, has been constructed. It aims to answer these " +
-    "questions: why has it been put together the way it is? What is the purpose of it being built in this way?\n" +
-    "In the field of Visual Communication and Strategic Branding, deconstruction can apply to the breaking down of " +
-    "a brand into its basic elements: an idea, its conception, its production, and its execution. \n" +
-    "The aim of this project is to deconstruct the ‘Devatha Hasthas’ of Bharatnatyam. The project examines the hand " +
-    "gestures or Hasthas, the incantations or shlokas that describe them, and their attached significance to the god " +
-    "or Devatha, communicates the same.";
+const brief = "Deconstruction, as this project treats it, is largely associated with the concept of unfolding, peeling back layers to examine how something has been created, has been constructed. It aims to answer these questions: why has it been put together the way it is? What is the purpose of it being built in this way?\n" +
+    "In the field of Visual Communication and Strategic Branding, deconstruction can apply to the breaking down of a brand into its basic elements: an idea, its conception, its production, and its execution. \n" +
+    "The aim of this project is to deconstruct the ‘Devatha Hasthas’ of Bharatnatyam. The project examines the hand gestures or Hasthas, the incantations or shlokas that describe them, and their attached significance to the god or Devatha.\n";
 
 const name = "Brief: "
 
@@ -30,11 +25,11 @@ const bigScreenBriefSectionProperties = {
             render: () => (
                 <Text style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>
                     <Text
-                    style={{
-                        textTransform: "uppercase",
-                        fontFamily: "Poppins-SemiBold",
-                        fontSize: "18px"
-                    }}>{name}
+                        style={{
+                            textTransform: "uppercase",
+                            fontFamily: "Poppins-SemiBold",
+                            fontSize: "18px"
+                        }}>{name}
                     </Text>
                     {brief}
                 </Text>

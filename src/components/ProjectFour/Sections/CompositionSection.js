@@ -17,34 +17,40 @@ const boxStyle = (isTabletOrMobileDevice) => {
 
 const images = [
     {
-        image: "/images/composition-1.svg"
+        image: "/images/1.png"
     },
     {
-        image: "/images/composition-2.svg"
+        image: "/images/2.png"
     },
     {
-        image: "/images/composition-3.svg"
+        image: "/images/3.png"
     },
     {
-        image: "/images/composition-4.svg"
+        image: "/images/4.png"
     },
     {
-        image: "/images/composition-5.svg"
+        image: "/images/5.png"
     },
     {
-        image: "/images/composition-6.svg"
+        image: "/images/6.png"
     },
     {
-        image: "/images/composition-7.svg"
+        image: "/images/7.png"
     },
     {
-        image: "/images/composition-8.svg"
+        image: "/images/8.png"
     },
     {
-        image: "/images/composition-9.svg"
+        image: "/images/9.png"
     },
     {
-        image: "/images/composition-10.svg"
+        image: "/images/10.png"
+    },
+    {
+        image: "/images/11.png"
+    },
+    {
+        image: "/images/12.png"
     }
 ]
 
