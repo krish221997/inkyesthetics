@@ -18,6 +18,7 @@ import Test3DRender from "../components/ProjectOne/Sections/Test3DRender";
 import HeaderSmall from "../components/HeaderSmall";
 import {connect} from "react-redux";
 import ProjectSection from "../components/shared/ProjectSection";
+import AimSection from "../components/ProjectTwo/Sections/AimSection";
 
 const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
 
@@ -55,10 +56,13 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
                 <RoleSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "200px" : "250px"}}>
+                <AimSection/>
+            </Box>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "200px" : "250px"}}>
                 <FunctionsSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "200px" : "250px"}}>
                 <InspirationSection/>
             </Box>
              <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>

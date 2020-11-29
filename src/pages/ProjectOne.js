@@ -1,4 +1,4 @@
-import {Box, Heading} from "grommet";
+import {Box, Heading, Text} from "grommet";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import React, {useEffect} from "react";
@@ -19,6 +19,7 @@ import HeaderSmall from "../components/HeaderSmall";
 import ProjectSection from "../components/shared/ProjectSection";
 import TYPES from "../config/types";
 import {connect} from "react-redux";
+import ContextSection from "../components/ProjectOne/Sections/ContextSection";
 
 const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
 
@@ -26,7 +27,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
         query: '(max-device-width: 900px)'
     });
 
-     const isSmallScreenCoverImage = useMediaQuery({
+    const isSmallScreenCoverImage = useMediaQuery({
         query: '(max-device-width: 378px)'
     });
 
@@ -43,7 +44,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                 <Header/>
             </Box>}
 
-            {isSmallScreenCoverImage ?<div style={{margin: "0 auto"}}>
+            {isSmallScreenCoverImage ? <div style={{margin: "0 auto"}}>
                 <ImageSection height={315} width={375} image={"url(/images/cc-cover-small.svg)"} type={"contain"}/>
             </div> : <div style={{margin: "0 auto"}}>
                 <ImageSection height={910} width={1920} image={"url(/images/cc_cover.svg)"} type={"contain"}/>
@@ -53,6 +54,9 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
                 <RoleSection/>
+            </Box>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "200px" : "270px"}}>
+                <ContextSection/>
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "200px" : "270px"}}>
                 <ImageWithTextSection/>
@@ -75,8 +79,41 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
             <Box pad={{horizontal: "xlarge"}} margin={{top: "200px"}}>
                 <IdeationSection/>
             </Box>
-            <div style={{marginTop: "200px"}} align={"center"}>
-                <Heading margin={{bottom: isTabletOrMobileDevice ? "20px" : "24px", horizontal: "0px", top: "0px"}} level={2} style={{
+            <div style={{marginTop: isTabletOrMobileDevice ? "150px" : "200px"}} align={"center"}>
+                <Heading margin={{bottom: isTabletOrMobileDevice ? "20px" : "24px", horizontal: "0px", top: "0px"}}
+                         textAlign={"center"} level={2} style={{
+                    fontFamily: "Poppins-Light",
+                    fontSize: isTabletOrMobileDevice ? "20px" : "30px",
+                    textTransform: "uppercase"
+                }}>Testing the concept</Heading>
+                <Box align={"center"} justify={"center"} width={"60%"}>
+                    <Text
+                          textAlign={"center"}
+                          style={{fontFamily: "Poppins-Light", fontSize: isTabletOrMobileDevice ? "12px" : "18px"}}>
+                        As soon as I got an idea, I decided to see if my concept worked. I tried these activities on
+                        paper
+                        but I failed. Hence I asked her why she was so confused with these alpabets and numbers. ‘The A
+                        in
+                        coloumn 1 wasn’t same and in column 2’ she replied(because of my handwriting). by this I noticed
+                        that she was looking at the precision of the alphabet ( a design to her).
+
+                    </Text>
+                </Box>
+                <Box align={"center"} justify={"center"} width={"60%"}>
+                    <Text margin={{bottom: isTabletOrMobileDevice ? "medium" : "large", horizontal: "0px", top: "0px"}}
+                          textAlign={"center"}
+                          style={{fontFamily: "Poppins-Light", fontSize: isTabletOrMobileDevice ? "12px" : "18px"}}>
+                        I rushed to a local printed and printed these activities which she responded positively.
+
+                    </Text>
+                </Box>
+                <div style={{margin: "0 auto"}}>
+                    <ImageSection height={930} width={1945} image={"url(/images/empathy-fix.svg)"} type={"contain"}/>
+                </div>
+            </div>
+            <div style={{marginTop: isTabletOrMobileDevice ? "150px" : "200px"}} align={"center"}>
+                <Heading margin={{bottom: isTabletOrMobileDevice ? "20px" : "24px", horizontal: "0px", top: "0px"}}
+                         level={2} style={{
                     fontFamily: "Poppins-Light",
                     fontSize: isTabletOrMobileDevice ? "20px" : "30px",
                     textTransform: "uppercase"
@@ -97,8 +134,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
 
 };
 
-const mapStateToProps = (state) => ({
-});
+const mapStateToProps = (state) => ({});
 
 const mapDispatcherToProps = (dispatch) => ({
     setNextAndPreviousProjectFlow: dispatch.flow.setNextAndPreviousProject

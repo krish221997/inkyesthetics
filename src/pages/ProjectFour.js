@@ -75,9 +75,6 @@ const ProjectFour = ({setNextAndPreviousProjectFlow}) => {
                 <CompositionSection/>
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
-                <SketchesSection/>
-            </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
                 <FinalOutputSection/>
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>

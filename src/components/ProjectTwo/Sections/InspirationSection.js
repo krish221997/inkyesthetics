@@ -5,7 +5,7 @@ import {useMediaQuery} from "react-responsive";
 
 const data = [
     {
-        image: "/images/shaazam.svg",
+        image: "/images/guitar.svg",
         heading: "Guitar Tuna",
         subHeading: "understanding chords"
     },

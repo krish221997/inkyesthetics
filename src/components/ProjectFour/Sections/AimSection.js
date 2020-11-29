@@ -1,14 +1,73 @@
-import {Box, Heading, Text} from "grommet";
+import BlockImageWithHeaderAndParagraph from "../../shared/Blocks/Block-image-with-header-and-paragraph";
 import React from "react";
+import {Box, Heading, Image, Text} from "grommet";
 import {useMediaQuery} from "react-responsive";
+import BlockImageWithHeaderAndSubHeader from "../../shared/Blocks/Block-image-with-header-and-subheader";
 
 
-const sectionData = {
-    title: "Aim",
-    subHeading1: "This project aims to deconstruct the concept of Devatha hasthas.",
-    subHeading2: "The text explains to the dancer how to denote each god or goddess through her body. This includes the " +
-        "exact mudra (gesture) to be held as well as its position in relation to the body.",
+const smallScreenProperties = {
+    images: {
+        a: {
+            render: () => (
+                <Image src={"/images/goal.svg"} height={"100px"}/>
+            )
+        }
+    },
+    text: {
+        a: {
+            render: () => (
+                <Heading level={2} margin={"0px"} style={{
+                    textTransform: "uppercase",
+                    fontFamily: "Poppins-Light",
+                    fontSize: "20px"
+                }}>Aim</Heading>
+            )
+        },
+        b: {
+            render: () => (
+                <Box gap={"medium"} pad={{top: "medium"}}>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>This project aims
+                        to deconstruct the concept of Devatha hasthas</Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>he text explains
+                        to the dancer how to denote each god or goddess through the body, including the exact mudra
+                        (gesture) to be held as well as its position in relation to the body; an important aid as many
+                        pieces are narratives on the Gods.</Text>
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>The visual
+                        compositions serve as mnemonic devices, for the names and meanings of the shloka and some
+                        information on the deity.</Text>
+                </Box>
+            )
+        }
+    }
 };
+
+const properties = {
+    images: {
+        a: {
+            url: "/images/goal.svg"
+        }
+    },
+    text: {
+        a: {
+            value: "Aim"
+        },
+        b: {
+            render: () => (
+                <Box gap={"medium"}>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>This project aims
+                        to deconstruct the concept of Devatha hasthas</Text>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>he text explains
+                        to the dancer how to denote each god or goddess through the body, including the exact mudra
+                        (gesture) to be held as well as its position in relation to the body; an important aid as many
+                        pieces are narratives on the Gods.</Text>
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>The visual
+                        compositions serve as mnemonic devices, for the names and meanings of the shloka and some
+                        information on the deity.</Text>
+                </Box>
+            )
+        }
+    }
+}
 
 const AimSection = () => {
 
@@ -17,28 +76,13 @@ const AimSection = () => {
     });
 
     return (
-        <Box width={"100%"} align={"center"} justify={"center"}>
-            <Heading margin={{bottom: isTabletOrMobileDevice ? "20px" : "24px", horizontal: "0px", top: "0px"}}
-                     level={2} style={{
-                fontFamily: "Poppins-Light",
-                fontSize: isTabletOrMobileDevice ? "20px" : "30px",
-                textTransform: "uppercase"
-            }}>{sectionData.title}</Heading>
-            <Box align={"center"} justify={"center"} width={isTabletOrMobileDevice ? "100%" : "70%"}>
-                <Text
-                      textAlign={"center"}
-                      style={{fontSize: isTabletOrMobileDevice ? "11px" : "16px", fontFamily: "Poppins-Light"}}>
-                    {sectionData.subHeading1}
-                </Text>
-                <Text margin={{bottom: isTabletOrMobileDevice ? "small" : "small", horizontal: "0px", top: "0px"}}
-                      textAlign={"center"}
-                      style={{fontSize: isTabletOrMobileDevice ? "11px" : "16px", fontFamily: "Poppins-Light"}}>
-                    {sectionData.subHeading2}
-                </Text>
-            </Box>
+        <Box width={"100%"}>
+            {
+                isTabletOrMobileDevice ? <BlockImageWithHeaderAndSubHeader properties={smallScreenProperties}/> :
+                    <BlockImageWithHeaderAndParagraph properties={properties}/>
+            }
         </Box>
     )
-
 };
 
 export default AimSection;
