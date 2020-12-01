@@ -11,7 +11,7 @@ export const projectData = {
     },
     1: {
         image: "/images/list-page-amp.png",
-        heading: "Ampmateur, Tune to produce!",
+        heading: "Ampmateur",
         brief: "This application is aimed at young and upcoming musicians to empower them to\n" +
             "                    discover and create music. They begin their journey AMPMATEUR by picking their instrument of choice\n" +
             "                    from the given list and move on to understand notes of their own music as well as that of other\n" +
@@ -24,7 +24,7 @@ export const projectData = {
     },
     2: {
         image: "/images/list-page-chatea.png",
-        heading: "Chatea : Package Yourself",
+        heading: "Chatea",
         brief: "How would you package yourself? Does it really represent who you are and what you\n" +
             "                    aspire to be?",
         url: `/${TYPES.ROUTES.CHATEA}`
