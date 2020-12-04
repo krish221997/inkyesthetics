@@ -3,7 +3,7 @@ import React from "react";
 import {Box, Heading, Image, Text} from "grommet";
 import {useMediaQuery} from "react-responsive";
 import BlockImageWithHeaderAndSubHeader from "../../shared/Blocks/Block-image-with-header-and-subheader";
-
+import theme from "../../../styles/theme";
 
 const smallScreenProperties = {
     images: {
@@ -19,20 +19,20 @@ const smallScreenProperties = {
                 <Heading level={2} margin={"0px"} style={{
                     textTransform: "uppercase",
                     fontFamily: "Poppins-Light",
-                    fontSize: "20px"
+                    fontSize: theme.fontSize.smallScreen.xlarge
                 }}>Aim</Heading>
             )
         },
         b: {
             render: () => (
                 <Box gap={"medium"} pad={{top: "medium"}}>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>TThis project
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>This project
                         aims to deconstruct the concept of Devatha hasthas.</Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>The text explains
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>The text explains
                         to the dancer how to denote each god or goddess through the body, including the exact mudra
                         (gesture) to be held as well as its position in relation to the body; an important aid as many
                         pieces are narratives on the Gods. </Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>TThe visual
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>The visual
                         compositions serve as mnemonic devices, for the names and meanings of the shloka and some
                         information on the deity. </Text>
                 </Box>
@@ -54,13 +54,13 @@ const properties = {
         b: {
             render: () => (
                 <Box gap={"medium"}>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>TThis project aims
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>This project aims
                         to deconstruct the concept of Devatha hasthas.</Text>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>The text explains
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>The text explains
                         to the dancer how to denote each god or goddess through the body, including the exact mudra
                         (gesture) to be held as well as its position in relation to the body; an important aid as many
                         pieces are narratives on the Gods. </Text>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>TThe visual
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>The visual
                         compositions serve as mnemonic devices, for the names and meanings of the shloka and some
                         information on the deity. </Text>
                 </Box>

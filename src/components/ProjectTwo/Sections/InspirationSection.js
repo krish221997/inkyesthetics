@@ -2,6 +2,7 @@ import {Box, Heading, Image, Text} from "grommet";
 import React from "react";
 import BlockImageWithHeadingAndText from "../../shared/Blocks/Block-image-with-heading-and-text";
 import {useMediaQuery} from "react-responsive";
+import theme from "../../../styles/theme";
 
 const data = [
     {
@@ -49,7 +50,7 @@ const InspirationSection = () => {
             <Heading level={2} margin={"0px"} style={{
                 textTransform: "uppercase",
                 fontFamily: "Poppins-Light",
-                fontSize: isTabletOrMobileDevice ? "20px" : "30px"
+                fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge
             }}>Inspiration</Heading>
             <Box as="div" style={isTabletOrMobileDevice ? smallBoxStyle : boxStyle} direction="row" wrap
                  width={isTabletOrMobileDevice ? "100%" : "85%"} align={"center"} justify={"center"}>
@@ -70,7 +71,7 @@ const InspirationSection = () => {
                                     a: {
                                         render: () => (
                                             <Text textAlign={"center"} margin={{top: isTabletOrMobileDevice ? "small" : "medium"}} style={{
-                                                fontSize: isTabletOrMobileDevice ? "10px" : "14px",
+                                                fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall,
                                                 fontFamily: "Poppins-Regular"
                                             }}>{item.heading}</Text>
                                         )
@@ -78,7 +79,7 @@ const InspirationSection = () => {
                                     b: {
                                         render: () => (
                                             <Text  textAlign={"center"} margin={{top: isTabletOrMobileDevice ? "-5px" : ""}} style={{
-                                                fontSize: isTabletOrMobileDevice ? "10px" : "14px",
+                                                fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall,
                                                 fontFamily: "Poppins-Light"
                                             }}>{item.subHeading}</Text>
                                         )

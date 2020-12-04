@@ -2,7 +2,7 @@ import {useMediaQuery} from "react-responsive";
 import {Box, Heading, Image} from "grommet";
 import React from "react";
 import ImageSection from "../../shared/ImageSection";
-
+import theme from "../../../styles/theme";
 
 const boxStyle = (isTabletOrMobileDevice) => {
     return {
@@ -63,10 +63,10 @@ const CompositionSection = () => {
 
     return (
         <Box align={"center"} justify={"center"} width={"100%"}>
-            <Heading margin={{bottom: isTabletOrMobileDevice ? "20px" : "40px", horizontal: "0px", top: "0px"}}
+            <Heading margin={{bottom: "large", horizontal: "0px", top: "0px"}}
                      level={2} style={{
                 fontFamily: "Poppins-Light",
-                fontSize: isTabletOrMobileDevice ? "20px" : "30px",
+                fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge,
                 textTransform: "uppercase"
             }}>Compositions</Heading>
             <Box direction={"row"} style={boxStyle(isTabletOrMobileDevice)} as={"div"}>

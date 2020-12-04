@@ -3,8 +3,6 @@ import React, {useEffect} from "react";
 import Header from "../components/Header";
 import {Box, Heading, Image} from "grommet";
 import ImageSection from "../components/shared/ImageSection";
-import BriefSection from "../components/ProjectThree/Sections/BriefSection";
-import RoleSection from "../components/ProjectThree/Sections/RoleSection";
 import AboutMeSection from "../components/ProjectThree/Sections/AboutMeSection";
 import LogoDesignSection from "../components/ProjectThree/Sections/LogoDesignSection";
 import TaglineSection from "../components/ProjectThree/Sections/TaglineSection";
@@ -16,6 +14,9 @@ import Footer from "../components/Footer";
 import HeaderSmall from "../components/HeaderSmall";
 import {connect} from "react-redux";
 import ProjectSection from "../components/shared/ProjectSection";
+import theme from "../styles/theme";
+import BriefSection from "../components/shared/BriefSection";
+import RoleSection from "../components/shared/RoleSection";
 
 const ProjectThree = ({setNextAndPreviousProjectFlow}) => {
 
@@ -43,48 +44,55 @@ const ProjectThree = ({setNextAndPreviousProjectFlow}) => {
             </div> : <div style={{margin: "0 auto"}}>
                 <ImageSection height={842} width={1920} image={"url(/images/chatea.svg)"} type={"contain"}/>
             </div>}
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
-                <BriefSection/>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
+                <BriefSection
+                    heading={"Chatea : Package Yourself!"}
+                    briefText={
+                        "You are just like a product. If you get your packaging wrong even in the most\n" +
+                        "                    subtle of ways, it could mean disaster to your work life, and even social death."
+                    }
+                />
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
-                <RoleSection/>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
+                <RoleSection
+                    role={"Primary & Secondary Research, Field Experiments Interviews, Insight Generation, Early Ideation Testing & Prototyping"}
+                    tools={"Adobe Illustrator, Photoshop, Indesign"}
+                    duration={"July to October 2018 at Shristi School of Art, Design and Technology"}
+                />
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 <AboutMeSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 <LogoDesignSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
-                <TaglineSection/>
-            </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "70px" : "100px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium}}>
                 <Box align={"center"} justify={"center"} width={"100%"}>
                     <Heading margin={"0px"}
                              level={2} style={{
                         fontFamily: "Poppins-Light",
-                        fontSize: isTabletOrMobileDevice ? "20px" : "30px",
+                        fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge,
                         textTransform: "uppercase"
                     }}>Fonts</Heading>
                 </Box>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "70px" : "100px"}}>
+            <Box pad={{horizontal: "xlarge", top: "large"}}>
                 <FontsSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium}}>
                 <ColorPalleteSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 <LabelDesignSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 <ProductSection/>
             </Box>
-             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
+             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium}}>
                 <ProjectSection/>
             </Box>
             <Box width={"100%"} direction={"column"}
-                 pad={{horizontal: "large", top: isTabletOrMobileDevice ? "120px" : "150px", bottom: "large"}}>
+                 pad={{horizontal: "large", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small, bottom: "large"}}>
                 <Footer/>
             </Box>
         </>

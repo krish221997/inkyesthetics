@@ -2,6 +2,7 @@ import {useMediaQuery} from "react-responsive";
 import React from "react";
 import {Box, Image, Text} from "grommet";
 import ImageSection from "../../shared/ImageSection";
+import theme from "../../../styles/theme";
 
 const ProductSection = () => {
 
@@ -25,7 +26,7 @@ const ProductSection = () => {
                             style={{
                                 fontFamily: "Poppins-Light",
                                 lineHeight: "35px",
-                                fontSize: "18px",
+                                fontSize: theme.fontSize.largeScreen.small,
                             }}>While I picked this beverage because I enjoy drinking it, tea is also the perfect
                             metaphor for
                             my personality and characteristics. Just as tea is a social drink in many Asian
@@ -59,7 +60,7 @@ const ProductSection = () => {
                     <Text textAlign={"start"}
                           style={{
                               fontFamily: "Poppins-Light",
-                              fontSize: isTabletOrMobileDevice ? "13px" : isTabletDevice ? "16px" : ""
+                              fontSize: theme.fontSize.smallScreen.small
                           }}>
                         While I picked this beverage because I enjoy drinking it, tea is also the perfect metaphor for
                         my personality and characteristics. Just as tea is a social drink in many Asian cultures, I too

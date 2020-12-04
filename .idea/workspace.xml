@@ -5,8 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/shared/BriefSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/RoleSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LandingFinal/SmallScreenSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingFinal/SmallScreenSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderSmall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderSmall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingFinal/LargeScreenSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingFinal/LargeScreenSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectFour/Sections/AimSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectFour/Sections/AimSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectFour/Sections/ColorPaletteSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectFour/Sections/ColorPaletteSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectFour/Sections/CompositionSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectFour/Sections/CompositionSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectFour/Sections/FinalOutputSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectFour/Sections/FinalOutputSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectFour/Sections/FontSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectFour/Sections/FontSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectFour/Sections/HastaSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectFour/Sections/HastaSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectFour/Sections/IllustrationsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectFour/Sections/IllustrationsSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectFour/Sections/SketchesSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectFour/Sections/SketchesSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectFour/Sections/TargetAudienceSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectFour/Sections/TargetAudienceSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectList/HeadingTextButtonWithArrow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectList/HeadingTextButtonWithArrow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectList/ImageWithHeading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectList/ImageWithHeading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectList/SmallScreenList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectList/SmallScreenList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/AffinitySection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/AffinitySection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/AffinitySectionSmall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/AffinitySectionSmall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/BriefSection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ContextSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ContextSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ContextTextSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ContextTextSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/HowMightWeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/HowMightWeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/IdeationSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/IdeationSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ImageWithTextSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ImageWithTextSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ObservationsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ObservationsSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/RoleSection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/TargetAudienceSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/TargetAudienceSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/UserJourneySection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/UserJourneySection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectOne/Sections/UserJourneySectionSmall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/UserJourneySectionSmall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectThree/Sections/AboutMeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectThree/Sections/AboutMeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectThree/Sections/BriefSection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectThree/Sections/ColorPaletteSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectThree/Sections/ColorPaletteSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectThree/Sections/LabelDesignSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectThree/Sections/LabelDesignSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectThree/Sections/LogoDesignSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectThree/Sections/LogoDesignSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectThree/Sections/ProductSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectThree/Sections/ProductSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectThree/Sections/RoleSection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/AimSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/AimSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/BriefSection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/FunctionsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/FunctionsSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/GoalSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/GoalSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/InspirationSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/InspirationSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/PersonaSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/PersonaSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/RoleSection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/SitemapSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/SitemapSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/TargetAudienceSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/TargetAudienceSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/UserFlowSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/UserFlowSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/Blocks/Block-heading-with-text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Blocks/Block-heading-with-text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/Blocks/Block-image-with-header-and-paragraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Blocks/Block-image-with-header-and-paragraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectFour.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectFour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectThree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectThree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectTwo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,46 +144,21 @@
       <workItem from="1606218442897" duration="85000" />
       <workItem from="1606315953255" duration="11000" />
       <workItem from="1606587043937" duration="692000" />
+      <workItem from="1606912477967" duration="3979000" />
+      <workItem from="1606942269140" duration="611000" />
+      <workItem from="1607076320302" duration="8742000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="443" y="144" width="1096" height="1015" key="CommitChangelistDialog2" timestamp="1604996101075">
-      <screen x="72" y="122" width="1848" height="1053" />
-    </state>
-    <state x="443" y="144" width="1096" height="1015" key="CommitChangelistDialog2/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604996101075" />
-    <state x="172" y="222" width="1648" height="853" key="DiffContextDialog" timestamp="1604996100225">
-      <screen x="72" y="122" width="1848" height="1053" />
-    </state>
-    <state x="172" y="222" width="1648" height="853" key="DiffContextDialog/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604996100225" />
-    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl" timestamp="1606218522730">
-      <screen x="72" y="122" width="1848" height="1053" />
-    </state>
-    <state x="726" y="349" width="530" height="605" key="FileChooserDialogImpl/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1606218522730" />
-    <state x="491" y="321" width="1000" height="661" key="Vcs.Push.Dialog.v2" timestamp="1604277855231">
-      <screen x="72" y="122" width="1848" height="1053" />
-    </state>
-    <state x="491" y="321" width="1000" height="661" key="Vcs.Push.Dialog.v2/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1604277855231" />
-    <state x="2485" y="214" width="789" height="651" key="find.popup" timestamp="1606167312585">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2485" y="214" width="789" height="651" key="find.popup/72.122.1848.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1606167312584" />
-    <state x="616" y="331" width="759" height="634" key="find.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1605780364895" />
-    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup" timestamp="1605781578339">
-      <screen x="72" y="122" width="1848" height="1053" />
-    </state>
-    <state x="523" y="113" width="873" height="1061" key="search.everywhere.popup/0.95.1920.1080/1920.0.1920.1080@0.95.1920.1080" timestamp="1605008425665" />
-    <state x="575" y="140" width="840" height="1034" key="search.everywhere.popup/72.122.1848.1053/1920.0.1920.1080@72.122.1848.1053" timestamp="1605781578339" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Header.js</url>
-          <line>16</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

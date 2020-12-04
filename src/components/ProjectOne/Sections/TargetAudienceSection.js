@@ -3,7 +3,7 @@ import React from "react";
 import {Box, Heading, Image, Text} from "grommet";
 import {useMediaQuery} from "react-responsive";
 import BlockImageWithHeaderAndSubHeader from "../../shared/Blocks/Block-image-with-header-and-subheader";
-
+import theme from "../../../styles/theme";
 
 const smallScreenProperties = {
   images: {
@@ -16,17 +16,17 @@ const smallScreenProperties = {
     text: {
       a: {
         render: () => (
-            <Heading level={2} margin={"0px"} style={{textTransform: "uppercase", fontFamily: "Poppins-Light", fontSize: "20px"}}>Target Audience</Heading>
+            <Heading level={2} margin={"0px"} style={{textTransform: "uppercase", fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xlarge}}>Target Audience</Heading>
         )
       },
       b: {
             render: () => (
                     <Box gap={"medium"} pad={{top: "medium"}}>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>People who contact SKV</Text>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Judyben's customers</Text>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Customers visiting Irfanbhai's shop</Text>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Text designers from all over the world</Text>
-                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Tourists</Text>
+                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>People who contact SKV</Text>
+                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>Judyben's customers</Text>
+                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>Customers visiting Irfanbhai's shop</Text>
+                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>Text designers from all over the world</Text>
+                        <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>Tourists</Text>
                     </Box>
                 )
         }
@@ -46,10 +46,11 @@ const properties = {
         b: {
             render: () => (
                     <Box gap={"medium"}>
-                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>People who contact SKV</Text>
-                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Judyben's customers</Text>
-                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Customers visiting Irfanbhai's shop</Text>
-                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Text designers from all over the world</Text>
+                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>People who contact SKV</Text>
+                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>Judyben's customers</Text>
+                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>Customers visiting Irfanbhai's shop</Text>
+                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>Text designers from all over the world</Text>
+                        <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>Tourists</Text>
                     </Box>
                 )
         }

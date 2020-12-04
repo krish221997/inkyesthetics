@@ -10,8 +10,6 @@ import HowMightWeSection from "../components/ProjectOne/Sections/HowMightWeSecti
 import UserJourneySection from "../components/ProjectOne/Sections/UserJourneySection";
 import TargetAudienceSection from "../components/ProjectOne/Sections/TargetAudienceSection";
 import IdeationSection from "../components/ProjectOne/Sections/IdeationSection";
-import BriefSection from "../components/ProjectOne/Sections/BriefSection";
-import RoleSection from "../components/ProjectOne/Sections/RoleSection";
 import {useMediaQuery} from "react-responsive";
 import AffinitySectionSmall from "../components/ProjectOne/Sections/AffinitySectionSmall";
 import UserJourneySectionSmall from "../components/ProjectOne/Sections/UserJourneySectionSmall";
@@ -21,6 +19,9 @@ import TYPES from "../config/types";
 import {connect} from "react-redux";
 import ContextSection from "../components/ProjectOne/Sections/ContextSection";
 import ContextTextSection from "../components/ProjectOne/Sections/ContextTextSection";
+import theme from "../styles/theme";
+import BriefSection from "../components/shared/BriefSection";
+import RoleSection from "../components/shared/RoleSection";
 
 const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
 
@@ -50,50 +51,65 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
             </div> : <div style={{margin: "0 auto"}}>
                 <ImageSection height={910} width={1920} image={"url(/images/cc_cover.svg)"} type={"contain"}/>
             </div>}
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
-                <BriefSection/>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
+                <BriefSection
+                    heading={"Creative Collaborations"}
+                    briefText={
+                        "The local artisans in Kutch have been creating exceptional art for generations, but their work " +
+                        "is appreciated only within the limits of their local communities. The objective of a " +
+                        "collaboration is to address the communication barriers between the artisans and potential " +
+                        "direct consumers. The challenge is to allow them to draw from their heritage while at the same " +
+                        "time push their boundaries by enabling them to communicate the value & meaning of their work " +
+                        "with wider consumer contexts. The question we ask then, is this - Using storytelling as a " +
+                        "design tool, can we facilitate ways of exchanging knowledge and make a better experience for " +
+                        "not only the consumer but also the artisan?"}
+                />
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "100px" : "120px"}}>
-                <RoleSection/>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
+                <RoleSection
+                    role={"Primary & Secondary Research, Field Experiments Interviews, Insight Generation, Early Ideation Testing & Prototyping"}
+                    tools={"Adobe Illustrator, Photoshop, Indesign"}
+                    duration={"February to April 2019 at Srishti School of Art, Design and Technology"}
+                />
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "200px" : "270px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 <ContextSection/>
             </Box>
-             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "200px" : "270px"}}>
+             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 <ContextTextSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "200px" : "270px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 <ImageWithTextSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "200px" : "270px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 <ObservationsSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 {isTabletOrMobileDevice ? <AffinitySectionSmall/> : <AffinitySection/>}
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 <HowMightWeSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 {isTabletOrMobileDevice ? <UserJourneySectionSmall/> : <UserJourneySection/>}
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.largeScreen.large : theme.margins.largeScreen.large}}>
                 <TargetAudienceSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge"}} margin={{top: "200px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.largeScreen.large : theme.margins.largeScreen.large}}>
                 <IdeationSection/>
             </Box>
-            <div style={{marginTop: isTabletOrMobileDevice ? "150px" : "200px"}} align={"center"}>
-                <Heading margin={{bottom: isTabletOrMobileDevice ? "20px" : "24px", horizontal: "0px", top: "0px"}}
+            <div style={{marginTop: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}} align={"center"}>
+                <Heading margin={{bottom: "large", horizontal: "0px", top: "0px"}}
                          textAlign={"center"} level={2} style={{
                     fontFamily: "Poppins-Light",
-                    fontSize: isTabletOrMobileDevice ? "20px" : "30px",
+                    fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge,
                     textTransform: "uppercase"
                 }}>Testing the concept</Heading>
                 <Box align={"center"} justify={"center"} width={"60%"}>
                     <Text
                           textAlign={"center"}
-                          style={{fontFamily: "Poppins-Light", fontSize: isTabletOrMobileDevice ? "12px" : "18px"}}>
+                          style={{fontFamily: "Poppins-Light", fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.small : theme.fontSize.largeScreen.small}}>
                         As soon as I got an idea, I decided to see if my concept worked. I tried these activities on
                         paper
                         but I failed. Hence I asked her why she was so confused with these alpabets and numbers. ‘The A
@@ -104,9 +120,9 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                     </Text>
                 </Box>
                 <Box align={"center"} justify={"center"} width={"60%"}>
-                    <Text margin={{bottom: isTabletOrMobileDevice ? "medium" : "large", horizontal: "0px", top: "0px"}}
+                    <Text margin={{bottom: "large", horizontal: "0px", top: "0px"}}
                           textAlign={"center"}
-                          style={{fontFamily: "Poppins-Light", fontSize: isTabletOrMobileDevice ? "12px" : "18px"}}>
+                          style={{fontFamily: "Poppins-Light", fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.small : theme.fontSize.largeScreen.small}}>
                         I rushed to a local printed and printed these activities which she responded positively.
 
                     </Text>
@@ -115,22 +131,22 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                     <ImageSection height={500} width={1588} image={"url(/images/testingContext.svg)"} type={"contain"}/>
                 </div>
             </div>
-            <div style={{marginTop: isTabletOrMobileDevice ? "150px" : "200px"}} align={"center"}>
-                <Heading margin={{bottom: isTabletOrMobileDevice ? "20px" : "24px", horizontal: "0px", top: "0px"}}
+            <div style={{marginTop: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}} align={"center"}>
+                <Heading margin={{bottom: "large", horizontal: "0px", top: "0px"}}
                          level={2} style={{
                     fontFamily: "Poppins-Light",
-                    fontSize: isTabletOrMobileDevice ? "20px" : "30px",
+                    fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge,
                     textTransform: "uppercase"
                 }}>Empathy map</Heading>
                 <div style={{margin: "0 auto"}}>
                     <ImageSection height={930} width={1945} image={"url(/images/empathy-fix.svg)"} type={"contain"}/>
                 </div>
             </div>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "150px" : "200px"}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium}}>
                 <ProjectSection/>
             </Box>
             <Box width={"100%"} direction={"column"}
-                 pad={{horizontal: "large", top: isTabletOrMobileDevice ? "120px" : "150px", bottom: "large"}}>
+                 pad={{horizontal: "large", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small, bottom: "large"}}>
                 <Footer/>
             </Box>
         </>

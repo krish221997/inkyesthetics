@@ -6,6 +6,7 @@ import {Drawer} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 import CloseIcon from '@material-ui/icons/Close';
 import TYPES from "../config/types";
+import theme from "../styles/theme";
 
 const useStyles = () => makeStyles(() => ({
     drawer: {
@@ -41,7 +42,7 @@ const Menu = ({handleDrawerOpen, handleDrawerClose, open, classes}) => {
                             margin={{top: "56px"}}
                             style={{
                                 textTransform: "uppercase",
-                                fontSize: "36px",
+                                fontSize: theme.fontSize.largeScreen.xxlarge,
                                 fontFamily: "Staatliches",
                                 cursor: "pointer",
                                 // textDecorationLine: 'line-through'
@@ -51,7 +52,7 @@ const Menu = ({handleDrawerOpen, handleDrawerClose, open, classes}) => {
                             margin={{top: "56px"}}
                             style={{
                                 textTransform: "uppercase",
-                                fontSize: "36px",
+                                fontSize: theme.fontSize.largeScreen.xxlarge,
                                 fontFamily: "Staatliches",
                                 cursor: "pointer"
                             }}>A little bit about me!</Text>
@@ -60,7 +61,7 @@ const Menu = ({handleDrawerOpen, handleDrawerClose, open, classes}) => {
                             margin={{top: "56px"}}
                             style={{
                                 textTransform: "uppercase",
-                                fontSize: "36px",
+                                fontSize: theme.fontSize.largeScreen.xxlarge,
                                 fontFamily: "Staatliches",
                                 cursor: "pointer"
                             }}><a className={classes.text} href="https://www.instagram.com/inkyesthetics/" target={"_blank"} style={{textDecoration: "none"}}>Did it for the gram!</a></Text>
@@ -69,7 +70,7 @@ const Menu = ({handleDrawerOpen, handleDrawerClose, open, classes}) => {
                             margin={{top: "56px"}}
                             style={{
                                 textTransform: "uppercase",
-                                fontSize: "36px",
+                                fontSize: theme.fontSize.largeScreen.xxlarge,
                                 fontFamily: "Staatliches",
                                 cursor: "pointer"
                             }}>Hit me up!</Text>
@@ -98,7 +99,7 @@ const HeaderSmall = () => {
         <Box direction={"row"} justify={"between"} align={"center"} width={"100%"}>
             <Link to={"/"} style={{textDecoration: "none"}}>
                 <Text color={"black"} style={{
-                    fontSize: "24px",
+                    fontSize: theme.fontSize.smallScreen.xxlarge,
                     cursor: "pointer",
                     textTransform: "uppercase",
                     fontFamily: "Staatliches"

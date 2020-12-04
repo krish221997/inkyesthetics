@@ -1,7 +1,7 @@
 import {Box, Heading, Text} from "grommet";
 import React from "react";
 import {useMediaQuery} from "react-responsive";
-
+import theme from "../../../styles/theme";
 
 const ContextTextSection = () => {
 
@@ -15,11 +15,11 @@ const ContextTextSection = () => {
                 {/*<Text textAlign={"center"} style={{fontSize: "20px", fontFamily: "Poppins-Light"}}>use storytelling to <Text style={{fontSize: "20px", fontFamily: "Poppins-Medium"}}>reduce communication</Text> gap by*/}
                 {/*    making her products <Text style={{fontSize: "20px", fontFamily: "Poppins-Medium"}}>more available</Text>*/}
                 {/*    , and <Text style={{fontSize: "20px", fontFamily: "Poppins-Medium"}}>creating awareness</Text> for the audience?</Text>*/}
-                <Text textAlign={"center"} style={{fontSize: "20px", lineHeight: "35px", fontFamily: "Poppins-Light"}}>We spent days
+                <Text textAlign={"center"} style={{fontSize: theme.fontSize.largeScreen.medium, lineHeight: "35px", fontFamily: "Poppins-Light"}}>We spent days
                     understanding the artisans’ body of work, the challenges they faced, and the existing processes they
                     used.
                 </Text>
-                <Text textAlign={"center"} style={{fontSize: "20px", lineHeight: "35px", fontFamily: "Poppins-Light"}}>We identified the
+                <Text textAlign={"center"} style={{fontSize: theme.fontSize.largeScreen.medium, lineHeight: "35px", fontFamily: "Poppins-Light"}}>We identified the
                     following key challenges we needed to address.
 
                 </Text>
@@ -30,17 +30,11 @@ const ContextTextSection = () => {
     const smallScreenView = (
         <Box align={"center"} justify={"center"} width={"100%"}>
             <Box wrap>
-                {/*<Text textAlign={"center"} style={{fontSize: "13px", fontFamily: "Poppins-Light"}}>use storytelling to*/}
-                {/*    <Text style={{fontSize: "13px", fontFamily: "Poppins-Medium"}}>reduce communication</Text> gap by*/}
-                {/*    making her products <Text style={{fontSize: "13px", fontFamily: "Poppins-Medium"}}>more*/}
-                {/*        available</Text>*/}
-                {/*    , and <Text style={{fontSize: "13px", fontFamily: "Poppins-Medium"}}>creating awareness</Text> for*/}
-                {/*    the audience?</Text>*/}
-                 <Text textAlign={"center"} style={{fontSize: "13px", fontFamily: "Poppins-Light"}}>We spent days
+                 <Text textAlign={"center"} style={{fontSize: theme.fontSize.smallScreen.medium, fontFamily: "Poppins-Light"}}>We spent days
                     understanding the artisans’ body of work, the challenges they faced, and the existing processes they
                     used.
                 </Text>
-                <Text textAlign={"center"} style={{fontSize: "13px", fontFamily: "Poppins-Light"}}>We identified the
+                <Text textAlign={"center"} style={{fontSize: theme.fontSize.smallScreen.medium, fontFamily: "Poppins-Light"}}>We identified the
                     following key challenges we needed to address.
 
                 </Text>

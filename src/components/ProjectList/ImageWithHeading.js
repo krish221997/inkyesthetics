@@ -1,6 +1,7 @@
 import React from "react";
 import ImageSection from "../shared/ImageSection";
 import {Box, Heading, Text} from "grommet";
+import theme from "../../styles/theme";
 
 const ImageWithHeading = ({image, heading, url}) => {
 
@@ -12,7 +13,7 @@ const ImageWithHeading = ({image, heading, url}) => {
             <Box width={"100%"} align={"start"} justify={"center"} pad={{top: "large", horizontal: "large"}}>
                 <Box width={"80%"}>
                     <Heading color={"black"} level={1} margin={"0px"}
-                         style={{textTransform: "uppercase", fontFamily: "Poppins-Light", fontSize: "24px"}}>
+                         style={{textTransform: "uppercase", fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xxlarge}}>
                         {heading}
                 </Heading>
                 </Box>

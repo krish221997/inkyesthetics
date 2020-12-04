@@ -4,6 +4,7 @@ import ImageSection from "../shared/ImageSection";
 import {useMediaQuery} from "react-responsive";
 import {makeStyles} from "@material-ui/core/styles";
 import TYPES from "../../config/types";
+import theme from "../../styles/theme";
 
 const useStyles = makeStyles(() => ({
     text: {
@@ -42,38 +43,40 @@ const LargeScreenSection = () => {
                     <Box>
                         <Text
                             className={classes.text}
-                            margin={{top: isSmallTabletDevice ? "24px" : isTabletDevice ? "30px" : isSmallLaptopDevice ? "36px" : "56px"}}
+                            margin={{top: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "56px"}}
                             style={{
                                 textTransform: "uppercase",
-                                fontSize: isSmallTabletDevice ? "24px" : isTabletDevice ? "30px" : isSmallLaptopDevice ? "36px" : "48px",
+                                fontSize: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "48px",
                                 fontFamily: "Staatliches",
                                 cursor: "pointer",
                                 // textDecorationLine: 'line-through'
-                            }}><a className={classes.text} href={`/${TYPES.ROUTES.PROJECT_LIST}`} style={{textDecoration: "none"}}>Unpacking my work!</a></Text>
+                            }}><a className={classes.text} href={`/${TYPES.ROUTES.PROJECT_LIST}`}
+                                  style={{textDecoration: "none"}}>Unpacking my work!</a></Text>
                         <Text
                             className={classes.text}
-                            margin={{top: isSmallTabletDevice ? "24px" : isTabletDevice ? "30px" : isSmallLaptopDevice ? "36px" : "56px"}}
+                            margin={{top: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "56px"}}
                             style={{
                                 textTransform: "uppercase",
-                                fontSize: isSmallTabletDevice ? "24px" : isTabletDevice ? "30px" : isSmallLaptopDevice ? "36px" : "48px",
+                                fontSize: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "48px",
                                 fontFamily: "Staatliches",
                                 cursor: "pointer"
                             }}>A little bit about me!</Text>
                         <Text
                             className={classes.text}
-                            margin={{top: isSmallTabletDevice ? "24px" : isTabletDevice ? "30px" : isSmallLaptopDevice ? "36px" : "56px"}}
+                            margin={{top: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "56px"}}
                             style={{
                                 textTransform: "uppercase",
-                                fontSize: isSmallTabletDevice ? "24px" : isTabletDevice ? "30px" : isSmallLaptopDevice ? "36px" : "48px",
+                                fontSize: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "48px",
                                 fontFamily: "Staatliches",
                                 cursor: "pointer"
-                            }}><a className={classes.text} href="https://www.instagram.com/inkyesthetics/" target={"_blank"} style={{textDecoration: "none"}}>Did it for the gram!</a></Text>
+                            }}><a className={classes.text} href="https://www.instagram.com/inkyesthetics/"
+                                  target={"_blank"} style={{textDecoration: "none"}}>Did it for the gram!</a></Text>
                         <Text
                             className={classes.text}
-                            margin={{top: isSmallTabletDevice ? "24px" : isTabletDevice ? "30px" : isSmallLaptopDevice ? "36px" : "56px"}}
+                            margin={{top: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "56px"}}
                             style={{
                                 textTransform: "uppercase",
-                                fontSize: isSmallTabletDevice ? "24px" : isTabletDevice ? "30px" : isSmallLaptopDevice ? "36px" : "48px",
+                                fontSize: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "48px",
                                 fontFamily: "Staatliches",
                                 cursor: "pointer"
                             }}>Hit me up!</Text>

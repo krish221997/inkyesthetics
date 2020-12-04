@@ -4,6 +4,7 @@ import TYPES from "../../config/types";
 import Button from "@material-ui/core/Button";
 import {makeStyles} from "@material-ui/core/styles";
 import {connect} from "react-redux";
+import theme from "../../styles/theme";
 
 const useStyles = makeStyles((theme) => ({
     buttonColor: {
@@ -26,16 +27,16 @@ const HeadingTextButtonWithArrow = ({projectData}) => {
             <Box align={"start"} wrap height={"100%"}>
                 <Box width={"50%"} wrap>
                     <Heading level={2} margin={{bottom: "small", horizontal: "0px", top: "0px"}}
-                         style={{textTransform: "uppercase", fontFamily: "Poppins-Light", fontSize: "36px", lineHeight: "50px"}}>
+                         style={{textTransform: "uppercase", fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xxlarge, lineHeight: "50px"}}>
                     {projectData?.heading}
                 </Heading>
                 </Box>
-                <Text margin={{bottom: "small"}} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>
+                <Text margin={{bottom: "small"}} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>
                     <Text
                         style={{
                             textTransform: "uppercase",
                             fontFamily: "Poppins-SemiBold",
-                            fontSize: "18px"
+                            fontSize: theme.fontSize.largeScreen.small
                         }}>{name}
                     </Text>
                     {projectData?.brief}

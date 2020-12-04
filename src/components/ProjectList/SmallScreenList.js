@@ -15,12 +15,12 @@ const projectData = [
     },
     {
         image: "/images/list-page-amp.png",
-        heading: "Ampmateur, Tune to produce!",
+        heading: "Ampmateur",
         url: `/${TYPES.ROUTES.AMPMATEUR}`
     },
     {
         image: "/images/list-page-chatea.png",
-        heading: "Chatea : Package Yourself",
+        heading: "Chatea",
         url: `/${TYPES.ROUTES.CHATEA}`
     },
     {

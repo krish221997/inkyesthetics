@@ -3,6 +3,7 @@ import React from "react";
 import {connect} from "react-redux";
 import {Link} from "react-router-dom";
 import {useMediaQuery} from "react-responsive";
+import theme from "../styles/theme"
 
 const Header = ({}) => {
 
@@ -15,10 +16,11 @@ const Header = ({}) => {
             <Box>
                 <Link to={"/"} style={{textDecoration: "none"}}>
                     <Text color={"black"} style={{
-                        fontSize: isTabletOrMobileDevice ? "24px" : "36px",
+                        fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xxlarge : theme.fontSize.largeScreen.xxlarge,
                         cursor: "pointer",
+                        textTransform: "uppercase",
                         fontFamily: "Staatliches"
-                    }}>INKYESTHETICS</Text>
+                    }}>Inkyesthetics</Text>
                 </Link>
             </Box>
             <a href="https://www.linkedin.com/in/tanvi-mehta-inkyesthetics" target={"_blank"}

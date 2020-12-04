@@ -3,6 +3,7 @@ import React from "react";
 import BlockImageWithHeaderAndParagraph from "../../shared/Blocks/Block-image-with-header-and-paragraph";
 import BlockImageWithHeaderAndSubHeader from "../../shared/Blocks/Block-image-with-header-and-subheader";
 import {useMediaQuery} from "react-responsive";
+import theme from "../../../styles/theme";
 
 const componentOneProperties = {
     images: {
@@ -127,8 +128,8 @@ const componentTwoPropertiesSmall = {
 
 const LargeScreenSection = () => (
     <Box width={"100%"} align={"center"} justify={"center"}>
-        <Heading margin={{bottom: "30px", horizontal: "0px", top: "0px"}} level={2}
-                 style={{fontFamily: "Poppins-Light", fontSize: "30px", textTransform: "uppercase"}}>Setting the
+        <Heading margin={{bottom: "large", horizontal: "0px", top: "0px"}} level={2}
+                 style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xlarge, textTransform: "uppercase"}}>Setting the
             Context</Heading>
         <Box direction={"row"} width={"100%"}>
             <Box wrap={true} align={"start"} justify={"center"} width={"50%"}>
@@ -148,13 +149,13 @@ const LargeScreenSection = () => (
 const SmallScreenSection = () => (
     <Box width={"100%"} align={"center"} justify={"center"}>
         <Heading margin={{bottom: "20px", horizontal: "0px", top: "0px"}} level={2}
-                 style={{fontFamily: "Poppins-Light", fontSize: "20px", textTransform: "uppercase"}}>Setting the
+                 style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xlarge, textTransform: "uppercase"}}>Setting the
             Context
         </Heading>
-        <Box margin={{top: "medium"}}>
+        <Box margin={{top: "large"}}>
             <BlockImageWithHeaderAndSubHeader properties={componentOnePropertiesSmall}/>
         </Box>
-        <Box margin={{top: "medium"}}>
+        <Box margin={{top: "large"}}>
             <BlockImageWithHeaderAndSubHeader properties={componentTwoPropertiesSmall}/>
         </Box>
     </Box>

@@ -3,7 +3,7 @@ import React from "react";
 import {Box, Heading, Image, Text} from "grommet";
 import {useMediaQuery} from "react-responsive";
 import BlockImageWithHeaderAndSubHeader from "../../shared/Blocks/Block-image-with-header-and-subheader";
-
+import theme from "../../../styles/theme";
 
 const smallScreenProperties = {
     images: {
@@ -19,22 +19,22 @@ const smallScreenProperties = {
                 <Heading level={2} margin={"0px"} style={{
                     textTransform: "uppercase",
                     fontFamily: "Poppins-Light",
-                    fontSize: "20px"
+                    fontSize: theme.fontSize.smallScreen.xlarge
                 }}>Functions</Heading>
             )
         },
         b: {
             render: () => (
                 <Box gap={"medium"} pad={{top: "medium"}}>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Tuning guide for
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>Tuning guide for
                         string instruments</Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Discover new
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>Discover new
                         music by the app’s record and recognise feature</Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Learn music from
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>Learn music from
                         other professional and amateur artists by picking a song and choosing your instrument for the
                         corresponding chords
                     </Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Share craft and
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>Share craft and
                         queries with the rest of the musical community
                     </Text>
                 </Box>
@@ -56,15 +56,15 @@ const properties = {
         b: {
             render: () => (
                 <Box gap={"medium"}>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Tuning guide for
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>Tuning guide for
                         string instruments</Text>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Discover new music
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>Discover new music
                         by the app’s record and recognise feature</Text>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Learn music from
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>Learn music from
                         other professional and amateur artists by picking a song and choosing your instrument for the
                         corresponding chords
                     </Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Share craft and
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>Share craft and
                         queries with the rest of the musical community
                     </Text>
                 </Box>

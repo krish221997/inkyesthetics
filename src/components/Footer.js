@@ -5,6 +5,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import CopyrightIcon from '@material-ui/icons/Copyright';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import theme from "../styles/theme";
 
 const Footer = () => {
 
@@ -17,11 +18,11 @@ const Footer = () => {
                             <Box direction={"column"} align={"center"} justify={"center"} width={"medium"} wrap={true}
                                  gap={"small"}>
                                 <Box direction={"row"} gap={"xsmall"} align={"center"} justify={"center"}>
-                                    <Text style={{fontSize: isTabletOrMobileDevice ? "13px" : "20px", fontFamily: "Poppins-Light"}}>
+                                    <Text style={{fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.medium : theme.fontSize.largeScreen.medium, fontFamily: "Poppins-Light"}}>
                                         2020
                                     </Text>
                                     <CopyrightIcon fontSize={"small"}/>
-                                    <Text style={{fontSize: isTabletOrMobileDevice ? "13px" : "20px", fontFamily: "Poppins-Light"}}>
+                                    <Text style={{fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.medium : theme.fontSize.largeScreen.medium, fontFamily: "Poppins-Light"}}>
                                         Tanvi Mehta
                                     </Text>
                                 </Box>

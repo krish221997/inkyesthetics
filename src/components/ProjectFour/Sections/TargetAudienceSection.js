@@ -3,7 +3,7 @@ import React from "react";
 import {Box, Heading, Image, Text} from "grommet";
 import {useMediaQuery} from "react-responsive";
 import BlockImageWithHeaderAndSubHeader from "../../shared/Blocks/Block-image-with-header-and-subheader";
-
+import theme from "../../../styles/theme";
 
 const smallScreenProperties = {
     images: {
@@ -17,18 +17,18 @@ const smallScreenProperties = {
         a: {
             render: () => (
                 <Heading level={2} margin={"0px"}
-                         style={{textTransform: "uppercase", fontFamily: "Poppins-Light", fontSize: "20px"}}>Target
+                         style={{textTransform: "uppercase", fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xlarge}}>Target
                     Audience</Heading>
             )
         },
         b: {
             render: () => (
                 <Box gap={"small"} pad={{top: "medium"}}>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Students of
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>Students of
                         Bharatnatyam</Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>Proficient
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>Proficient
                         dancers and practitioners of classical dances </Text>
-                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: "11px"}}>People who would
+                    <Text textAlign={"center"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.smallScreen.xsmall}}>People who would
                         enjoy having or reading an artistic coffee-table book related to Indian mythology.
                     </Text>
                 </Box>
@@ -50,11 +50,11 @@ const properties = {
         b: {
             render: () => (
                 <Box gap={"medium"}>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Students of
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>Students of
                         Bharatnatyam</Text>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>Proficient dancers
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>Proficient dancers
                         and practitioners of classical dances </Text>
-                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: "16px"}}>People who would
+                    <Text textAlign={"start"} style={{fontFamily: "Poppins-Light", fontSize: theme.fontSize.largeScreen.xsmall}}>People who would
                         enjoy having or reading an artistic coffee-table book related to Indian mythology.</Text>
                 </Box>
             )
