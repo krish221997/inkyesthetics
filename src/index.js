@@ -16,6 +16,7 @@ import ProjectThree from "./pages/ProjectThree";
 import ProjectFour from "./pages/ProjectFour";
 import ProjectList from "./pages/ProjectList";
 import List from "./pages/List";
+import AboutMe from "./pages/AboutMe";
 
 
 const history = createBrowserHistory();
@@ -43,6 +44,7 @@ ReactDOM.render(
             <Route path="/chatea" component={ProjectThree} exact={true}/>
             <Route path="/devata-hastas" component={ProjectFour} exact={true}/>
             <Route path="/project-list" component={List} exact={true}/>
+            <Route path="/about-me" component={AboutMe} exact={true}/>
         </Router>
     </Provider>,
 document.getElementById('root')

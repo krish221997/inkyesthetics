@@ -60,7 +60,8 @@ const LargeScreenSection = () => {
                                 fontSize: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "48px",
                                 fontFamily: "Staatliches",
                                 cursor: "pointer"
-                            }}>A little bit about me!</Text>
+                            }}><a className={classes.text} href={`/${TYPES.ROUTES.ABOUT_ME}`}
+                                  style={{textDecoration: "none"}}>A little bit about me!</a></Text>
                         <Text
                             className={classes.text}
                             margin={{top: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "56px"}}

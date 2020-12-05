@@ -4,6 +4,7 @@ export default {
             xxlarge: "36px",
             xlarge: "30px",
             large: "27px",
+            "medium-large": "24px",
             medium: "20px",
             small: "18px",
             xsmall: "16px"
@@ -21,9 +22,11 @@ export default {
         largeScreen: {
             large: "270px",
             medium: "200px",
-            small: "120px"
+            small: "120px",
+            xsmall: "80px"
         },
         smallScreen: {
+            xsmall: "50px",
             small: "100px",
             medium: "140px",
             large: "180px"

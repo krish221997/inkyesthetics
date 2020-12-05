@@ -55,7 +55,7 @@ const Menu = ({handleDrawerOpen, handleDrawerClose, open, classes}) => {
                                 fontSize: theme.fontSize.largeScreen.xxlarge,
                                 fontFamily: "Staatliches",
                                 cursor: "pointer"
-                            }}>A little bit about me!</Text>
+                            }}><a className={classes.text} href={`/${TYPES.ROUTES.ABOUT_ME}`} style={{textDecoration: "none"}}>A little bit about me!</a></Text>
                         <Text
                             className={classes.text}
                             margin={{top: "56px"}}

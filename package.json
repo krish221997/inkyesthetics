@@ -10,6 +10,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "connected-react-router": "^6.8.0",
+    "deepmerge": "^4.2.2",
     "grommet": "^2.15.2",
     "history": "^5.0.0",
     "netlify-cli": "^2.65.6",
