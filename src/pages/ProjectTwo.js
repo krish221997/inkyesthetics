@@ -1,25 +1,21 @@
-import {Box} from "grommet";
+import {Box, Heading, Image, Text} from "grommet";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import React, {useEffect} from "react";
 import ImageSection from "../components/shared/ImageSection";
-import FunctionsSection from "../components/ProjectTwo/Sections/FunctionsSection";
 import InspirationSection from "../components/ProjectTwo/Sections/InspirationSection";
-import TargetAudienceSection from "../components/ProjectTwo/Sections/TargetAudienceSection";
 import PersonaSection from "../components/ProjectTwo/Sections/PersonaSection";
-import GoalSection from "../components/ProjectTwo/Sections/GoalSection";
 import UserFlowSection from "../components/ProjectTwo/Sections/UserFlowSection";
 import SitemapSection from "../components/ProjectTwo/Sections/SitemapSection";
 import PrototypeSection from "../components/ProjectTwo/Sections/Prototype";
 import {useMediaQuery} from "react-responsive";
-import Test3DRender from "../components/ProjectOne/Sections/Test3DRender";
 import HeaderSmall from "../components/HeaderSmall";
 import {connect} from "react-redux";
 import ProjectSection from "../components/shared/ProjectSection";
-import AimSection from "../components/ProjectTwo/Sections/AimSection";
 import theme from "../styles/theme";
 import BriefSection from "../components/shared/BriefSection";
 import RoleSection from "../components/shared/RoleSection";
+import BlockRenderImageHeaderParagraph from "../components/shared/Block-render-image-header-paragraph";
 
 const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
 
@@ -46,12 +42,15 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
             {/*<div style={{margin: "0 auto"}}>*/}
             {/*    <ImageSection height={953} width={1920} image={"url(/images/cover_cc.svg)"} type={"contain"}/>*/}
             {/*</div>*/}
-            {isSmallScreenCoverImage ?<div style={{margin: "0 auto"}}>
+            {isSmallScreenCoverImage ? <div style={{margin: "0 auto"}}>
                 <ImageSection height={315} width={375} image={"url(/images/amp-cover-small.jpg)"} type={"contain"}/>
             </div> : <div style={{margin: "0 auto"}}>
                 <ImageSection height={953} width={1920} image={"url(/images/cover-amp.jpg)"} type={"contain"}/>
             </div>}
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
+            <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small
+            }}>
                 <BriefSection
                     heading={"Ampmateur, Tune to produce!"}
                     briefText={
@@ -66,45 +65,214 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
                     }
                 />
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
+            <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small
+            }}>
                 <RoleSection
                     role={"Primary & Secondary Research, Field Experiments Interviews, Insight Generation, Early Ideation Testing & Prototyping"}
                     tools={"Adobe Illustrator, Photoshop, Indesign"}
                     duration={"June 2020 at California Institute of the Art"}
                 />
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
-                <AimSection/>
+            <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
+            }}>
+                <BlockRenderImageHeaderParagraph
+                    properties={{
+                        text: {
+                            a: {
+                                render: () => (
+                                    <Heading margin={"0px"} level={2} style={{
+                                        textTransform: "uppercase", fontFamily: "Poppins-Light",
+                                        fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge
+                                    }}>Aim</Heading>
+                                )
+                            },
+                            b: {
+                                render: () => (
+                                    <Box gap={"medium"}>
+                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                            fontFamily: "Poppins-Light",
+                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
+                                        }}>Provide a
+                        holistic learning experience for amateur musicians, from developing basic skills to exposure to
+                        new music and other artists </Text>
+                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                            fontFamily: "Poppins-Light",
+                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
+                                        }}>Amatuer musicians, here for the learning experience</Text>
+                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                            fontFamily: "Poppins-Light",
+                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
+                                        }}>Music enthusiasts, here for explorations and new music</Text>
+                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                            fontFamily: "Poppins-Light",
+                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
+                                        }}>Community
+                                            artists, here for interactions and engagement</Text>
+                                    </Box>
+                                )
+                            }
+                        },
+                        images: {
+                            a: {
+                                render: () => (
+                                    <Image src={"/images/goal.svg"}
+                                           height={isTabletOrMobileDevice ? "100px" : ""}></Image>
+                                )
+                            }
+                        }
+                    }}
+                />
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
-                <FunctionsSection/>
+            <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
+            }}>
+                <BlockRenderImageHeaderParagraph
+                    properties={{
+                        text: {
+                            a: {
+                                render: () => (
+                                    <Heading margin={"0px"} level={2} style={{
+                                        textTransform: "uppercase", fontFamily: "Poppins-Light",
+                                        fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge
+                                    }}>Functions</Heading>
+                                )
+                            },
+                            b: {
+                                render: () => (
+                                    <Box gap={"medium"}>
+                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                            fontFamily: "Poppins-Light",
+                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
+                                        }}>Tuning guide for string instruments</Text>
+                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                            fontFamily: "Poppins-Light",
+                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
+                                        }}>Discover new
+                                            music by the app’s record and recognise feature</Text>
+                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                            fontFamily: "Poppins-Light",
+                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
+                                        }}>Learn music from
+                                            other professional and amateur artists by picking a song and choosing your
+                                            instrument for the
+                                            corresponding chords</Text>
+                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                            fontFamily: "Poppins-Light",
+                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
+                                        }}>Share craft and
+                                            queries with the rest of the musical community</Text>
+                                    </Box>
+                                )
+                            }
+                        },
+                        images: {
+                            a: {
+                                render: () => (
+                                    <Image src={"/images/functions.svg"}
+                                           height={isTabletOrMobileDevice ? "100px" : ""}></Image>
+                                )
+                            }
+                        }
+                    }}
+                />
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
+            <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
+            }}>
                 <InspirationSection/>
             </Box>
-             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
-                <TargetAudienceSection/>
+            <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
+            }}>
+                <BlockRenderImageHeaderParagraph
+                    properties={{
+                        text: {
+                            a: {
+                                render: () => (
+                                    <Heading margin={"0px"} level={2} style={{
+                                        textTransform: "uppercase", fontFamily: "Poppins-Light",
+                                        fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge
+                                    }}>Target Audience</Heading>
+                                )
+                            },
+                            b: {
+                                render: () => (
+                                    <Box gap={"medium"}>
+                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                            fontFamily: "Poppins-Light",
+                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
+                                        }}>Instrumentalists, here for tuning purposes </Text>
+                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                            fontFamily: "Poppins-Light",
+                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
+                                        }}>Amatuer musicians, here for the learning experience</Text>
+                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                            fontFamily: "Poppins-Light",
+                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
+                                        }}>Music enthusiasts, here for explorations and new music</Text>
+                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                            fontFamily: "Poppins-Light",
+                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
+                                        }}>Community
+                                            artists, here for interactions and engagement</Text>
+                                    </Box>
+                                )
+                            }
+                        },
+                        images: {
+                            a: {
+                                render: () => (
+                                    <Image src={"/images/target.svg"}
+                                           height={isTabletOrMobileDevice ? "100px" : ""}></Image>
+                                )
+                            }
+                        }
+                    }}
+                />
             </Box>
-             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
+            <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
+            }}>
                 <PersonaSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
-                <GoalSection/>
-            </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
+            <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
+            }}>
                 <UserFlowSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
+            <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
+            }}>
                 <SitemapSection/>
             </Box>
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
+            <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
+            }}>
                 <PrototypeSection/>
             </Box>
-             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium}}>
+            <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium
+            }}>
                 <ProjectSection/>
             </Box>
             <Box width={"100%"} direction={"column"}
-                 pad={{horizontal: "large", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small, bottom: "large"}}>
+                 pad={{
+                     horizontal: "large",
+                     top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small,
+                     bottom: "large"
+                 }}>
                 <Footer/>
             </Box>
         </>
@@ -112,8 +280,7 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
 
 };
 
-const mapStateToProps = (state) => ({
-});
+const mapStateToProps = (state) => ({});
 
 const mapDispatcherToProps = (dispatch) => ({
     setNextAndPreviousProjectFlow: dispatch.flow.setNextAndPreviousProject

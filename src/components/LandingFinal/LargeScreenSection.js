@@ -86,7 +86,7 @@ const LargeScreenSection = () => {
             </div>
             <div style={{width: "70%"}}>
                 <div style={{margin: "0 auto"}}>
-                    <ImageSection height={1850} width={1525} image={"url(/images/landing-page-tanvi.jpg)"}
+                    <ImageSection height={1850} width={1525} image={"url(/images/landing-page-tanvi.png)"}
                                   type={"contain"}/>
                 </div>
             </div>

@@ -1,11 +1,10 @@
 import {useMediaQuery} from "react-responsive";
 import React, {useEffect} from "react";
 import Header from "../components/Header";
-import {Box, Heading, Image} from "grommet";
+import {Box, Heading} from "grommet";
 import ImageSection from "../components/shared/ImageSection";
 import AboutMeSection from "../components/ProjectThree/Sections/AboutMeSection";
 import LogoDesignSection from "../components/ProjectThree/Sections/LogoDesignSection";
-import TaglineSection from "../components/ProjectThree/Sections/TaglineSection";
 import FontsSection from "../components/ProjectThree/Sections/FontsSection";
 import ColorPalleteSection from "../components/ProjectThree/Sections/ColorPaletteSection";
 import LabelDesignSection from "../components/ProjectThree/Sections/LabelDesignSection";
