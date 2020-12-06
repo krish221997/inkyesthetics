@@ -44,7 +44,7 @@ const ProductSection = () => {
                     </Box>
                 </div>
                 <div style={{margin: "0 auto"}}>
-                    <ImageSection height={780} width={1680} image={"url(/images/products.svg)"} type={"contain"}/>
+                    <ImageSection height={780} width={1680} image={"url(/images/products.jpg)"} type={"contain"}/>
                 </div>
             </div>
         )
@@ -73,7 +73,7 @@ const ProductSection = () => {
                     </Text>
                 </Box>
                 <div style={{margin: "0 auto"}}>
-                    <ImageSection height={326} width={702} image={"url(/images/products.svg)"}
+                    <ImageSection height={326} width={702} image={"url(/images/products.jpg)"}
                                   type={"contain"}/>
                 </div>
             </div>

@@ -47,9 +47,9 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
             {/*    <ImageSection height={953} width={1920} image={"url(/images/cover_cc.svg)"} type={"contain"}/>*/}
             {/*</div>*/}
             {isSmallScreenCoverImage ?<div style={{margin: "0 auto"}}>
-                <ImageSection height={315} width={375} image={"url(/images/ampmateur-cover-small.svg)"} type={"contain"}/>
+                <ImageSection height={315} width={375} image={"url(/images/amp-cover-small.jpg)"} type={"contain"}/>
             </div> : <div style={{margin: "0 auto"}}>
-                <ImageSection height={953} width={1920} image={"url(/images/cover_cc.svg)"} type={"contain"}/>
+                <ImageSection height={953} width={1920} image={"url(/images/cover-amp.jpg)"} type={"contain"}/>
             </div>}
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
                 <BriefSection

@@ -9,22 +9,22 @@ import {Link} from "react-router-dom";
 
 const projectData = [
     {
-        image: "/images/list-page-cc.png",
+        image: "/images/list-page-cc.jpg",
         heading: "Creative Collaborations",
         url: `/${TYPES.ROUTES.CREATIVE_COLLABORATIONS}`
     },
     {
-        image: "/images/list-page-amp.png",
+        image: "/images/list-page-amp.jpg",
         heading: "Ampmateur",
         url: `/${TYPES.ROUTES.AMPMATEUR}`
     },
     {
-        image: "/images/list-page-chatea.png",
+        image: "/images/list-page-chatea.jpg",
         heading: "Chatea",
         url: `/${TYPES.ROUTES.CHATEA}`
     },
     {
-        image: "/images/list-page-brahma.png",
+        image: "/images/list-page-brahma.jpg",
         heading: "Devata Hastas",
         url: `/${TYPES.ROUTES.DEVATA_HASTAS}`
     }

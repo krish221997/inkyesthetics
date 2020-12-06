@@ -2,7 +2,7 @@ import TYPES from "./config/types";
 
 export const projectData = {
     0: {
-        image: "/images/list-page-cc.png",
+        image: "/images/list-page-cc.jpg",
         heading: "Creative Collaborations",
         brief: "The local artisans in Kutch have been creating exceptional art for generations, but their work is appreciated only within the limits of their local communities. The objective of a collaboration is to address the communication barriers between the artisans and potential direct consumers. The challenge is to allow them to draw from their heritage while at the same time push their boundaries by enabling them to communicate the value & meaning of their work with wider consumer contexts.  \n" +
             "\n" +
@@ -10,7 +10,7 @@ export const projectData = {
         url: `/${TYPES.ROUTES.CREATIVE_COLLABORATIONS}`
     },
     1: {
-        image: "/images/list-page-amp.png",
+        image: "/images/list-page-amp.jpg",
         heading: "Ampmateur",
         brief: "This application is aimed at young and upcoming musicians to empower them to\n" +
             "                    discover and create music. They begin their journey AMPMATEUR by picking their instrument of choice\n" +
@@ -23,14 +23,14 @@ export const projectData = {
         url: `/${TYPES.ROUTES.AMPMATEUR}`
     },
     2: {
-        image: "/images/list-page-chatea.png",
+        image: "/images/list-page-chatea.jpg",
         heading: "Chatea",
         brief: "How would you package yourself? Does it really represent who you are and what you\n" +
             "                    aspire to be?",
         url: `/${TYPES.ROUTES.CHATEA}`
     },
     3: {
-        image: "/images/list-page-brahma.png",
+        image: "/images/list-page-brahma.jpg",
         heading: "Devata Hastas",
         brief: "Deconstruction, as this project treats it, is largely associated with the concept of unfolding, peeling back layers to examine how something has been created, has been constructed. It aims to answer these questions: why has it been put together the way it is? What is the purpose of it being built in this way?\n" +
             "In the field of Visual Communication and Strategic Branding, deconstruction can apply to the breaking down of a brand into its basic elements: an idea, its conception, its production, and its execution. \n" +

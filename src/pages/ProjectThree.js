@@ -40,9 +40,9 @@ const ProjectThree = ({setNextAndPreviousProjectFlow}) => {
                 <Header/>
             </Box>}
             {isSmallScreenCoverImage ?<div style={{margin: "0 auto"}}>
-                <ImageSection height={315} width={378} image={"url(/images/chatea-cover-small.svg)"} type={"contain"}/>
+                <ImageSection height={315} width={378} image={"url(/images/chatea-cover-small.jpg)"} type={"contain"}/>
             </div> : <div style={{margin: "0 auto"}}>
-                <ImageSection height={842} width={1920} image={"url(/images/chatea.svg)"} type={"contain"}/>
+                <ImageSection height={1000} width={2097} image={"url(/images/chatea.jpg)"} type={"contain"}/>
             </div>}
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
                 <BriefSection

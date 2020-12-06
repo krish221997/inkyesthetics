@@ -23,14 +23,18 @@ const FinalOutputSection = () => {
                 textTransform: "uppercase"
             }}>Final Output</Heading>
             <div style={{margin: "0 auto"}}>
-                {isMobileFinalOutput ? <ImageSection height={181} width={307} image={"url(/images/final-output-1.svg)"}
-                              type={"contain"}/> : <ImageSection height={854} width={1451} image={"url(/images/final-1.svg)"}
+                {<ImageSection height={2047} width={3182} image={"url(/images/output-1.jpg)"}
                               type={"contain"}/>}
             </div>
            <div style={{marginTop: isTabletOrMobileDevice ? "30px" : "50px"}}>
                 <div style={{margin: "0 auto"}}>
-                    {isMobileFinalOutput ? <ImageSection height={181} width={307} image={"url(/images/final-output-2.svg)"}
-                              type={"contain"}/> : <ImageSection height={854} width={1451} image={"url(/images/final-2.svg)"}
+                    {<ImageSection height={1708} width={2902} image={"url(/images/output-2.jpg)"}
+                                   type={"contain"}/>}
+            </div>
+           </div>
+            <div style={{marginTop: isTabletOrMobileDevice ? "30px" : "50px"}}>
+                <div style={{margin: "0 auto"}}>
+                    {<ImageSection height={1708} width={2902} image={"url(/images/output-3.jpg)"}
                                    type={"contain"}/>}
             </div>
            </div>

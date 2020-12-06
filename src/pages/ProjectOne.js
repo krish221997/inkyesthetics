@@ -47,9 +47,9 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
             </Box>}
 
             {isSmallScreenCoverImage ? <div style={{margin: "0 auto"}}>
-                <ImageSection height={315} width={375} image={"url(/images/cc-cover-small.svg)"} type={"contain"}/>
+                <ImageSection height={315} width={375} image={"url(/images/cc-cover-small.jpg)"} type={"contain"}/>
             </div> : <div style={{margin: "0 auto"}}>
-                <ImageSection height={910} width={1920} image={"url(/images/cc_cover.svg)"} type={"contain"}/>
+                <ImageSection height={910} width={1920} image={"url(/images/cc-cover.jpg)"} type={"contain"}/>
             </div>}
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
                 <BriefSection
@@ -128,7 +128,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                     </Text>
                 </Box>
                 <div style={{margin: "0 auto"}}>
-                    <ImageSection height={500} width={1588} image={"url(/images/testingContext.svg)"} type={"contain"}/>
+                    <ImageSection height={500} width={1588} image={"url(/images/testingConcept.jpg)"} type={"contain"}/>
                 </div>
             </div>
             <div style={{marginTop: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}} align={"center"}>

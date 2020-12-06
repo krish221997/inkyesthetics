@@ -7,14 +7,12 @@ import {Provider} from "react-redux";
 import * as serviceWorker from './serviceWorker';
 import {connectRouter, routerMiddleware} from "connected-react-router";
 import {createBrowserHistory} from "history";
-import "./fonts/Sunshine.ttf";
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import ProjectOne from "./pages/ProjectOne";
 import ProjectTwo from "./pages/ProjectTwo";
 import LandingFinal from "./pages/LandingFinal";
 import ProjectThree from "./pages/ProjectThree";
 import ProjectFour from "./pages/ProjectFour";
-import ProjectList from "./pages/ProjectList";
 import List from "./pages/List";
 import AboutMe from "./pages/AboutMe";
 

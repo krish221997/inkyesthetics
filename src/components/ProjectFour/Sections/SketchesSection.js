@@ -17,7 +17,7 @@ const SketchesSection = () => {
                         textTransform: "uppercase"
                     }}>Sketches</Heading>
                     <div style={{margin: "0 auto"}}>
-                        <ImageSection height={915} width={1946} image={"url(/images/sketches.svg)"}
+                        <ImageSection height={915} width={1946} image={"url(/images/sketches.jpg)"}
                                        type={"contain"}/>
                     </div>
                 </div>
