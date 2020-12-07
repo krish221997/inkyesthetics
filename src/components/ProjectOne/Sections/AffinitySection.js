@@ -12,15 +12,15 @@ const AffinitySection = () => {
 
     return (
         <div align={"center"}>
-                    <Heading margin={{bottom: "large", horizontal: "0px", top: "0px"}} level={2} style={{
-                        fontFamily: "Poppins-Light",
-                        fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge,
-                        textTransform: "uppercase"
-                    }}>Affinity map</Heading>
-                    <div style={{margin: "0 auto"}}>
-                            <ImageSection height={910} width={1780} image={"url(/images/affinity.svg)"} type={"contain"}/>
-                    </div>
-                </div>
+            <Heading margin={{bottom: "large", horizontal: "0px", top: "0px"}} level={2} style={{
+                fontFamily: "Poppins-Light",
+                fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge,
+                textTransform: "uppercase"
+            }}>Affinity map</Heading>
+            <div style={{margin: "0 auto"}}>
+                <ImageSection height={910} width={1780} image={"url(/images/affinity.svg)"} type={"contain"}/>
+            </div>
+        </div>
     )
 };
 

@@ -16,6 +16,7 @@
     "netlify-cli": "^2.65.6",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "react-lazy-load": "^3.1.13",
     "react-redux": "^7.2.1",
     "react-responsive": "^8.1.0",
     "react-router-dom": "^5.2.0",
