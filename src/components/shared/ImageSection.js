@@ -1,4 +1,7 @@
 import React from "react";
+import LazyLoad from 'react-lazy-load';
+
+
 
 const ImageSection = ({image = "", height = "100vh", width = "1920px", type = "cover"}) => {
     const num = height / width;
@@ -6,9 +9,11 @@ const ImageSection = ({image = "", height = "100vh", width = "1920px", type = "c
     let wholePercent = Math.ceil(padPercent);
 
     return (
+        <LazyLoad throttle={500}>
             <div
                 style={{background: `${image} no-repeat center`, paddingTop: `${wholePercent}%`, backgroundSize: type}}>
             </div>
+        </LazyLoad>
     )
 };
 
