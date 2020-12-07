@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ColorPalette.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/ExperienceSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/FInalOutputSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProjectOne/Sections/FontSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/cc-cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/cc-cover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/landing-page-tanvi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LandingFinal/LargeScreenSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingFinal/LargeScreenSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectTwo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/ProjectOne/Sections" />
       <recent name="$PROJECT_DIR$/src/components/ProjectFour/Sections" />
       <recent name="$PROJECT_DIR$/src/components/ProjectOne/Blocks" />
     </key>
@@ -97,6 +100,8 @@
       <workItem from="1606942269140" duration="611000" />
       <workItem from="1607076320302" duration="9499000" />
       <workItem from="1607251662469" duration="15954000" />
+      <workItem from="1607294976947" duration="1134000" />
+      <workItem from="1607328477464" duration="1135000" />
     </task>
     <servers />
   </component>

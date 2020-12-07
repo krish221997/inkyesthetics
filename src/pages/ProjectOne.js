@@ -20,6 +20,10 @@ import theme from "../styles/theme";
 import BriefSection from "../components/shared/BriefSection";
 import RoleSection from "../components/shared/RoleSection";
 import BlockRenderImageHeaderParagraph from "../components/shared/Block-render-image-header-paragraph";
+import ColorPalleteSection from "../components/ProjectOne/Sections/ColorPalette";
+import FontSection from "../components/ProjectOne/Sections/FontSection";
+import ExperienceSection from "../components/ProjectOne/Sections/ExperienceSection";
+import FinalOutputSection from "../components/ProjectOne/Sections/FInalOutputSection";
 
 const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
 
@@ -272,6 +276,21 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                     <ImageSection height={930} width={1945} image={"url(/images/empathy-fix.svg)"} type={"contain"}/>
                 </div>
             </div>
+
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
+                <ColorPalleteSection/>
+            </Box>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
+                <FontSection/>
+            </Box>
+
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
+                <FinalOutputSection/>
+            </Box>
+
+             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
+                <ExperienceSection/>
+            </Box>
             <Box pad={{
                 horizontal: "xlarge",
                 top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium
