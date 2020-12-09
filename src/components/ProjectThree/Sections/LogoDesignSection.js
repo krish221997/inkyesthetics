@@ -2,6 +2,7 @@ import {useMediaQuery} from "react-responsive";
 import React from "react";
 import {Box, Heading, Image, Text} from "grommet";
 import theme from "../../../styles/theme";
+import {content} from "../../../content";
 // const boxStyle = {
 //     display: "grid",
 //     "grid-template-columns": "repeat(1, minmax(100px, auto))",
@@ -36,10 +37,7 @@ const LogoDesignSection = () => {
                     fontFamily: "Poppins-Light",
                     fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.small : theme.fontSize.largeScreen.small,
                     // textTransform: "uppercase"
-                }}>Chatea is derived from the word ‘chatty’, meaning “readily engaging in informal talk”. The brand name
-                    is meant to communicate my being an extremely talkative person, and the most common first impression
-                    that I garner. It also conveys my readiness to chat over a cup of tea; ‘Cha’ in my native Gujarati
-                    means tea.
+                }}>{content.p3.logo}
                 </Text>
             </Box>
         </Box>

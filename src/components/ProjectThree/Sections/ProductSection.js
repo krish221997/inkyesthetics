@@ -3,6 +3,7 @@ import React from "react";
 import {Box, Image, Text} from "grommet";
 import ImageSection from "../../shared/ImageSection";
 import theme from "../../../styles/theme";
+import {content} from "../../../content";
 
 const ProductSection = () => {
 
@@ -27,19 +28,7 @@ const ProductSection = () => {
                                 fontFamily: "Poppins-Light",
                                 lineHeight: "35px",
                                 fontSize: theme.fontSize.largeScreen.small,
-                            }}>While I picked this beverage because I enjoy drinking it, tea is also the perfect
-                            metaphor for
-                            my personality and characteristics. Just as tea is a social drink in many Asian
-                            cultures, I too
-                            enjoy partaking in social gatherings and meeting new people. I also relate the boiling
-                            heat of
-                            the beverage to my emotions, my feelings are often turbulent and tumultuous. Just as tea
-                            serves
-                            as a comfort drink to so many people, I am the person my friends turn to for comfort.
-                            To incorporate my belief in transparency and honesty, the packaging contains a
-                            transparent
-                            window. The colour palette used consists majorly of greens to showcase my love for
-                            nature.
+                            }}>{content.p3.productInfo}
                         </Text>
                     </Box>
                 </div>

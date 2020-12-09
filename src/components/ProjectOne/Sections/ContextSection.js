@@ -3,6 +3,7 @@ import React from "react";
 import {useMediaQuery} from "react-responsive";
 import theme from "../../../styles/theme";
 import BlockRenderImageHeaderParagraph from "../../shared/Block-render-image-header-paragraph";
+import {content} from "../../../content";
 
 
 const LargeScreenSection = ({isTabletOrMobileDevice}) => (
@@ -34,14 +35,7 @@ const LargeScreenSection = ({isTabletOrMobileDevice}) => (
                                             <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                                 fontFamily: "Poppins-Light",
                                                 fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                            }}>Sajnuben lives in
-                                                a village called Kukadsar. She kept migrating until 2009. After which
-                                                she settled down and
-                                                joined Kala Raksha, a school for artisans. She makes products like bags,
-                                                jewelry, quilts, pillow
-                                                covers. She does everything from developing the product and finishing.
-                                                Garmenting is something
-                                                which she avoids because of the unavailability of tailors.</Text>
+                                            }}>{content.p1.sajnuben}</Text>
                                         </Box>
                                     )
                                 }
@@ -77,12 +71,7 @@ const LargeScreenSection = ({isTabletOrMobileDevice}) => (
                                             <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                                 fontFamily: "Poppins-Light",
                                                 fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                            }}>Judy Frater is
-                        Founder Director of Somaiya Kala Vidya, an institute of education for artisans. She was born in
-                        the United States and holds Master’s degrees from the University of Washington and the
-                        University of Minnesota.
-                        Wishing to do something to preserve traditional Indian craft rather than just study it, in 1993
-                        Judy Frater, together with local embroiders, founded the Kala Raksha Trust.</Text>
+                                            }}>{content.p1.judy}</Text>
                                         </Box>
                                     )
                                 }
@@ -131,14 +120,7 @@ const SmallScreenSection = ({isTabletOrMobileDevice}) => (
                                             <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                                 fontFamily: "Poppins-Light",
                                                 fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                            }}>Sajnuben lives in
-                                                a village called Kukadsar. She kept migrating until 2009. After which
-                                                she settled down and
-                                                joined Kala Raksha, a school for artisans. She makes products like bags,
-                                                jewelry, quilts, pillow
-                                                covers. She does everything from developing the product and finishing.
-                                                Garmenting is something
-                                                which she avoids because of the unavailability of tailors.</Text>
+                                            }}>{content.p1.sajnuben}</Text>
                                         </Box>
                                     )
                                 }
@@ -172,12 +154,7 @@ const SmallScreenSection = ({isTabletOrMobileDevice}) => (
                                             <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                                 fontFamily: "Poppins-Light",
                                                 fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                            }}>Judy Frater is
-                        Founder Director of Somaiya Kala Vidya, an institute of education for artisans. She was born in
-                        the United States and holds Master’s degrees from the University of Washington and the
-                        University of Minnesota.
-                        Wishing to do something to preserve traditional Indian craft rather than just study it, in 1993
-                        Judy Frater, together with local embroiders, founded the Kala Raksha Trust.</Text>
+                                            }}>{content.p1.judy}</Text>
                                         </Box>
                                     )
                                 }

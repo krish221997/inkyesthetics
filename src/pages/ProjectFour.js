@@ -18,6 +18,7 @@ import theme from "../styles/theme";
 import BriefSection from "../components/shared/BriefSection";
 import RoleSection from "../components/shared/RoleSection";
 import BlockRenderImageHeaderParagraph from "../components/shared/Block-render-image-header-paragraph";
+import {content} from "../content";
 
 const ProjectFour = ({setNextAndPreviousProjectFlow}) => {
 
@@ -46,19 +47,7 @@ const ProjectFour = ({setNextAndPreviousProjectFlow}) => {
                 <ImageSection height={1820} width={3840} image={"url(/images/devtas-cover.jpg)"} type={"contain"}/>
             </div>}
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
-                <BriefSection briefText={
-                        "Deconstruction, as this project treats it, is largely associated with the concept of unfolding," +
-                        " peeling back layers to examine how something has been created, has been constructed. It aims " +
-                        "to answer these questions: why has it been put together the way it is? What is the purpose of" +
-                        " it being built in this way? In the field of Visual Communication and Strategic Branding, " +
-                        "deconstruction can apply to the breaking down of a brand into its basic elements: an idea, " +
-                        "its conception, its production, and its execution. The aim of this project is to deconstruct " +
-                        "the ‘Devatha Hasthas’ of Bharatnatyam. The project examines the hand " +
-                        "gestures or Hasthas, the incantations or shlokas that describe them, and their attached " +
-                        "significance to the god or Devatha."
-                    } heading={"Devata Hastas"}>
-
-                </BriefSection>
+                <BriefSection briefText={content.p4.brief} heading={"Devata Hastas"}></BriefSection>
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
                 <RoleSection
@@ -88,21 +77,15 @@ const ProjectFour = ({setNextAndPreviousProjectFlow}) => {
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>This project
-                        aims to deconstruct the concept of Devatha hasthas. </Text>
+                                        }}>{content.p4.aim.a1}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>The text explains
-                        to the dancer how to denote each god or goddess through the body, including the exact mudra
-                        (gesture) to be held as well as its position in relation to the body; an important aid as many
-                        pieces are narratives on the Gods.</Text>
+                                        }}>{content.p4.aim.a2}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>The visual
-                        compositions serve as mnemonic devices, for the names and meanings of the shloka and some
-                        information on the deity.</Text>
+                                        }}>{content.p4.aim.a3}</Text>
                                     </Box>
                                 )
                             }

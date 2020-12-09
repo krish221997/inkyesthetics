@@ -22,6 +22,10 @@ const UserJourneySectionSmall = () => {
                 <ImageSection height={649} width={345} image={"url(/images/user-journey-small.svg)"}
                               type={"contain"}/>
             </div>
+             <div style={{margin: "0 auto"}}>
+                <ImageSection height={211} width={373} image={"url(/images/line.svg)"}
+                              type={"contain"}/>
+            </div>
             <div style={{margin: "0 auto"}}>
                 <ImageSection height={614} width={351} image={"url(/images/user-journey-small-2.svg)"}
                               type={"contain"}/>

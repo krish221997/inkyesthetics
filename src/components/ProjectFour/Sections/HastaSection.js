@@ -2,15 +2,14 @@ import {Box, Heading, Text} from "grommet";
 import React from "react";
 import {useMediaQuery} from "react-responsive";
 import theme from "../../../styles/theme";
+import {content} from "../../../content";
 
 const sectionData = {
     title: "Devatha Hasta",
-    subHeading1: "The Devatha hasthas form 16 of the 3242 shlokas present in the ‘Abhinaya Darpana’. The gods and goddesses are Brahma, Shiva, Vishnu, Saraswati, Parvati, Lakshmi, Ganesha, Karthikeya, Manmatha, Indra, Agni, Varuna, Yama, Nirrti,Vayu, and Kubera.\n" +
-        "The text explains to the dancer how to denote each god or goddess through their body. This includes the exact mudra (gesture) to be held as well as its position in relation to the body.\n",
-    subHeading2: "Hasta is the Sanskrit word for hand and Deva means God. So simply translated, the hand gestures which depict the Gods from the Hindu tradition are known as Deva Hasta. Each representation thus becomes unique to each God and becomes universal in most classical dance forms of India, such as a depiction of man with a flute is always Krishna. These hasta illustrate the dramatic representation and sculptural construction of deities.\n" +
-        "The shloka for deva hastas is as follows:\n",
-    subHeading4: "“Athaatra Bramha rudraadi Devatabhinaya kramaat",
-    subHeading5: "Moortibheden ye Hastaasteshaan Lakshana muchyate”"
+    subHeading1: content.p4.hastas.h1,
+    subHeading2: content.p4.hastas.h2,
+    subHeading3: content.p4.hastas.h3,
+    subHeading4: content.p4.hastas.h4
 };
 
 const HastaSection = () => {
@@ -40,11 +39,11 @@ const HastaSection = () => {
                 </Text>
                 <Text textAlign={"center"}
                       style={{fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall, fontFamily: "Poppins-Light"}}>
-                    {sectionData.subHeading4}
+                    {sectionData.subHeading3}
                 </Text>
                 <Text textAlign={"center"}
                       style={{fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall, fontFamily: "Poppins-Light"}}>
-                    {sectionData.subHeading5}
+                    {sectionData.subHeading4}
                 </Text>
             </Box>
         </Box>

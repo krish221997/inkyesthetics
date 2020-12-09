@@ -3,6 +3,7 @@ import {Box, Image, Text} from "grommet";
 import BlockImageWithHeadingAndText from "../../shared/Blocks/Block-image-with-heading-and-text";
 import {useMediaQuery} from "react-responsive";
 import theme from "../../../styles/theme";
+import {content} from "../../../content";
 
 const PersonaSection = () => {
 
@@ -23,38 +24,32 @@ const PersonaSection = () => {
                       style={{
                           fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall,
                           fontFamily: "Poppins-Light"
-                      }}>Shreyans
-                    is a 24 year old Industrial Designer.</Text>
+                      }}>{content.p2.persona.p1}</Text>
                 <Text textAlign={"center"} margin={{top: isTabletOrMobileDevice ? "small" : "medium"}}
                       style={{
                           fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall,
                           fontFamily: "Poppins-Light"
-                      }}>He is
-                    extremely shy and likes to keep to himself.</Text>
+                      }}>{content.p2.persona.p2}</Text>
                 <Text textAlign={"center"} margin={{top: isTabletOrMobileDevice ? "small" : "medium"}}
                       style={{
                           fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall,
                           fontFamily: "Poppins-Light"
-                      }}>He likes
-                    exploring new things in his free time.</Text>
+                      }}>{content.p2.persona.p3}</Text>
                 <Text textAlign={"center"} margin={{top: isTabletOrMobileDevice ? "small" : "medium"}}
                       style={{
                           fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall,
                           fontFamily: "Poppins-Light"
-                      }}>After a
-                    long day of work he looks forward to his workout and spending time by himself.</Text>
+                      }}>{content.p2.persona.p4}</Text>
                 <Text textAlign={"center"} margin={{top: isTabletOrMobileDevice ? "small" : "medium"}}
                       style={{
                           fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall,
                           fontFamily: "Poppins-Light"
-                      }}>He has
-                    recently started to learn the ukulele that his sister has lying at home.</Text>
+                      }}>{content.p2.persona.p5}</Text>
                 <Text textAlign={"center"} margin={{top: isTabletOrMobileDevice ? "small" : "medium"}}
                       style={{
                           fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall,
                           fontFamily: "Poppins-Light"
-                      }}>He
-                    currently learns by watching videos and trying out the chords himself.</Text>
+                      }}>{content.p2.persona.p6}</Text>
             </Box>
     }
 

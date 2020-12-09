@@ -18,7 +18,7 @@ const UserFlowSection = () => {
                         textTransform: "uppercase"
                     }}>User Flow</Heading>
                     <div style={{margin: "0 auto"}}>
-                        {<ImageSection height={591} width={1522} image={"url(/images/user-flow.svg)"} type={"contain"}/>}
+                        {isTabletOrMobileDevice ? <ImageSection height={1149} width={337} image={"url(/images/user-flow-small.svg)"} type={"contain"}/> : <ImageSection height={591} width={1522} image={"url(/images/user-flow.svg)"} type={"contain"}/>}
                     </div>
                 </div>
     )

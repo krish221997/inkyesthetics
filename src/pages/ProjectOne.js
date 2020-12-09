@@ -24,6 +24,7 @@ import ColorPalleteSection from "../components/ProjectOne/Sections/ColorPalette"
 import FontSection from "../components/ProjectOne/Sections/FontSection";
 import ExperienceSection from "../components/ProjectOne/Sections/ExperienceSection";
 import FinalOutputSection from "../components/ProjectOne/Sections/FInalOutputSection";
+import {content} from "../content";
 
 const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
 
@@ -59,15 +60,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
             }}>
                 <BriefSection
                     heading={"Creative Collaborations"}
-                    briefText={
-                        "The local artisans in Kutch have been creating exceptional art for generations, but their work " +
-                        "is appreciated only within the limits of their local communities. The objective of a " +
-                        "collaboration is to address the communication barriers between the artisans and potential " +
-                        "direct consumers. The challenge is to allow them to draw from their heritage while at the same " +
-                        "time push their boundaries by enabling them to communicate the value & meaning of their work " +
-                        "with wider consumer contexts. The question we ask then, is this - Using storytelling as a " +
-                        "design tool, can we facilitate ways of exchanging knowledge and make a better experience for " +
-                        "not only the consumer but also the artisan?"}
+                    briefText={content.p1.brief}
                 />
             </Box>
             <Box pad={{
@@ -119,20 +112,15 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>She understands alphabets and numbers and icons</Text>
+                                        }}>{content.p1.observations.o1}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>She is extremely motivated to work but only from home</Text>
+                                        }}>{content.p1.observations.o2}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>She has restrictions on knowing tailoring of products</Text>
-                                        <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
-                                            fontFamily: "Poppins-Light",
-                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>She is unaware about the market, however she understands customers
-                                            taste</Text>
+                                        }}>{content.p1.observations.o3}</Text>
                                     </Box>
                                 )
                             }
@@ -186,23 +174,23 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>People who contact SKV</Text>
+                                        }}>{content.p1.target.t1}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Judyben's customers</Text>
+                                        }}>{content.p1.target.t2}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Customers visiting Irfanbhai's shop</Text>
+                                        }}>{content.p1.target.t3}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Text designers from all over the world</Text>
+                                        }}>{content.p1.target.t4}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Tourists</Text>
+                                        }}>{content.p1.target.t5}</Text>
                                     </Box>
                                 )
                             }
@@ -239,12 +227,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                             fontFamily: "Poppins-Light",
                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.small : theme.fontSize.largeScreen.small
                         }}>
-                        As soon as I got an idea, I decided to see if my concept worked. I tried these activities on
-                        paper
-                        but I failed. Hence I asked her why she was so confused with these alpabets and numbers. ‘The A
-                        in
-                        coloumn 1 wasn’t same and in column 2’ she replied(because of my handwriting). by this I noticed
-                        that she was looking at the precision of the alphabet ( a design to her).
+                        {content.p1.testingConcept.t1}
 
                     </Text>
                 </Box>
@@ -255,7 +238,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                               fontFamily: "Poppins-Light",
                               fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.small : theme.fontSize.largeScreen.small
                           }}>
-                        I rushed to a local printed and printed these activities which she responded positively.
+                        {content.p1.testingConcept.t2}
 
                     </Text>
                 </Box>

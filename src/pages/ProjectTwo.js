@@ -16,6 +16,7 @@ import theme from "../styles/theme";
 import BriefSection from "../components/shared/BriefSection";
 import RoleSection from "../components/shared/RoleSection";
 import BlockRenderImageHeaderParagraph from "../components/shared/Block-render-image-header-paragraph";
+import {content} from "../content";
 
 const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
 
@@ -53,16 +54,7 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
             }}>
                 <BriefSection
                     heading={"Ampmateur, Tune to produce!"}
-                    briefText={
-                        "This application is aimed at young and upcoming musicians to empower them to\n" +
-                        "                    discover and create music. They begin their journey AMPMATEUR by picking their instrument of choice\n" +
-                        "                    from the given list and move on to understand notes of their own music as well as that of other\n" +
-                        "                    artists and shape their tunes with precision to perfection. The app doubles as a community forum\n" +
-                        "                    where budding artists share their craft, queries, and learnings. With the universalised\n" +
-                        "                    accessibility to recorded songs, artists can avail information on any song, its genre, tuning\n" +
-                        "                    setting, as well as chords. Since the application aims to not only tune but also help produce, it\n" +
-                        "                    enables users to also record original music compositions."
-                    }
+                    briefText={content.p2.brief}
                 />
             </Box>
             <Box pad={{
@@ -96,22 +88,19 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Provide a
-                        holistic learning experience for amateur musicians, from developing basic skills to exposure to
-                        new music and other artists </Text>
+                                        }}>{content.p2.aim.a1}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Amatuer musicians, here for the learning experience</Text>
+                                        }}>{content.p2.aim.a2}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Music enthusiasts, here for explorations and new music</Text>
+                                        }}>{content.p2.aim.a3}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Community
-                                            artists, here for interactions and engagement</Text>
+                                        }}>{content.p2.aim.a4}</Text>
                                     </Box>
                                 )
                             }
@@ -148,24 +137,19 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Tuning guide for string instruments</Text>
+                                        }}>{content.p2.functions.f1}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Discover new
-                                            music by the app’s record and recognise feature</Text>
+                                        }}>{content.p2.functions.f2}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Learn music from
-                                            other professional and amateur artists by picking a song and choosing your
-                                            instrument for the
-                                            corresponding chords</Text>
+                                        }}>{content.p2.functions.f3}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Share craft and
-                                            queries with the rest of the musical community</Text>
+                                        }}>{content.p2.functions.f4}</Text>
                                     </Box>
                                 )
                             }
@@ -208,20 +192,19 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Instrumentalists, here for tuning purposes </Text>
+                                        }}>{content.p2.target.t1}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Amatuer musicians, here for the learning experience</Text>
+                                        }}>{content.p2.target.t2}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Music enthusiasts, here for explorations and new music</Text>
+                                        }}>{content.p2.target.t3}</Text>
                                         <Text textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontFamily: "Poppins-Light",
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall
-                                        }}>Community
-                                            artists, here for interactions and engagement</Text>
+                                        }}>{content.p2.target.t4}</Text>
                                     </Box>
                                 )
                             }
