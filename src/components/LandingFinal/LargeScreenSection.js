@@ -72,15 +72,15 @@ const LargeScreenSection = () => {
                                 cursor: "pointer"
                             }}><a className={classes.text} href="https://www.instagram.com/inkyesthetics/"
                                   target={"_blank"} style={{textDecoration: "none"}}>Did it for the gram!</a></Text>
-                        <Text
-                            className={classes.text}
-                            margin={{top: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "56px"}}
-                            style={{
-                                textTransform: "uppercase",
-                                fontSize: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "48px",
-                                fontFamily: "Staatliches",
-                                cursor: "pointer"
-                            }}>Hit me up!</Text>
+                        {/*<Text*/}
+                        {/*    className={classes.text}*/}
+                        {/*    margin={{top: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "56px"}}*/}
+                        {/*    style={{*/}
+                        {/*        textTransform: "uppercase",*/}
+                        {/*        fontSize: isSmallTabletDevice ? theme.fontSize.smallScreen.xxlarge : isTabletDevice ? theme.fontSize.largeScreen.xlarge : isSmallLaptopDevice ? theme.fontSize.largeScreen.xxlarge : "48px",*/}
+                        {/*        fontFamily: "Staatliches",*/}
+                        {/*        cursor: "pointer"*/}
+                        {/*    }}>Hit me up!</Text>*/}
                     </Box>
                 </div>
             </div>

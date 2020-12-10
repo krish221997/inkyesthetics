@@ -65,15 +65,15 @@ const Menu = ({handleDrawerOpen, handleDrawerClose, open, classes}) => {
                                 fontFamily: "Staatliches",
                                 cursor: "pointer"
                             }}><a className={classes.text} href="https://www.instagram.com/inkyesthetics/" target={"_blank"} style={{textDecoration: "none"}}>Did it for the gram!</a></Text>
-                        <Text
-                            className={classes.text}
-                            margin={{top: "56px"}}
-                            style={{
-                                textTransform: "uppercase",
-                                fontSize: theme.fontSize.largeScreen.xxlarge,
-                                fontFamily: "Staatliches",
-                                cursor: "pointer"
-                            }}>Hit me up!</Text>
+                        {/*<Text*/}
+                        {/*    className={classes.text}*/}
+                        {/*    margin={{top: "56px"}}*/}
+                        {/*    style={{*/}
+                        {/*        textTransform: "uppercase",*/}
+                        {/*        fontSize: theme.fontSize.largeScreen.xxlarge,*/}
+                        {/*        fontFamily: "Staatliches",*/}
+                        {/*        cursor: "pointer"*/}
+                        {/*    }}>Hit me up!</Text>*/}
                     </Box>
                 </Box>
             </Drawer>
