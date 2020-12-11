@@ -11,7 +11,7 @@ const PrototypeSection = () => {
     return (
         <div align={"center"}>
                     <div style={{margin: "0 auto"}}>
-                        {<ImageSection height={2819} width={2907} image={"url(/images/phones.png)"} type={"contain"}/>}
+                        {<ImageSection height={2469} width={1920} image={"url(/images/phones.png)"} type={"contain"}/>}
                     </div>
                 </div>
     )

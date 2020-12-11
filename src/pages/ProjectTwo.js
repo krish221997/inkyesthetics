@@ -239,7 +239,6 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
                 <SitemapSection/>
             </Box>
             <Box pad={{
-                horizontal: "xlarge",
                 top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
             }}>
                 <PrototypeSection/>

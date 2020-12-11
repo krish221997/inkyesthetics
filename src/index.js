@@ -15,6 +15,10 @@ import ProjectThree from "./pages/ProjectThree";
 import ProjectFour from "./pages/ProjectFour";
 import List from "./pages/List";
 import AboutMe from "./pages/AboutMe";
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('G-KY07D96M2M'); // add your tracking id here.
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 
 const history = createBrowserHistory();
