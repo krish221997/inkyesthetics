@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Brands/LogoSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Brands/SliderSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Brands.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectOne.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../heelboy-landing" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -98,6 +107,10 @@
       <workItem from="1607328477464" duration="4849000" />
       <workItem from="1607375634853" duration="4881000" />
       <workItem from="1607611191095" duration="1513000" />
+      <workItem from="1607704174465" duration="5799000" />
+      <workItem from="1607806194962" duration="1042000" />
+      <workItem from="1607863582002" duration="29000" />
+      <workItem from="1608205709117" duration="11443000" />
     </task>
     <servers />
   </component>

@@ -16,6 +16,7 @@ import ProjectFour from "./pages/ProjectFour";
 import List from "./pages/List";
 import AboutMe from "./pages/AboutMe";
 import ReactGA from 'react-ga';
+import Brands from "./pages/Brands";
 
 ReactGA.initialize('G-KY07D96M2M'); // add your tracking id here.
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -47,6 +48,7 @@ ReactDOM.render(
             <Route path="/devata-hastas" component={ProjectFour} exact={true}/>
             <Route path="/project-list" component={List} exact={true}/>
             <Route path="/about-me" component={AboutMe} exact={true}/>
+            <Route path="/brands" component={Brands} exact={true}/>
         </Router>
     </Provider>,
 document.getElementById('root')

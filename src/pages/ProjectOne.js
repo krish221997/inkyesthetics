@@ -207,7 +207,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
             </Box>
             <Box pad={{
                 horizontal: "xlarge",
-                top: isTabletOrMobileDevice ? theme.margins.largeScreen.large : theme.margins.largeScreen.large
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
             }}>
                 <IdeationSection/>
             </Box>
