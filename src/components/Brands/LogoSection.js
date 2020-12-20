@@ -2,24 +2,31 @@ import {Box, Heading, Image} from "grommet";
 import React from "react";
 import theme from "../../styles/theme";
 import {useMediaQuery} from "react-responsive";
+import {Link} from "react-scroll";
 
 const logos = [
     {
+        to: "component1",
         url: "/images/netflix.png"
     },
     {
+        to: "component3",
         url: "/images/boat.png"
     },
     {
-        url: "/images/netflix.png"
+        to: "component2",
+        url: "/images/amazon.png"
     },
     {
+        to: "component4",
         url: "/images/the-moms-co.png"
     },
     {
+        to: "component5",
         url: "/images/dell.png"
     },
     {
+        to: "component6",
         url: "/images/onePlus.png"
     }
 ]
@@ -56,7 +63,7 @@ const LogoSection = () => {
                  width={"100%"}>
                 {logos.map((logo, index) => (
                     <Box key={index} justify={"center"} align={"center"} margin={{top: "large"}}>
-                        <Image width={isTabletOrMobileDevice ? "100px" : "200px"}  src={logo.url}/>
+                        <Link smooth={true} to={logo.to}><Image style={{cursor: "pointer"}} width={isTabletOrMobileDevice ? "100px" : "200px"}  src={logo.url}/></Link>
                     </Box>
 
                 ))}

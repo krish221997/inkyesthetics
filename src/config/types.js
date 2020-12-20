@@ -6,6 +6,7 @@ const TYPES = {
     ROUTES: {
         PROJECT_LIST: "project-list",
         ABOUT_ME: "about-me",
+        BRANDS: "brands",
         CREATIVE_COLLABORATIONS: "creative-collaborations",
         AMPMATEUR: "ampmateur",
         CHATEA: "chatea",

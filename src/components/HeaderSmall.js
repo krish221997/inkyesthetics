@@ -20,6 +20,7 @@ const useStyles = () => makeStyles(() => ({
     text: {
         color: "#FFB600",
         "&:hover": {
+            textDecoration: "line-through",
             color: "#DA2F69"
         },
     },
@@ -38,6 +39,7 @@ const Menu = ({handleDrawerOpen, handleDrawerClose, open, classes}) => {
                     </Box>
                     <Box>
                         <Text
+                            textAlign={"center"}
                             className={classes.text}
                             margin={{top: "56px"}}
                             style={{
@@ -48,6 +50,7 @@ const Menu = ({handleDrawerOpen, handleDrawerClose, open, classes}) => {
                                 // textDecorationLine: 'line-through'
                             }}><a className={classes.text} href={`/${TYPES.ROUTES.PROJECT_LIST}`} style={{textDecoration: "none"}}>Unpacking my work!</a></Text>
                         <Text
+                            textAlign={"center"}
                             className={classes.text}
                             margin={{top: "56px"}}
                             style={{
@@ -57,6 +60,7 @@ const Menu = ({handleDrawerOpen, handleDrawerClose, open, classes}) => {
                                 cursor: "pointer"
                             }}><a className={classes.text} href={`/${TYPES.ROUTES.ABOUT_ME}`} style={{textDecoration: "none"}}>A little bit about me!</a></Text>
                         <Text
+                            textAlign={"center"}
                             className={classes.text}
                             margin={{top: "56px"}}
                             style={{
@@ -64,7 +68,19 @@ const Menu = ({handleDrawerOpen, handleDrawerClose, open, classes}) => {
                                 fontSize: theme.fontSize.largeScreen.xxlarge,
                                 fontFamily: "Staatliches",
                                 cursor: "pointer"
-                            }}><a className={classes.text} href="https://www.instagram.com/inkyesthetics/" target={"_blank"} style={{textDecoration: "none"}}>Did it for the gram!</a></Text>
+                            }}><a className={classes.text} href="https://www.instagram.com/inkyesthetics/"
+                                  target={"_blank"} style={{textDecoration: "none"}}>Did it for the gram!</a></Text>
+                         <Text
+                             textAlign={"center"}
+                            className={classes.text}
+                            margin={{top: "56px"}}
+                            style={{
+                                textTransform: "uppercase",
+                                fontSize: theme.fontSize.largeScreen.xxlarge,
+                                fontFamily: "Staatliches",
+                                cursor: "pointer"
+                            }}><a className={classes.text} href={`/${TYPES.ROUTES.BRANDS}`}
+                                  style={{textDecoration: "none"}}>Issues Published!</a></Text>
                         {/*<Text*/}
                         {/*    className={classes.text}*/}
                         {/*    margin={{top: "56px"}}*/}

@@ -24,7 +24,7 @@ const Header = ({}) => {
                 </Link>
             </Box>
             <a href="https://www.linkedin.com/in/tanvi-mehta-inkyesthetics" target={"_blank"}
-               style={{textDecoration: "none"}}>
+               style={{textDecoration: "none", color: "black"}}>
                 <Box wrap>
                     <Image src={isTabletOrMobileDevice ? "/images/linkedin-small.svg" : "/images/linkedin.svg"}/>
                 </Box>

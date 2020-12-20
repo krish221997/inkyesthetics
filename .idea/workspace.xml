@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Brands/LogoSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Brands/SliderSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Brands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Brands/NetflixSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Brands/VideoCarousel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProjectOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Brands/LogoSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Brands/LogoSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Brands/SliderSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Brands/SliderSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderSmall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderSmall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LandingFinal/LargeScreenSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingFinal/LargeScreenSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Brands.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Brands.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../heelboy-landing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -111,6 +113,8 @@
       <workItem from="1607806194962" duration="1042000" />
       <workItem from="1607863582002" duration="29000" />
       <workItem from="1608205709117" duration="11443000" />
+      <workItem from="1608240270874" duration="1727000" />
+      <workItem from="1608461743466" duration="11341000" />
     </task>
     <servers />
   </component>
@@ -124,6 +128,12 @@
           <url>file://$PROJECT_DIR$/src/components/Header.js</url>
           <line>17</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Brands/VideoCarousel.js</url>
+          <line>96</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

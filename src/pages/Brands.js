@@ -6,6 +6,9 @@ import {useMediaQuery} from "react-responsive";
 import LogoSection from "../components/Brands/LogoSection";
 import theme from "../styles/theme";
 import SliderSection from "../components/Brands/SliderSection";
+import NetflixSection from "../components/Brands/NetflixSection";
+import VideoCarousel from "../components/Brands/VideoCarousel";
+import Footer from "../components/Footer";
 
 const Brands = () => {
 
@@ -26,11 +29,33 @@ const Brands = () => {
                 <LogoSection/>
             </Box>
 
-            <Box pad={{
+             <Box id={"component1"} pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
+            }}>
+                <NetflixSection/>
+            </Box>
+
+            <Box id={"component2"} pad={{
                 horizontal: "xlarge",
                 top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
             }}>
                 <SliderSection/>
+            </Box>
+
+             <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large
+            }}>
+                <VideoCarousel/>
+            </Box>
+            <Box id={"component3"} width={"100%"} direction={"column"}
+                 pad={{
+                     horizontal: "large",
+                     top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small,
+                     bottom: "large"
+                 }}>
+                <Footer/>
             </Box>
 
         </>
