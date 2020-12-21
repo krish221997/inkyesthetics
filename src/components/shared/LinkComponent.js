@@ -52,7 +52,7 @@ const LinkComponent = ({state = 0}) => {
                             <Text weight={"bold"} color={"black"} textAlign={"center"}
                                   style={{
                                       fontFamily: index === state ? "Poppins-Medium" : "Poppins-Light",
-                                      fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.medium : theme.fontSize.largeScreen.medium
+                                      fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.small : theme.fontSize.largeScreen.small
                                   }}><a href={link.to} style={{textDecoration: "none", color: "black"}}
                                         target={link.target ? "_blank" : ""}>
                                 {link.name}
