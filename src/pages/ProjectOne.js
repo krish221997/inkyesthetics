@@ -281,7 +281,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
             }}>
                 <ProjectSection/>
             </Box>
-            <Box width={"100%"} gap={"medium"} direction={"column"}
+            <Box width={"100%"} gap={"large"} direction={"column"}
                  pad={{
                      horizontal: "xlarge",
                      top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small,
