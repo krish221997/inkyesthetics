@@ -9,6 +9,7 @@ import SliderSection from "../components/Brands/SliderSection";
 import NetflixSection from "../components/Brands/NetflixSection";
 import VideoCarousel from "../components/Brands/VideoCarousel";
 import Footer from "../components/Footer";
+import LinkComponent from "../components/shared/LinkComponent";
 
 const Brands = () => {
 
@@ -49,12 +50,13 @@ const Brands = () => {
             }}>
                 <VideoCarousel/>
             </Box>
-            <Box id={"component3"} width={"100%"} direction={"column"}
+             <Box width={"100%"} gap={"medium"} direction={"column"}
                  pad={{
-                     horizontal: "large",
+                     horizontal: "xlarge",
                      top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small,
                      bottom: "large"
                  }}>
+                <LinkComponent state={3}/>
                 <Footer/>
             </Box>
 

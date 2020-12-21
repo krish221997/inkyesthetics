@@ -7,7 +7,7 @@ import theme from "../../styles/theme";
 const NetflixSection = () => {
 
     const isTabletDevice = useMediaQuery({
-        query: '(max-device-width: 900px)'
+        query: '(max-device-width: 1000px)'
     });
 
    const isMobileDevice = useMediaQuery({
@@ -18,8 +18,8 @@ const NetflixSection = () => {
         <Box width={"100%"} align={"center"} justify={"center"}>
             <Image src={"/images/netflix.png"} width={isTabletDevice ? "100px" : "200px"}/>
             <Box margin={{top: "large", bottom: "medium"}}>
-                <ReactPlayer controls={true} width={isMobileDevice ? "270px" : isTabletDevice ? "400px" : "700px"}
-                             height={isTabletDevice ? "200px" : "360px"}
+                <ReactPlayer controls={true} width={isMobileDevice ? "270px" : isTabletDevice ? "400px" : "900px"}
+                             height={isTabletDevice ? "200px" : "460px"}
                              url={"https://www.youtube.com/watch?v=OuNJ8bkkoJM&t=3s"}/>
             </Box>
             <Text textAlign={"center"}

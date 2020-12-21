@@ -62,7 +62,7 @@ const LogoSection = () => {
             <Box wrap style={isTabletOrMobileDevice ? smallBoxStyle : boxStyle} direction={"row"} as={"div"}
                  width={"100%"}>
                 {logos.map((logo, index) => (
-                    <Box key={index} justify={"center"} align={"center"} margin={{top: "large"}}>
+                    <Box key={index} justify={"center"} align={"center"} margin={{top: "xlarge"}}>
                         <Link smooth={true} to={logo.to}><Image style={{cursor: "pointer"}} width={isTabletOrMobileDevice ? "100px" : "200px"}  src={logo.url}/></Link>
                     </Box>
 

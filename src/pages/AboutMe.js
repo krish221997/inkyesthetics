@@ -7,6 +7,7 @@ import theme from "../styles/theme";
 import Footer from "../components/Footer";
 import BlockRenderImageAndContent from "../components/Block-render-image-and-content";
 import Button from "@material-ui/core/Button";
+import LinkComponent from "../components/shared/LinkComponent";
 
 const AboutMe = () => {
 
@@ -82,12 +83,13 @@ const AboutMe = () => {
                     }}/>
             </Box>
 
-            <Box width={"100%"} direction={"column"}
+             <Box width={"100%"} gap={"medium"} direction={"column"}
                  pad={{
-                     horizontal: "large",
+                     horizontal: "xlarge",
                      top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small,
                      bottom: "large"
                  }}>
+                <LinkComponent state={1}/>
                 <Footer/>
             </Box>
         </>

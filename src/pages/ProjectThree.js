@@ -16,6 +16,7 @@ import ProjectSection from "../components/shared/ProjectSection";
 import theme from "../styles/theme";
 import BriefSection from "../components/shared/BriefSection";
 import RoleSection from "../components/shared/RoleSection";
+import LinkComponent from "../components/shared/LinkComponent";
 
 const ProjectThree = ({setNextAndPreviousProjectFlow}) => {
 
@@ -90,8 +91,13 @@ const ProjectThree = ({setNextAndPreviousProjectFlow}) => {
              <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium}}>
                 <ProjectSection/>
             </Box>
-            <Box width={"100%"} direction={"column"}
-                 pad={{horizontal: "large", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small, bottom: "large"}}>
+             <Box width={"100%"} gap={"medium"} direction={"column"}
+                 pad={{
+                     horizontal: "xlarge",
+                     top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small,
+                     bottom: "large"
+                 }}>
+                <LinkComponent/>
                 <Footer/>
             </Box>
         </>

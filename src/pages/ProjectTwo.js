@@ -17,6 +17,7 @@ import BriefSection from "../components/shared/BriefSection";
 import RoleSection from "../components/shared/RoleSection";
 import BlockRenderImageHeaderParagraph from "../components/shared/Block-render-image-header-paragraph";
 import {content} from "../content";
+import LinkComponent from "../components/shared/LinkComponent";
 
 const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
 
@@ -249,12 +250,13 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
             }}>
                 <ProjectSection/>
             </Box>
-            <Box width={"100%"} direction={"column"}
+             <Box width={"100%"} gap={"medium"} direction={"column"}
                  pad={{
-                     horizontal: "large",
+                     horizontal: "xlarge",
                      top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small,
                      bottom: "large"
                  }}>
+                <LinkComponent/>
                 <Footer/>
             </Box>
         </>

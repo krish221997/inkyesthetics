@@ -9,25 +9,25 @@ import Button from "@material-ui/core/Button";
 
 const imageData = [
     {
-        url: "/images/amazon-01.jpg"
+        url: "/images/amazon-07.jpg"
     },
     {
         url: "/images/amazon-02.jpg"
     },
     {
-        url: "/images/amazon-03.jpg"
+        url: "/images/amazon-01.jpg"
     },
     {
         url: "/images/amazon-04.jpg"
     },
     {
-        url: "/images/amazon-05.jpg"
-    },
-    {
         url: "/images/amazon-06.jpg"
     },
     {
-        url: "/images/amazon-07.jpg"
+        url: "/images/amazon-05.jpg"
+    },
+    {
+        url: "/images/amazon-03.jpg"
     }
 ];
 

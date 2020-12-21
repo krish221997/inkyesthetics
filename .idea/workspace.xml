@@ -5,18 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Brands/NetflixSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Brands/VideoCarousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/LinkComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Brands/LogoSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Brands/LogoSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/amazon-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/amazon-01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/amazon-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/amazon-02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/amazon-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/amazon-03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/amazon-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/amazon-04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/amazon-05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/amazon-05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/amazon-06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/amazon-06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/amazon-07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/amazon-07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Brands/NetflixSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Brands/NetflixSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Brands/SliderSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Brands/SliderSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderSmall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderSmall.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LandingFinal/LargeScreenSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LandingFinal/LargeScreenSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Brands/VideoCarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Brands/VideoCarousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/Prototype.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectTwo/Sections/Prototype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutMe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Brands.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Brands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectFour.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectFour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectThree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectThree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProjectTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProjectTwo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +121,8 @@
       <workItem from="1607863582002" duration="29000" />
       <workItem from="1608205709117" duration="11443000" />
       <workItem from="1608240270874" duration="1727000" />
-      <workItem from="1608461743466" duration="11341000" />
+      <workItem from="1608461743466" duration="11899000" />
+      <workItem from="1608551049949" duration="6118000" />
     </task>
     <servers />
   </component>
@@ -131,8 +139,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Brands/VideoCarousel.js</url>
-          <line>96</line>
-          <properties lambdaOrdinal="-1" />
+          <line>119</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

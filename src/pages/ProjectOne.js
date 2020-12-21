@@ -25,6 +25,7 @@ import FontSection from "../components/ProjectOne/Sections/FontSection";
 import ExperienceSection from "../components/ProjectOne/Sections/ExperienceSection";
 import FinalOutputSection from "../components/ProjectOne/Sections/FInalOutputSection";
 import {content} from "../content";
+import LinkComponent from "../components/shared/LinkComponent";
 
 const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
 
@@ -280,12 +281,13 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
             }}>
                 <ProjectSection/>
             </Box>
-            <Box width={"100%"} direction={"column"}
+            <Box width={"100%"} gap={"medium"} direction={"column"}
                  pad={{
-                     horizontal: "large",
+                     horizontal: "xlarge",
                      top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small,
                      bottom: "large"
                  }}>
+                <LinkComponent/>
                 <Footer/>
             </Box>
         </>

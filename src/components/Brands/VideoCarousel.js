@@ -28,7 +28,7 @@ const getConfigurableProps = () => ({
 const VideoCarousel = () => {
 
     const isTabletDevice = useMediaQuery({
-        query: '(max-device-width: 900px)'
+        query: '(max-device-width: 1000px)'
     });
 
     const isMobileDevice = useMediaQuery({
@@ -40,19 +40,42 @@ const VideoCarousel = () => {
             <Image src={"/images/boat.png"} width={isTabletDevice ? "100px" : "200px"}/>
             <Box align={"center"} justify={"center"} width={"100%"} margin={{top: "large", bottom: "medium"}}>
                 <Carousel
-                    width={isMobileDevice ? "300px" : isTabletDevice ? "600px" : "700px"} {...getConfigurableProps()}>
-                    <Box width={isMobileDevice ? "300px" : isTabletDevice ? "600px" : "700px"} align={"center"}
-                         justify={"center"}><ReactPlayer height={isTabletDevice ? "200px" : "360px"}
-                                                         width={isMobileDevice ? "270px" : isTabletDevice ? "570px" : "670px"}
-                                                         controls={true} url={"/images/1.mp4"}/></Box>
-                    <Box width={isMobileDevice ? "300px" : isTabletDevice ? "600px" : "700px"} align={"center"}
-                         justify={"center"}><ReactPlayer height={isTabletDevice ? "200px" : "360px"}
-                                                         width={isMobileDevice ? "270px" : isTabletDevice ? "570px" : "670px"}
-                                                         controls={true} url={"/images/2.mp4"}/></Box>
-                    <Box width={isMobileDevice ? "300px" : isTabletDevice ? "600px" : "700px"} align={"center"}
-                         justify={"center"}><ReactPlayer height={isTabletDevice ? "200px" : "360px"}
-                                                         width={isMobileDevice ? "270px" : isTabletDevice ? "570px" : "670px"}
-                                                         controls={true} url={"/images/3.mp4"}/></Box>
+                    width={isMobileDevice ? "270px" : isTabletDevice ? "400px" : "900px"}
+                    height={isMobileDevice ? "200px" : isTabletDevice ? "200px" : "460px"}
+                    {...getConfigurableProps()}>
+                    <Box
+                        width={isMobileDevice ? "270px" : isTabletDevice ? "400px" : "900px"}
+                        height={isMobileDevice ? "200px" : isTabletDevice ? "200px" : "460px"}
+                        align={"center"}
+                        justify={"center"}>
+                        <ReactPlayer
+                            height={isTabletDevice ? "200px" : "460px"}
+                            width={isMobileDevice ? "240px" : isTabletDevice ? "370px" : "870px"}
+                            controls={true}
+                            url={"/images/1.mp4"}/>
+                    </Box>
+                    <Box
+                        width={isMobileDevice ? "270px" : isTabletDevice ? "400px" : "900px"}
+                        height={isMobileDevice ? "200px" : isTabletDevice ? "200px" : "460px"}
+                        align={"center"}
+                        justify={"center"}>
+                        <ReactPlayer
+                            height={isTabletDevice ? "200px" : "460px"}
+                            width={isMobileDevice ? "240px" : isTabletDevice ? "370px" : "870px"}
+                            controls={true}
+                            url={"/images/2.mp4"}/>
+                    </Box>
+                    <Box
+                        width={isMobileDevice ? "270px" : isTabletDevice ? "400px" : "900px"}
+                        height={isMobileDevice ? "200px" : isTabletDevice ? "200px" : "460px"}
+                        align={"center"}
+                        justify={"center"}>
+                        <ReactPlayer
+                            height={isTabletDevice ? "200px" : "460px"}
+                            width={isMobileDevice ? "240px" : isTabletDevice ? "370px" : "870px"}
+                            controls={true}
+                            url={"/images/3.mp4"}/>
+                    </Box>
                 </Carousel>
             </Box>
             <Text textAlign={"center"}
