@@ -16,7 +16,7 @@ const PrototypeSection = () => {
                         fontFamily: "Poppins-Light",
                         fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge,
                         textTransform: "uppercase"
-                    }}>Screens(WIP)</Heading>
+                    }}>Screens (WIP)</Heading>
                     <div style={{margin: "0 auto"}}>
                         {<ImageSection height={2469} width={1920} image={"url(/images/phones.png)"} type={"contain"}/>}
                     </div>
