@@ -18,7 +18,7 @@ const LabelDesignSection = () => {
                         textTransform: "uppercase"
                     }}>Label Design</Heading>
                     <div style={{margin: "0 auto"}}>
-                            <ImageSection height={830} width={1702} image={"url(/images/label.png)"} type={"contain"}/>
+                            <ImageSection height={830} width={1702} image={"url(/images/label.jpg)"} type={"contain"}/>
                     </div>
                 </div>
     )
