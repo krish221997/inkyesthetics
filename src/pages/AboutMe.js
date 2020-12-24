@@ -70,7 +70,7 @@ const AboutMe = () => {
                                              align={isTabletOrMobileDevice ? "center" : "start"}>
                                             <a href={"/images/resume.pdf"} target={"_black"}
                                                style={{color: "black", textTransform: "none", textDecoration: "none"}}>
-                                                <Button variant={"outlined"} style={{textTransform: "none"}}
+                                                <Button variant={"outlined"} style={{textTransform: "none", color: "black"}}
                                                         size={"large"}>
                                                     Resume
                                                 </Button>
