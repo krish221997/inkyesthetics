@@ -20,7 +20,7 @@ const ProductSection = () => {
             <div style={{width: "100%", height: "100%"}}>
                 <div style={{display: "flex", marginBottom: "100px", height: "675px"}}>
                     <div style={{width: "702px"}}>
-                        <Image fit={"cover"} src={"/images/product.svg"}/>
+                        <Image fit={"cover"} src={"/images/product.jpg"}/>
                     </div>
                     <Box margin={{left: "100px", top: "auto"}}>
                         <Text
@@ -43,7 +43,7 @@ const ProductSection = () => {
         return (
             <div align={"center"}>
                 <div style={{margin: "0 auto"}}>
-                    <ImageSection height={675} width={702} image={"url(/images/product.svg)"} type={"contain"}/>
+                    <ImageSection height={675} width={702} image={"url(/images/product.jpg)"} type={"contain"}/>
                 </div>
                 <Box align={"start"} justify={"center"} margin={{vertical: "large"}}>
                     <Text textAlign={"start"}

@@ -20,21 +20,21 @@ const ProjectSection = ({previousProjectData, nextProjectData}) => {
                 <a style={{textTransform: "none", textDecoration: "none"}}
                    href={previousProjectData.url}><ArrowBackIosIcon style={{color: "black", fontSize: isTabletOrMobileDevice ? "12px" : "30px"}}/></a>
                 <a style={{textTransform: "none", textDecoration: "none"}} href={previousProjectData.url}>
-                    <Text textAlign={"start"} color={"black"} style={{
+                    <Text weight={"bold"} textAlign={"start"} color={"black"} style={{
                         fontSize: isTabletOrMobileDevice ? "12px" : "36px",
                         cursor: "pointer",
                         textTransform: "uppercase",
-                        fontFamily: "Staatliches"
+                        fontFamily: "Poppins-Light"
                     }}>{previousProjectData?.heading}</Text>
                 </a>
             </Box>}
             {nextProjectData && <Box direction={"row"} align={"center"} justify={"end"} gap={isTabletOrMobileDevice ? "small" : "medium"} width={previousProjectData ? "50%" : "100%"}>
                 <a style={{textTransform: "none", textDecoration: "none"}} href={nextProjectData.url}>
-                    <Text textAlign={"start"} color={"black"} style={{
+                    <Text weight={"bold"} textAlign={"start"} color={"black"} style={{
                         fontSize: isTabletOrMobileDevice ? "12px" : "36px",
                         cursor: "pointer",
                         textTransform: "uppercase",
-                        fontFamily: "Staatliches"
+                        fontFamily: "Poppins-Light"
                     }}>{nextProjectData?.heading}</Text>
                 </a>
                 <a style={{textTransform: "none", textDecoration: "none"}}

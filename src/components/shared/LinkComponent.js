@@ -11,6 +11,12 @@ const links = [
         target: false
     },
     {
+        name: "Issues Published",
+        showLine: false,
+        to: "/brands",
+        target: false
+    },
+    {
         name: "A Little Bit About Me",
         showLine: true,
         to: "/about-me",
@@ -21,12 +27,6 @@ const links = [
         showLine: true,
         to: "https://www.instagram.com/inkyesthetics/",
         target: "_blank"
-    },
-    {
-        name: "Issues Published",
-        showLine: false,
-        to: "/brands",
-        target: false
     }
 ]
 

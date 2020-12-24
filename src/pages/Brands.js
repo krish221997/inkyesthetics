@@ -56,7 +56,7 @@ const Brands = () => {
                      top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small,
                      bottom: "large"
                  }}>
-                <LinkComponent state={3}/>
+                <LinkComponent state={1}/>
                 <Footer/>
             </Box>
 

@@ -50,6 +50,17 @@ const Menu = ({handleDrawerOpen, handleDrawerClose, open, classes}) => {
                                 // textDecorationLine: 'line-through'
                             }}><a className={classes.text} href={`/${TYPES.ROUTES.PROJECT_LIST}`} style={{textDecoration: "none"}}>Unpacking my work!</a></Text>
                         <Text
+                             textAlign={"center"}
+                            className={classes.text}
+                            margin={{top: "56px"}}
+                            style={{
+                                textTransform: "uppercase",
+                                fontSize: theme.fontSize.largeScreen.xxlarge,
+                                fontFamily: "Staatliches",
+                                cursor: "pointer"
+                            }}><a className={classes.text} href={`/${TYPES.ROUTES.BRANDS}`}
+                                  style={{textDecoration: "none"}}>Issues Published!</a></Text>
+                        <Text
                             textAlign={"center"}
                             className={classes.text}
                             margin={{top: "56px"}}
@@ -70,17 +81,6 @@ const Menu = ({handleDrawerOpen, handleDrawerClose, open, classes}) => {
                                 cursor: "pointer"
                             }}><a className={classes.text} href="https://www.instagram.com/inkyesthetics/"
                                   target={"_blank"} style={{textDecoration: "none"}}>Did it for the gram!</a></Text>
-                         <Text
-                             textAlign={"center"}
-                            className={classes.text}
-                            margin={{top: "56px"}}
-                            style={{
-                                textTransform: "uppercase",
-                                fontSize: theme.fontSize.largeScreen.xxlarge,
-                                fontFamily: "Staatliches",
-                                cursor: "pointer"
-                            }}><a className={classes.text} href={`/${TYPES.ROUTES.BRANDS}`}
-                                  style={{textDecoration: "none"}}>Issues Published!</a></Text>
                         {/*<Text*/}
                         {/*    className={classes.text}*/}
                         {/*    margin={{top: "56px"}}*/}

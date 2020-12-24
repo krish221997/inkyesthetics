@@ -17,16 +17,7 @@ const Footer = () => {
        <Box width={"100%"} justify={"center"} align={"center"}>
                             <Box direction={"column"} align={"center"} justify={"center"} width={"medium"} wrap={true}
                                  gap={"small"}>
-                                <Box direction={"row"} gap={"xsmall"} align={"center"} justify={"center"}>
-                                    <Text style={{fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.medium : theme.fontSize.largeScreen.medium, fontFamily: "Poppins-Light"}}>
-                                        2020
-                                    </Text>
-                                    <CopyrightIcon fontSize={"small"}/>
-                                    <Text style={{fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.medium : theme.fontSize.largeScreen.medium, fontFamily: "Poppins-Light"}}>
-                                        Tanvi Mehta
-                                    </Text>
-                                </Box>
-                                <Box direction={"row"} gap={"small"} margin={{top: "small"}}>
+                                <Box direction={"row"} gap={"small"}>
                                     <a style={{textDecoration: "none"}} target={"_blank"}
                                        href={`https://www.instagram.com/inkyesthetics/`}><InstagramIcon
                                         fontSize={isTabletOrMobileDevice ? "small" : "medium"} style={{color: "black"}}/></a>
@@ -36,6 +27,15 @@ const Footer = () => {
                                     <a style={{textDecoration: "none"}} target={"_blank"}
                                        href={`https://www.linkedin.com/in/tanvi-mehta-inkyesthetics`}><LinkedInIcon
                                         fontSize={isTabletOrMobileDevice ? "small" : "medium"} style={{color: "black"}}/></a>
+                                </Box>
+                                <Box direction={"row"} gap={"xsmall"} align={"center"} justify={"center"} margin={{top: "small"}}>
+                                    <Text style={{fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.medium : theme.fontSize.largeScreen.medium, fontFamily: "Poppins-Light"}}>
+                                        2020
+                                    </Text>
+                                    <CopyrightIcon fontSize={"small"}/>
+                                    <Text style={{fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.medium : theme.fontSize.largeScreen.medium, fontFamily: "Poppins-Light"}}>
+                                        Tanvi Mehta
+                                    </Text>
                                 </Box>
                             </Box>
                         </Box>

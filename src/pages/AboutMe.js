@@ -47,14 +47,16 @@ const AboutMe = () => {
 
                                         </Text>
                                         <Box width={"100%"}>
-                                            <Text margin={{top: "large"}} textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
-                                            fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.medium : theme.fontSize.largeScreen.medium,
-                                            fontFamily: "Poppins-Medium"
-                                        }}>
-                                            A design practitioner who creates experiences through visuals.
-                                        </Text>
+                                            <Text margin={{top: "large"}}
+                                                  textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                                fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.medium : theme.fontSize.largeScreen.medium,
+                                                fontFamily: "Poppins-Medium"
+                                            }}>
+                                                A design practitioner who creates experiences through visuals.
+                                            </Text>
                                         </Box>
-                                        <Text margin={{top: "xlarge"}} textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
+                                        <Text margin={{top: "xlarge"}}
+                                              textAlign={isTabletOrMobileDevice ? "center" : "start"} style={{
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall,
                                             fontFamily: "Poppins-Light"
                                         }}>
@@ -64,10 +66,15 @@ const AboutMe = () => {
                                             table, along with a big heart and lots of tea sachets.
 
                                         </Text>
-                                        <Box width={"100%"} margin={{top: "large"}} align={isTabletOrMobileDevice ? "center" : "start"}>
-                                           <Button variant={"outlined"} style={{textTransform: "none"}} size={"large"}>
-                                               <a href={"/images/resume.pdf"} target={"_black"} style={{color: "black", textTransform: "none", textDecoration: "none"}}>Resume</a>
-                                           </Button>
+                                        <Box width={"100%"} margin={{top: "large"}}
+                                             align={isTabletOrMobileDevice ? "center" : "start"}>
+                                            <a href={"/images/resume.pdf"} target={"_black"}
+                                               style={{color: "black", textTransform: "none", textDecoration: "none"}}>
+                                                <Button variant={"outlined"} style={{textTransform: "none"}}
+                                                        size={"large"}>
+                                                    Resume
+                                                </Button>
+                                            </a>
                                         </Box>
                                     </Box>
                                 )
@@ -76,20 +83,21 @@ const AboutMe = () => {
                         images: {
                             a: {
                                 render: () => (
-                                    <img style={{maxWidth: "100%", maxHeight: "100%"}} src={"/images/about-me-final.jpg"}/>
+                                    <img style={{maxWidth: "100%", maxHeight: "100%"}}
+                                         src={"/images/about-me-final.jpg"}/>
                                 )
                             }
                         }
                     }}/>
             </Box>
 
-             <Box width={"100%"} gap={"large"} direction={"column"}
+            <Box width={"100%"} gap={"large"} direction={"column"}
                  pad={{
                      horizontal: "xlarge",
                      top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small,
                      bottom: "large"
                  }}>
-                <LinkComponent state={1}/>
+                <LinkComponent state={2}/>
                 <Footer/>
             </Box>
         </>

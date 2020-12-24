@@ -18,7 +18,7 @@ const ColorPalleteSection = () => {
                 textTransform: "uppercase"
             }}>Color Palette</Heading>
             <Box>
-                <Image width={isTabletOrMobileDevice ? "250px" : ""} src={"/images/color-palette-p1.svg"}/>
+                <Image width={isTabletOrMobileDevice ? "250px" : ""} src={"/images/color-palette-p1.png"}/>
             </Box>
         </Box>
     )
