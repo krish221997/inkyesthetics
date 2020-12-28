@@ -42,8 +42,7 @@ const AboutMe = () => {
                                             fontFamily: "Poppins-Medium",
                                             lineHeight: isTabletOrMobileDevice ? "30px" : "40px"
                                         }}>
-                                            What do you get when you mix graphic design, human interest, and
-                                            (painstaking) meticulousness?
+                                            What do you get when you mix graphic design, human interest, and painstaking meticulousness?
 
                                         </Text>
                                         <Box width={"100%"}>
@@ -60,10 +59,10 @@ const AboutMe = () => {
                                             fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall,
                                             fontFamily: "Poppins-Light"
                                         }}>
-                                            Hi, I am Tanvi! Thorough my work in graphic design, I explore the impact
-                                            of visual cues on human behaviour, and by extension, user experience. An
-                                            eye for detail and scrupulous planning are strengths I bring to the
-                                            table, along with a big heart and lots of tea sachets.
+                                            Hi, I am Tanvi! Through my work in graphic design,
+                                            I explore the impact of visual cues on human behaviour, and by extension,
+                                            user experience. An eye for detail and scrupulous planning are strengths
+                                            I bring to the table, along with a big heart and lots of tea sachets.
 
                                         </Text>
                                         <Box width={"100%"} margin={{top: "large"}}

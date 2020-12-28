@@ -12,7 +12,7 @@ const links = [
     },
     {
         name: "Issues Published",
-        showLine: false,
+        showLine: true,
         to: "/brands",
         target: false
     },
@@ -24,7 +24,7 @@ const links = [
     },
     {
         name: "Did It For the Gram",
-        showLine: true,
+        showLine: false,
         to: "https://www.instagram.com/inkyesthetics/",
         target: "_blank"
     }
