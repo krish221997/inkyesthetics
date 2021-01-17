@@ -18,7 +18,7 @@ const data = [
     {
         image: "/images/shaazam.svg",
         heading: "Shaazam",
-        subHeading: "recognize your track and get information"
+        subHeading: "recognize a track and get information"
     }
 ];
 

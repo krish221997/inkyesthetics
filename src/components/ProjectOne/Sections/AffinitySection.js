@@ -18,7 +18,7 @@ const AffinitySection = () => {
                 textTransform: "uppercase"
             }}>Affinity map</Heading>
             <div style={{margin: "0 auto"}}>
-                <ImageSection height={910} width={1780} image={"url(/images/affinity.svg)"} type={"contain"}/>
+                <ImageSection height={910} width={1780} image={"url(/images/affinity.jpg)"} type={"contain"}/>
             </div>
         </div>
     )

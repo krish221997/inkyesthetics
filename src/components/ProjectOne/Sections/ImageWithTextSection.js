@@ -66,7 +66,7 @@ const ImageWithTextSection = () => {
                     <Text textAlign={"center"} style={{
                         fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xsmall : theme.fontSize.largeScreen.xsmall,
                         fontFamily: "Poppins-Light"
-                    }}>Lack of awareness about about technology</Text>
+                    }}>Lack of awareness about technology</Text>
                 </Box>
         },
         {

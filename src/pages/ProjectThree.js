@@ -17,6 +17,7 @@ import theme from "../styles/theme";
 import BriefSection from "../components/shared/BriefSection";
 import RoleSection from "../components/shared/RoleSection";
 import LinkComponent from "../components/shared/LinkComponent";
+import Conclusion from "../components/ProjectThree/Sections/Conclusion";
 
 const ProjectThree = ({setNextAndPreviousProjectFlow}) => {
 
@@ -55,9 +56,9 @@ const ProjectThree = ({setNextAndPreviousProjectFlow}) => {
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
                 <RoleSection
-                    role={"Primary & Secondary Research, Field Experiments Interviews, Insight Generation, Early Ideation Testing & Prototyping"}
-                    tools={"Adobe Illustrator, Photoshop, Indesign"}
-                    duration={"July to October 2018 at Shristi School of Art, Design and Technology"}
+                    role={"Mapping Conceptualization, Early Ideation & Prototyping"}
+                    tools={"Adobe Illustrator & Photoshop"}
+                    duration={" September 2017 at Srishti Manipal Institute of Art, Design and Technology."}
                 />
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
@@ -87,6 +88,9 @@ const ProjectThree = ({setNextAndPreviousProjectFlow}) => {
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 <ProductSection/>
+            </Box>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium}}>
+                <Conclusion/>
             </Box>
              <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium}}>
                 <ProjectSection/>

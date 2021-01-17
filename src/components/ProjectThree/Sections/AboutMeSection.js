@@ -18,7 +18,7 @@ const AboutMeSection = () => {
                         textTransform: "uppercase"
                     }}>About me</Heading>
                     <div style={{margin: "0 auto"}}>
-                            <ImageSection height={689} width={1435} image={"url(/images/about-me-map.svg)"} type={"contain"}/>
+                            <ImageSection height={689} width={1435} image={"url(/images/aboutMeMap.jpg)"} type={"contain"}/>
                     </div>
                 </div>
     )

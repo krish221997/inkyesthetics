@@ -8,10 +8,10 @@ export const content = {
             "this - Using storytelling as a design tool, can we facilitate ways of exchanging knowledge and make a " +
             "better experience for not only the consumer but also the artisan?",
 
-        sajnuben: "Sajnuben lives in a village called Kukadsar. She kept migrating until 2009. After which she settled " +
-            "down and joined Kala Raksha, a school for artisans. She makes products like bags, jewelry, quilts, pillow" +
-            " covers. She does everything from developing the product and finishing. Garments are something that she " +
-            "avoids because of the unavailability of tailors.",
+        sajnuben: "Sajnuben lives in a village called Kukadsar. She kept migrating until 2009. After which " +
+            "she settled down and joined Kala Raksha, a school for artisans. She makes products like bags, " +
+            "jewellery, quilts, pillow covers. She does everything from developing the product and finishing. " +
+            "Garments are something that she avoids because of the unavailability of tailors.",
 
         judy: "Judy Frater is the Founder Director of Somaiya Kala Vidya, an institute of education for artisans. " +
             "She was born in the United States and holds Master’s degrees from the University of Washington and the " +

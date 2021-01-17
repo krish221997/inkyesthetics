@@ -26,6 +26,7 @@ import ExperienceSection from "../components/ProjectOne/Sections/ExperienceSecti
 import FinalOutputSection from "../components/ProjectOne/Sections/FInalOutputSection";
 import {content} from "../content";
 import LinkComponent from "../components/shared/LinkComponent";
+import Conclusion from "../components/ProjectOne/Sections/Conclusion";
 
 const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
 
@@ -274,6 +275,12 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
 
              <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 <ExperienceSection/>
+            </Box>
+            <Box pad={{
+                horizontal: "xlarge",
+                top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium
+            }}>
+                <Conclusion/>
             </Box>
             <Box pad={{
                 horizontal: "xlarge",
