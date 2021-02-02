@@ -45,7 +45,7 @@ const ProjectThree = ({setNextAndPreviousProjectFlow}) => {
             </div> : <div style={{margin: "0 auto"}}>
                 <ImageSection height={1000} width={2097} image={"url(/images/chatea.jpg)"} type={"contain"}/>
             </div>}
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "large" : theme.margins.largeScreen.small}}>
                 <BriefSection
                     heading={"Chatea : Package Yourself!"}
                     briefText={

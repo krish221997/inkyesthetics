@@ -51,7 +51,7 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
             </div>}
             <Box pad={{
                 horizontal: "xlarge",
-                top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small
+                top: isTabletOrMobileDevice ? "large" : theme.margins.largeScreen.small
             }}>
                 <BriefSection
                     heading={"Ampmateur, Tune to produce!"}
@@ -110,7 +110,7 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
                             a: {
                                 render: () => (
                                     <Image src={"/images/goal.svg"}
-                                           height={isTabletOrMobileDevice ? "100px" : ""}></Image>
+                                           height={isTabletOrMobileDevice ? "100px" : "150px"} width={isTabletOrMobileDevice ? "100px" : "150px"}></Image>
                                 )
                             }
                         }
@@ -159,7 +159,7 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
                             a: {
                                 render: () => (
                                     <Image src={"/images/functions.svg"}
-                                           height={isTabletOrMobileDevice ? "100px" : ""}></Image>
+                                           height={isTabletOrMobileDevice ? "100px" : "150px"} width={isTabletOrMobileDevice ? "100px" : "150px"}></Image>
                                 )
                             }
                         }
@@ -214,7 +214,7 @@ const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
                             a: {
                                 render: () => (
                                     <Image src={"/images/target.svg"}
-                                           height={isTabletOrMobileDevice ? "100px" : ""}></Image>
+                                           height={isTabletOrMobileDevice ? "100px" : "150px"} width={isTabletOrMobileDevice ? "100px" : "150px"}></Image>
                                 )
                             }
                         }

@@ -51,14 +51,14 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                 <Header/>
             </Box>}
 
-            {isSmallScreenCoverImage ? <div style={{margin: "0 auto"}}>
+            {isSmallScreenCoverImage ? <div style={{margin: "0 auto", backgroundColor: "red"}}>
                 <ImageSection height={375} width={375} image={"url(/images/cc-cover-small.png)"} type={"contain"}/>
             </div> : <div style={{margin: "0 auto"}}>
                 <ImageSection height={910} width={1920} image={"url(/images/cc-cover.jpg)"} type={"contain"}/>
             </div>}
             <Box pad={{
                 horizontal: "xlarge",
-                top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small
+                top: isTabletOrMobileDevice ? "large" : theme.margins.largeScreen.small
             }}>
                 <BriefSection
                     heading={"Creative Collaborations"}
@@ -130,7 +130,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                         images: {
                             a: {
                                 render: () => (
-                                    <Image src={"/images/observations.svg"} height={isTabletOrMobileDevice ? "100px" : ""}></Image>
+                                    <Image src={"/images/observations.svg"}  height={isTabletOrMobileDevice ? "100px" : "150px"} width={isTabletOrMobileDevice ? "100px" : "150px"}></Image>
                                 )
                             }
                         }
@@ -200,7 +200,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                         images: {
                             a: {
                                 render: () => (
-                                    <Image src={"/images/target.svg"} height={isTabletOrMobileDevice ? "100px" : ""}></Image>
+                                    <Image src={"/images/target.svg"} height={isTabletOrMobileDevice ? "100px" : "150px"} width={isTabletOrMobileDevice ? "100px" : "150px"}></Image>
                                 )
                             }
                         }

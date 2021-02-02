@@ -47,7 +47,7 @@ const ProjectFour = ({setNextAndPreviousProjectFlow}) => {
             </div> : <div style={{margin: "0 auto"}}>
                 <ImageSection height={1820} width={3840} image={"url(/images/devtas-cover.jpg)"} type={"contain"}/>
             </div>}
-            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
+            <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? "large" : theme.margins.largeScreen.small}}>
                 <BriefSection briefText={content.p4.brief} heading={"Devata Hastas"}></BriefSection>
             </Box>
             <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.small : theme.margins.largeScreen.small}}>
@@ -95,7 +95,7 @@ const ProjectFour = ({setNextAndPreviousProjectFlow}) => {
                             a: {
                                 render: () => (
                                     <Image src={"/images/goal.svg"}
-                                           height={isTabletOrMobileDevice ? "100px" : ""}></Image>
+                                           height={isTabletOrMobileDevice ? "100px" : "150px"} width={isTabletOrMobileDevice ? "100px" : "150px"}></Image>
                                 )
                             }
                         }
@@ -140,7 +140,7 @@ const ProjectFour = ({setNextAndPreviousProjectFlow}) => {
                             a: {
                                 render: () => (
                                     <Image src={"/images/target.svg"}
-                                           height={isTabletOrMobileDevice ? "100px" : ""}></Image>
+                                           height={isTabletOrMobileDevice ? "100px" : "150px"} width={isTabletOrMobileDevice ? "100px" : "150px"}></Image>
                                 )
                             }
                         }

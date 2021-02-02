@@ -33,7 +33,7 @@ const Conclusion = () => {
                       fontFamily: "Poppins-Light",
                       fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.medium : theme.fontSize.largeScreen.medium
                   }}>
-                During the course of this project I also understood how people around see me as.
+                During the course of this project, I also understood how people around, see me as.
 
             </Text>
              <Text textAlign={"start"}
@@ -42,7 +42,7 @@ const Conclusion = () => {
                       fontFamily: "Poppins-Light",
                       fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.medium : theme.fontSize.largeScreen.medium
                   }}>
-                This project helped be understand on the qualities I should work on to be a better person.
+                This project helped me understand the qualities I should work on, to be a better person.
 
             </Text>
 
