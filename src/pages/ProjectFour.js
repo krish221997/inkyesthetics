@@ -43,7 +43,7 @@ const ProjectFour = ({setNextAndPreviousProjectFlow}) => {
                 <Header/>
             </Box>}
             {isSmallScreenCoverImage ? <div style={{margin: "0 auto"}}>
-                <ImageSection height={375} width={375} image={"url(/images/brahma-cover-small.jpg)"} type={"contain"}/>
+                <ImageSection height={888} width={888} image={"url(/images/list-page-brahma.jpg)"} type={"contain"}/>
             </div> : <div style={{margin: "0 auto"}}>
                 <ImageSection height={1820} width={3840} image={"url(/images/devtas-cover.jpg)"} type={"contain"}/>
             </div>}
