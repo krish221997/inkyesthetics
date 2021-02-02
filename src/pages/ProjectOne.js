@@ -51,7 +51,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                 <Header/>
             </Box>}
 
-            {isSmallScreenCoverImage ? <div style={{margin: "0 auto", backgroundColor: "red"}}>
+            {isSmallScreenCoverImage ? <div style={{margin: "0 auto"}}>
                 <ImageSection height={888} width={888} image={"url(/images/list-page-cc.jpg)"} type={"contain"}/>
             </div> : <div style={{margin: "0 auto"}}>
                 <ImageSection height={910} width={1920} image={"url(/images/cc-cover.jpg)"} type={"contain"}/>
