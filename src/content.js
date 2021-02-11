@@ -69,7 +69,7 @@ export const content = {
         },
         persona: {
             p1: "Shreyans is a 24 year old Industrial Designer",
-            p2: "He is extremely shy and likes to keep to himself. He likes exploring new things in his free time",
+            p2: "He is extremely shy and likes to keep to himself.",
             p3: "He likes exploring new things in his free time",
             p4: "After a long day of work, he looks forward to his workout and spending time by himself",
             p5: "He has recently started to learn the ukulele that his sister has lying around at home",
