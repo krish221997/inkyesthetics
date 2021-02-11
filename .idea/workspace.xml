@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="19ad829a-c3d7-4258-976c-5c5391e6af90" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cc-frontend-nextjs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -126,7 +125,8 @@
       <workItem from="1610978634896" duration="29000" />
       <workItem from="1611097170279" duration="901000" />
       <workItem from="1612256177650" duration="4910000" />
-      <workItem from="1613054885085" duration="67000" />
+      <workItem from="1613054885085" duration="11341000" />
+      <workItem from="1613066919297" duration="103000" />
     </task>
     <servers />
   </component>
