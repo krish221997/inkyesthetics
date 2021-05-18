@@ -37,11 +37,11 @@ const SmallScreenList = () => {
                 <HeaderSmall/>
             </Box>
             {projectData.map((data, key) => (
-                <div style={{marginBottom: "70px"}}>
-                    <Link to={data.url} style={{textDecoration: "none"}}>
+                <a href={data.url} style={{textDecoration: "none"}}>
+                    <div style={{marginBottom: "70px"}}>
                         <ImageWithHeading image={data.image} heading={data.heading} url={data.url}/>
-                    </Link>
                 </div>
+                </a>
             ))}
             <Box width={"100%"} direction={"column"}
                  pad={{horizontal: "large", bottom: "large"}}>
