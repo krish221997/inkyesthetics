@@ -24,7 +24,7 @@ import LinkComponent from "../components/shared/LinkComponent";
 const ProjectFour = ({setNextAndPreviousProjectFlow}) => {
 
     useEffect(() => {
-        setNextAndPreviousProjectFlow({currentProject: 3});
+        setNextAndPreviousProjectFlow({currentProject: 4});
     }, []);
 
     const isTabletOrMobileDevice = useMediaQuery({

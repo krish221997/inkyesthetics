@@ -22,7 +22,7 @@ import Conclusion from "../components/ProjectThree/Sections/Conclusion";
 const ProjectThree = ({setNextAndPreviousProjectFlow}) => {
 
     useEffect(() => {
-        setNextAndPreviousProjectFlow({currentProject: 2});
+        setNextAndPreviousProjectFlow({currentProject: 3});
     }, []);
 
     const isTabletOrMobileDevice = useMediaQuery({

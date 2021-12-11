@@ -39,7 +39,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
     });
 
     useEffect(() => {
-        setNextAndPreviousProjectFlow({currentProject: 0});
+        setNextAndPreviousProjectFlow({currentProject: 1});
     }, []);
 
     return (

@@ -23,7 +23,7 @@ const TYPES = {
       BRIEF: "brief",
       URL: "url"
     },
-    PROJECTS: 4
+    PROJECTS: 5
 }
 
 export default TYPES

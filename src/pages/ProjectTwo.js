@@ -22,7 +22,7 @@ import LinkComponent from "../components/shared/LinkComponent";
 const ProjectTwo = ({setNextAndPreviousProjectFlow}) => {
 
     useEffect(() => {
-        setNextAndPreviousProjectFlow({currentProject: 1});
+        setNextAndPreviousProjectFlow({currentProject: 2});
     }, []);
 
     const isTabletOrMobileDevice = useMediaQuery({
