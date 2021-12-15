@@ -17,7 +17,7 @@ const UserJourneySectionSmall = () => {
                 fontFamily: "Poppins-Light",
                 fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge,
                 textTransform: "uppercase"
-            }}>User journey</Heading>
+            }}>Current User journey</Heading>
             <div style={{margin: "0 auto"}}>
                 <ImageSection height={649} width={345} image={"url(/images/user-journey-small.svg)"}
                               type={"contain"}/>

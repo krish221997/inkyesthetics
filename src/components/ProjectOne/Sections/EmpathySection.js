@@ -11,7 +11,7 @@ const EmpathySection = () => {
             },
             text:{
                 a: {
-                    value: "Empathy Map"
+                    value: "Potential Customer Journey Map"
                 }
             }
         }} type={"contain"}/>

@@ -256,7 +256,7 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
                     fontFamily: "Poppins-Light",
                     fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xlarge : theme.fontSize.largeScreen.xlarge,
                     textTransform: "uppercase"
-                }}>Empathy map</Heading>
+                }}>Potential Customer Journey Map</Heading>
                 <div style={{margin: "0 auto"}}>
                     <ImageSection height={930} width={1945} image={"url(/images/empathy-fix.svg)"} type={"contain"}/>
                 </div>
