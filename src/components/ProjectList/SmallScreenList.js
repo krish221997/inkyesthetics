@@ -9,7 +9,7 @@ import {Link} from "react-router-dom";
 
 const projectData = [
     {
-        image: "/images/list-page-cc.jpg",
+        image: "/images/fusion.jpg",
         heading: "Fusion",
         url: "https://tanvimehta6697.wixsite.com/my-site"
     },
