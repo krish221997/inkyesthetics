@@ -14,14 +14,18 @@ const Header = ({}) => {
     return (
         <Box width={"100%"} direction={"row"} justify={"between"} align={"center"}>
             <Box>
-                <Link to={"/"} style={{textDecoration: "none"}}>
+                {/* <Link to={"/"} style={{textDecoration: "none"}}>
                     <Text color={"black"} style={{
                         fontSize: isTabletOrMobileDevice ? theme.fontSize.smallScreen.xxlarge : theme.fontSize.largeScreen.xxlarge,
                         cursor: "pointer",
                         textTransform: "uppercase",
                         fontFamily: "Staatliches"
                     }}>Inkyesthetics</Text>
+                </Link> */}
+                <Link to={"/"} style={{textDecoration: "none"}}>
+                <Image src="/images/tmlogo.svg" width="100px" height="100px"/>
                 </Link>
+
             </Box>
             <a href="https://www.linkedin.com/in/tanvi-mehta-inkyesthetics" target={"_blank"}
                style={{textDecoration: "none", color: "black"}}>

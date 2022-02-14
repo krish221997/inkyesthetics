@@ -1,4 +1,4 @@
-import {Box, Text} from "grommet";
+import {Box, Text, Image} from "grommet";
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
 import MenuIcon from '@material-ui/icons/Menu';
@@ -113,14 +113,17 @@ const HeaderSmall = () => {
 
     return (
         <Box direction={"row"} justify={"between"} align={"center"} width={"100%"}>
-            <Link to={"/"} style={{textDecoration: "none"}}>
+            {/* <Link to={"/"} style={{textDecoration: "none"}}>
                 <Text color={"black"} style={{
                     fontSize: theme.fontSize.smallScreen.xxlarge,
                     cursor: "pointer",
                     textTransform: "uppercase",
                     fontFamily: "Staatliches"
                 }}>Inkyesthetics</Text>
-            </Link>
+            </Link> */}
+             <Link to={"/"} style={{textDecoration: "none"}}>
+                <Image src="/images/tmlogo.svg" width="50px" height="50px"/>
+                </Link>
             <Menu classes={classes()} handleDrawerOpen={handleDrawerOpen} handleDrawerClose={handleDrawerClose}
                   open={open}/>
         </Box>
