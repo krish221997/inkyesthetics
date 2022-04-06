@@ -276,12 +276,12 @@ const ProjectOne = ({setNextAndPreviousProjectFlow}) => {
              <Box pad={{horizontal: "xlarge", top: isTabletOrMobileDevice ? theme.margins.smallScreen.large : theme.margins.largeScreen.large}}>
                 <ExperienceSection/>
             </Box>
-            <Box pad={{
+            {/* <Box pad={{
                 horizontal: "xlarge",
                 top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium
             }}>
                 <Conclusion/>
-            </Box>
+            </Box> */}
             <Box pad={{
                 horizontal: "xlarge",
                 top: isTabletOrMobileDevice ? theme.margins.smallScreen.medium : theme.margins.largeScreen.medium
