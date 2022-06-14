@@ -6,7 +6,7 @@ export const projectData = {
         image: "/images/fusion.jpg",
         heading: "Fusion",
         brief: content.p0.brief,
-        url: "https://tanvimehta6697.wixsite.com/my-site"
+        url: "https://tanvimehta6697.wixsite.com/creativecollab"
     },
     1: {
         image: "/images/list-page-cc.jpg",

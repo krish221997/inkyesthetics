@@ -11,7 +11,7 @@ const projectData = [
     {
         image: "/images/fusion.jpg",
         heading: "Fusion",
-        url: "https://tanvimehta6697.wixsite.com/my-site"
+        url: "https://tanvimehta6697.wixsite.com/creativecollab"
     },
     {
         image: "/images/list-page-cc.jpg",
